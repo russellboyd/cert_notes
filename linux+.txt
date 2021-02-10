@@ -1,0 +1,1895 @@
+-----------------------------------------------------------
+
+0.0 Performance Based
+Git init is first used to designate a local directory as a Git repository. Next a working copy of an existing repository can be created on the system by using git clone. To add a test file to the local repository, the add subcommand is used. The commit subcommand is then used to update the repository with any changes. Lastly push is used to send a local working copy of a repository to a remote repository. Git checkout can be used to switch to a specific Git branch. Git pull applies changes from other repositories into the local repository. Git branch is used to manage repository branches. Git merge integrates changes from one branch into a "master" branch. Git status can be used to display commit status.
+
+The scheduler file is located in the /sys/block/<computer name>/queue/scheduler folder. The deadline scheduler uses a first-in-first-out sorted approach and is ideal for multi-threaded large workloads since it uses two queues, one for read and one for write. The deadline scheduler uses a first-in-first-out sorted approach and is ideal for multi-threaded large workloads since it uses two queues. The noop scheduler would be the best scheduler to use if the device does not have a moving read/write head since it does not reduce seek time. Noop is also better for smaller workloads. 
+
+The fdisk utility contains 3 commands:
+- p is used to list the existing partitions
+- n is used to create a new partition
+- d is used to remove a partition
+
+The GNU parted utility contains the following three commands:
+- mkpart command creates a partition with a specified file system type
+- select command chooses which device or partition to modify
+- partprobe is used to update the kernel with changes in the partition table.
+
+The partprobe command is used to update the kernel with changes in the partition table. After creating a partition with fdisk, you cannot add a file system to that partition unless the kernel can read it from the partition table.
+
+The parted tool uses command option names that are related to their actual action. The fdisk command options are single-letter characters which can be confusing, leading to accidental actions on the hard drive. Entering a command option like mkpart in a parted menu will inform you of the command being entered and ensure a "make partition" action will occur on the disk.
+
+
+
+------------------------------------------------------------
+
+1.0 Hardware and System Configuration
+You are unable to load a kernel module using its alternate name. How would you configure this module so that its alias can be used to load or run? A {module name}.conf configuration file can be created with a line of code that references the alias name of the specified module. The alias command is used to customize the shell environment by using aliases to create a short string that represents a longer command with various options and arguments. This usage of the alias command for short-hand commands is a different approach to using the literal “alias” for module configuration. The .bashrc file enables customization of the user's own environment. It provides settings for all the users’ interactive shells. It is not used to create aliases in this situation. The .bash_profile file provides shell configuration for the initial login environment. It has no entries for module aliases.
+
+Which one of the following is NOT a default environment variable on a Linux System? The time zone variable is represented as TZ={time zone). It is a localization environment variable and is an alternative to using commands like date or timedatectl to set the time zone. The hostname variable is a default environment variable. It specifies the name of the system and the syntax is HOSTNAME={hostname}. The shell variable is a default environment variable. It sets the shell path for the system as SHELL={shell path}. The path variable is used to define a search path as PATH={user path}. It is a default system environment variable.
+
+You are tasked to deploy multiple Linux file servers across multiple remote branch offices in a virtual environment. The servers must share the same baseline settings upon deployment. How would you prepare the server baselines for deployment with the least amount of resources used? The OVA (Open Virtualization Appliance) template refers specifically to a single package representing the network appliance, usually stored in a different format, such as a .tar file. Transferring a single file template is much easier than a template format with multiple files such as an OVF template. The OVF (Open Virtualization Format) template contains the necessary configuration files and packages for virtual machines and network devices. These files may be used in the deployment of virtual machines in a virtualized environment. They are made up of multiple files and all are required to be successfully deployed. Container images are virtual machines (VMs) that virtualize at the operating system layer and can provide application isolation. Moving these images take more resources when using virtualization software to migrate from host to host or by exporting as a .tar file prior to transferring to another host. Thick provisioning is a term used for virtual storage devices. It will immediately reserve the allocated space for use by the virtual device only, regardless of whether that much capacity is needed. This provisioning can prepare the baseline for the template, but it is not a template.
+
+You deploy a new Linux web server with two network interface cards. The network team informs you that the two ports connected to this web server support and are configured to use EtherChannel. Knowing the physical network switch settings, how can you take advantage of EtherChannel for your web server to double its network bandwidth?NIC (network interface card) bonding is the associating of two or more NICs together on the same system which enables the aggregation of their combined bandwidth, fault tolerance/redundancy, and load balancing. When bonded, the interfaces are managed as a single device and have the same IP address configuration. NIC bonding on the server requires EhterChannel on the network switch, which is port link aggregation. An active/passive setup is one in which one NIC is used, but if it fails, the system automatically fails over to the second NIC. This is a setting configured after two NICs are bonded. The NetworkManager utility is used to edit the network device configuration files that are stored in the /etc/sysconfig/network-scripts/ directory. The utility can do a variety of things to include DNS (domain name service) settings, DHCP (dynamic host configuration protocol) settings, and setting up NIC bonding. NIC bonding can be configured using nmcli, nmtui or the NetworkManager GUI (graphical user interface) tools. The nmcli tool is a command-line interface to the NetworkManager utility.
+
+Where can you look to find a listing of all the regional time zones recognized by your Linux distribution?The /usr/share/zoneinfo/ directory is a container for all the regional time zones that you can configure the system to use. Subdirectories in this container usually organize languages by region; for example, the Africa subdirectory includes time zone files for specific countries or cities within the continent. The /etc/timezone file lists the time zone by the region structure you would see in the /usr/share/zoneinfo directory. In some Debian-based distros, /etc/timezone can be used to view the time zone. The date command is used to print the date in a specified format. The date command will print the date based on the /etc/localtime file. By default, it will print the date in the following format: <day of week> <month> <day> <24 hour time ##:##:##> <time zone> <year>. The timedatectl command is used to set system date and time information. It can take one of several subcommands such as set-time and set-timezone.
+
+Your Chief Information Officer (CIO) has tasked you with the job of finding an appropriate cloud service to host some of your applications. The application needs to appear as if it is locally installed. Which cloud model will you select? The Software as a Service (SaaS) offering is the appropriate choice because your Chief Information Officer (CIO) has tasked you with the definition of SaaS itself—applications are hosted, but behave as if they are local. PaaS includes virtualization of the operating system layer of the environment. The development or database platform is supported by the cloud service provider and given to the customer in a ready-to-use manner. In IaaS, the physical devices (servers, switches, routers, etc.) are virtualized and owned by the cloud service provider. Public clouds refer to hardware resources that are owned by the cloud service provider, and customer resources, compute functions, storage, etc., may be shared among multiple customers.
+
+----------------------------------------------------------------------
+
+2.0 Systems Operation and Maintenance
+You are running a script in the background. You want to pause that script for some time. What do you do first?Running the jobs command will list all running jobs and their associated job ID. When a job is initiated, it is given the next available ID number. This ID must be known in order to run the other command necessary to bring the background script to the foreground of the bash shell to be paused. Ctrl+c is a keyboard combination that will stop an executing command that is running in a terminal. For example, running the ping command will run until stopped with Ctrl+c. Running the fg %{job ID} command in the terminal will return the running script back to the foreground of the terminal session. This is usually performed when the script is expecting a user interaction before continuing. After returning the background script to the foreground, the Ctrl+z keyboard combination can be entered at the terminal to pause the job.
+
+Which of the following is NOT true regarding environment variables?
+Environment variables do have their values passed onto any child processes. However, by default, shell variables do not pass on their values. Within the environment, variables are referenced as key–value pairs in the format KEY=value. For example, the variable key-value pair HOSTNAME={hostname} sets the system’s hostname. An environment variable consists of a name, usually written in uppercase letters, and a value, such as a path name. An environment variable is a variable that is inherited from parent shell processes and is subsequently passed on to any child processes.
+
+You are working on a user’s Red Hat Linux system and need to uninstall a software package. Which option do you use with the rpm command?The RPM (Red Hat Package Manager) is used to manage packages on a Linux system. The -e option is used to remove software. The syntax is rpm -e {package name}. The -e means erase (uninstall) the package. The rpm command option -U upgrades the installed software package and installs the package if it is not already installed on the system. The rpm command option -V is used to verify the software components of the package exist. The rpm command option -i {package name} installs the specified software application.
+
+You need to view a list of user account information. Which file would you look at to view user and group IDs? The /etc/passwd file stores user account information for all accounts, default or user-specific. This includes the name with which the user logs into the system, and unique user and any group IDs.
+
+What is the default device location for encrypted volumes? The /dev/mapper/ directory contains logical volumes, encrypted volumes, and other devices that are managed by device mapper and are not already located in the /dev/ directory. The /dev/ directory contains device driver files that enable the system and users to access devices themselves. Block storage devices are referenced from the /dev/ directory like the following: /dev/sda1/. Devices referenced with sda, sdb, or sdc are related systems that use iSCSI or SATA controller devices. Likewise, device names such as hda, hdb, hdc are related to systems that use IDE controller devices. The /proc/ directory contains various files that represent system information reported by the kernel. The /proc/devices file contains a list of all device drivers that the kernel is currently running, separated by character and block storage devices.
+
+----------------------------------------------------------------------
+
+3.0 Security
+You are implementing a backup plan for a sensitive Linux system. You decide to create a full backup of the system on Sundays, and a daily backup of only files that have changed since the last full backup. What type of daily backup will you use? A differential backup includes files that have changed since the last full backup has been completed. An incremental backup includes files that have changed since the last full or incremental backup (whichever was most recent). Snapshots record the state of a storage drive at a certain point in time and are known as checkpoints. Image-based backups save the state of an operating system in an image file format like ISO. An image can be used to restore a system to the state it was in when the image was captured.
+
+You want to create a daily backup schedule that backs up only files that have changed since the last full backup. What backup type should you schedule daily? Differential backups only backup files that have changed since the last full backup. Differential backups require less storage space and backup time than full backups but are slower to recover. Incremental backups only backup selected files that have changed since the last full or incremental backup (whichever was most recent). An incremental backup typically takes less time to perform than a differential backup because it includes less data, but it is also slower when it comes time to recover the data. A full backup will backup all selected files, regardless of prior state. Numerous full backups can consume a great deal of storage space and the backup process can be slow. An image-based backup can save the state of an operating system in an image file format like ISO. You can use this image to restore a system to the state it was in when the image was captured.
+
+In your Linux-based firewall, which of the following tables is used to configure exceptions for packets involved in connection tracking?
+The raw table is used to configure exceptions for packets involved in connection tracking. The raw table is one of five default tables available when using the iptables command to manage packet filtering and stateful firewall functions. The syntax of the iptables command is iptables [options] [-t table] [commands] {chain/rule specification}. The mangle table is used to alter packets' TCP/IP (transmission control protocol/Internet protocol) headers. The nat table is used to implement network address translation (NAT) rules. The filter table is the default table used for typical packet filtering functionality.
+
+Which firewall type can identify past traffic that is related to a packet?
+Stateful (second generation) firewalls can identify past traffic that is related to a packet. They can therefore make more informed decisions about what traffic to deny and what to allow. Packet filtering (first generation) firewalls make decisions based on rules that correspond to one or more network packet attributes. These rules appear in the form of an access control list. Application-layer (third generation) firewalls can inspect the contents of application-layer traffic, such as protocols like the Hypertext Transfer Protocol (HTTP) and the File Transfer Protocol (FTP) and make decisions based on these contents. A stateless firewall's access control list can allow or deny packets based on various criteria such as source and destination Internet Protocol (IP) addresses.
+
+There are many cryptographic components that comprise a PKI (public key infrastructure). Which PKI component is a message digest that has been encrypted with a user's private key? A digital signature is a message digest that has been encrypted with a user's private key. Asymmetric encryption algorithms can be used with hashing algorithms to create digital signatures. Digital certificates are the most fundamental component of a PKI and the overarching task of a PKI is to manage digital certificates in a variety of ways. A CA is a server that issues digital certificates for entities and maintains the associated private/public key pair. CAs sign digital certificates so that clients can validate the authenticity of certificates owned by entities. A CSR is a message sent to a CA in which an entity applies for a certificate. It typically includes information that should go into the entity's certificate, like its public key, digital signature, and other identifying information.
+
+In your Linux-based firewall, which of the following tables is used to configure exceptions for packets involved in connection tracking? The raw table is used to configure exceptions for packets involved in connection tracking. The raw table is one of five default tables available when using the iptables command to manage packet filtering and stateful firewall functions. The syntax of the iptables command is iptables [options] [-t table] [commands] {chain/rule specification}. The mangle table is used to alter packets' TCP/IP (transmission control protocol/Internet protocol) headers. The nat table is used to implement network address translation (NAT) rules. The filter table is the default table used for typical packet filtering functionality.
+
+This permission scheme defines various properties for a file or process. Together, rather than in isolation, the properties are used to determine whether to grant or deny access. What is this scheme called? Context-based permissions describe multiple types of information about processes and files that are used in combination to make decisions related to access control. In Linux, SELinux and AppArmor are two main context-based permission schemes available. Mandatory access control (MAC) is a model in which access is controlled by comparing an object's (such as files) security designation and a subject's (users or other entities) security clearance. Security-Enhanced Linux (SELinux) is the default context-based permissions scheme provided with CentOS and Red Hat Enterprise Linux. Multi-level security (MLS) is an optional feature of SELinux that enables a fourth context, called a level, to describe the sensitivity level and/or category of an object.
+
+This permission scheme defines various properties for a file or process. Together, rather than in isolation, the properties are used to determine whether to grant or deny access. What is this scheme called? Context-based permissions describe multiple types of information about processes and files that are used in combination to make decisions related to access control. In Linux, SELinux and AppArmor are two main context-based permission schemes available. Mandatory access control (MAC) is a model in which access is controlled by comparing an object's (such as files) security designation and a subject's (users or other entities) security clearance. Security-Enhanced Linux (SELinux) is the default context-based permissions scheme provided with CentOS and Red Hat Enterprise Linux. Multi-level security (MLS) is an optional feature of SELinux that enables a fourth context, called a level, to describe the sensitivity level and/or category of an object.
+
+
+
+----------------------------------------------------------------------
+
+4.0 Linux Troubleshooting and Diagnostics
+You would like to see a list of all processes running on a Linux system along with the username and process start time. Which ps command option do you use?
+The ps command invokes the process table, a record that summarizes the current running processes on a system. The u option will list processes along with the user name and start time. Using the ps command to view processes with the -U option will display the processes based on the specified user. The syntax is ps -U {username}. Using the ps command to view processes with the r option will exclude processes that are not currently running. Using the ps command to view processes with the -p option will display only the specified process associated with the PID (process ID). The syntax is ps -p {PID}.
+
+
+Which of the following processes always has the PID (Process ID) of 1? System initialization is the process that begins when the kernel first loads. It involves the loading of the operating system and its various components. The init daemon carries out system initialization and is the parent of all processes. The prgrep command is similar to the grep command as it can search based on a pattern. A list of PIDs (Process ID) can be obtained with pgrep by providing a user's UID (User ID) for pattern matching. The top command lists all processes running on a Linux system. It can act as a process management tool by enabling the prioritization, sorting, or termination of processes interactively. The /etc/inittab file stores details of various processes related to system initialization on a SysVinit system.
+
+
+Which of the following commands is an often unreliable way of querying the system for attached hardware components? The dmidecode command dumps the system's Desktop Management Interface (DMI) table and presents it in a human-readable format. The authors of dmidecode caution that the information in DMI tables is often "inaccurate, incomplete, or simply wrong." Therefore, don't rely on DMI tables as the sole source of hardware information. The free command parses the /proc/meminfo file for easier analysis of memory usage statistics. The vmstat command displays various statistics about virtual memory, as well as process, CPU (central processing unit), and I/O (input/output) statistics. The lshw command lists each detected hardware component on the system and provides details about each device. The command pulls information from many different files in multiple device file locations like /proc/ and outputs in a hierarchical format.
+
+Security-Enhanced Linux (SELinux) is a context-based permissions scheme that has three different modes. Which mode sends a warning message to users? Each SELinux mode configures the overall implementation of SELinux on the system. In the permissive mode, SELinux is enabled, but the security policies are not enforced. When a security violation occurs, it is logged and a warning message is sent to the user. In the enforcing mode, all the SELinux security policies are enforced and, as a result, processes cannot violate the security policies. In disabled mode, SELinux is turned off. MAC (Mandatory access control) will not be implemented and the default DAC (Discretionary Access Control) method will be prevalent. Multi-level security (MLS) is an optional feature of SELinux that enables a fourth context, called a level. It is not an SELinux mode.
+
+Which of the following process states is common for processes that perform storage or network I/O?A process state is a moment in a process lifecycle. In the uninterruptible sleep state, the process will only wake when the resource it's waiting for is made available to it. This state is common for processes that perform storage or network I/O. In a running state a process is currently executing in user space or kernel space. In this state, the process can perform its assigned tasks. In an interruptible sleep state the process relinquishes access to the CPU and waits to be reactivated by the scheduler. In a zombie state a process was terminated, but it has not yet been released by its parent process.
+
+System logs that record a "Machine Check Exception" error message usually indicate an issue with which component? System logs that record a "Machine Check Exception" error message usually indicate an issue with RAM. The mcelog command can retrieve and print these error messages for easier analysis. A Linux system can experience a number of storage problems. The problem might be with the physical HBA (Host Bus Adapter), it might be with the interface that the HBA uses to connect the storage device, or it could be the storage device itself. A Linux system may experience a number of network related issues. Command utilities such as ping or ifconfig can be used to diagnose network configuration problems. A processor can experience performance issues. The /proc/cpuinfo file contains information about the system's processor. It can be used to identify characteristics about a processor that might indicate issues related to performance or lack of support for features.
+
+A user reports that a keyboard doesn’t seem to be working properly. You have confirmed that the layout the keyboard is using is incorrect. What command can be used to check the layout? A keyboard may be using the wrong layout. The localectl status command can be used to verify the layout that the system is using. If it's not correct, list the available keymaps, identify the correct one, then set it on the system. System logs that record a "Machine Check Exception" error message usually indicate an issue with RAM (Random Access Memory). The mcelog command can retrieve and print these error messages for easier analysis. A printer may become sluggish or unresponsive if multiple users are trying to print to it. The lprm command can be used to stop a print job. For example, the lprm 3 command can be used to remove the 3rd job from the queue. The lpq command can be used to review the queue. The dmidecode command dumps the system's Desktop Management Interface (DMI) table and presents it in a human-readable format. The DMI table is an industry standard for tracking information about hardware components.
+
+What has the ability to inventory software, enabling administrators to easily see installed software and software version information? The RPM’s most useful feature is the ability to inventory software, enabling administrators to easily see installed software and software version information. The dpkg manager can control the entire software lifecycle. Software packages with the .deb file extension can be managed using dpkg.
+Advanced Package Tool (APT) is more flexible than the original dpkg package manager. It also relies on .deb packages. Most software management tasks on Debian-derived distributions will use APT. The Dandified YUM (DNF) package manager is an improved version of YUM. It uses fewer resources while still maintaining support for the fundamental RPM package manager.
+
+AppArmor is a context-based permissions scheme. Which component of AppArmor is a profile violation both logged and prevented?A profile is a component of the AppArmor context-based permissions scheme. AppArmor profiles can operate in one of two different modes. In enforce mode, profile violations are both logged and prevented. Tunables is an AppArmor component that enable the configuration of functionality without directly modifying profiles. An SELinux (Security-Enhanced Linux) security policy defines access parameters for every process and resource on the system. Contexts is a component of SELinx (Security-Enhanced Linux). SELinux defines three main contexts for each file and process. These contexts are user, role, and type.
+
+Which context-based permissions scheme works with file system objects based on paths, rather than referencing inodes?AppArmor is an alternative context-based permissions scheme and Mandatory Access Control (MAC) implementation for Linux. AppArmor is packaged with Debian-based and SUSE Linux distributions. AppArmor works with file system objects based on paths. Security-Enhanced Linux (SELinux) is the default context-based permissions scheme provided with CentOS and Red Hat Enterprise Linux. SELinux references inodes directly. Mandatory access control (MAC) is a model in which access is controlled by comparing an object's security designation and a subject's security clearance. Multi-level security (MLS) is an optional feature of SELinux that enables a fourth context called a level.
+
+
+
+-----------------------------------------------------
+
+5.0 Automation and Sripting
+Which of the following is an example of the myscript.sh arg1 arg2 arg3 command?
+A positional parameter is a variable within a shell script that is assigned to an argument when the script is invoked. Globbing is another name for file/path name expansion. This method of shell expansion is used to replace a specific wildcard pattern with values that match the pattern. Command substitution is a method of shell expansion in which the output of a command replaces the command itself. A function is a block of code that can be reused to perform a specific task. This is useful in writing efficient code, as calling a function can save time from having to write out the same or similar code repeatedly.
+
+You are implementing an orchestration project. While researching orchestration tools, you decide that you would like agentless file transfers to happen over SSH (Secure Shell). Which tool do you use? Ansible uses YAML files to create repeatable "playbooks" that define a desired configuration state. 
+
+Ansible is an agentless solution that delivers files over SSH connections. 
+
+Puppet uses manifest files (written in Ruby) to define infrastructure as code for application, cloud, and infrastructure orchestration. Puppet uses an agent on the target nodes. 
+
+Chef uses "cookbooks" to deliver configuration declarations to cloud and on-premises managed systems. Kubernetes is an open source solution that provides container deployment and application orchestration. Administrators can configure desired states and Kubernetes can configure containers to match those states.
+
+
+What can be managed though orchestration tools? Inventory management of hardware, virtual machines, operating systems, applications, and configurations may all be managed through orchestration tools. Different tools offer different features for inventory management, including reporting. Inventory is crucial because administrators cannot manage what they don't know about. Orchestration attributes define tasks to be managed by the orchestration process. Administrators can use these attributes to identify specific configurations that need to be set by the orchestration process. OpenStack orchestration relies on attributes, for example. Orchestration procedures will vary by which solution is used, but in general orchestration steps involve defining a desired configuration and then delivering that configuration file to the destination system. Build automation specifically emphasizes the initial operating system deployment. One example of build automation is the use of Kickstart files with Red Hat-derived distributions.
+
+You are using file/path name expansion (GLOBBING) with a command. Which of the following is NOT a special character used in this process? The file/path name expansion is a method of shell expansion used to replace a specific wildcard pattern with values that match the pattern. The & character is not used with this method. The file/path name expansion method is also known as globbing. The * character is used to match any number of characters.  For example, *.txt means any file with a text extension. When using file/path name expansion (globbing), the ? character is used to match a single text character. For example, ?.txt means any file that is only a single character that ends with .txt. When using file/path name expansion (globbing), the [] characters are used to match to any encapsulated text. For example, [abc].txt  means files named a.txt, b.txt, or c.txt.
+
+What enables the automation of multiple related tasks known as a workflow? Orchestration enables the automation of multiple related tasks that make up an entire workflow. For example the deployment of a web server app including the installation and configuration is all included in an orchestration. Automation is the process of accomplishing a single configuration task without human intervention. The cron daemon is used to manage scheduled tasks called cron jobs. The cron daemon is controlled using the crontab command. The cron daemon uses a crontab file for scheduled tasks. It checks its crontab configuration file each minute to discover whether there are any tasks to be accomplished.
+
+
+
+------------------------------------------------------
+
+
+STOP AND RETAKE A PRACTICE TEST NOW
+-------------------------------------------------------
+
+
+
+Which of the following boot options is part of the UEFI (Unified Extensible Firmware Interface) standard?
+PXE is part of the UEFI (Unified Extensible Firmware Interface) standard that enables a client to retrieve the necessary boot loader and system files from over the network. The server transfers the boot files to clients using TFTP (Trivial File Transfer Protocol).
+
+An NFS share is a location on a network. Rather than have files stored locally, a share is mounted as a root file system.
+
+An ISO is a system image file that can be used to create boot media on a flash or optical drive.
+
+HTTP and FTP (File Transfer Protocol) booting is method clients can use to acquire boot data over a network. It is typically faster and more reliable than TFTP.
+
+---------
+You need to temporarily pause a job, what command do you use?
+The Ctrl+Z command will halt a job temporarily so you can use the bg command and freeing the command prompt.
+
+The nohup ("no hangup") command prevents a process from ending when the user logs off. For example, if an administrator launches a backup script and then logs off the system, the script would stop running.
+
+The & command is used to start a command running in the background when added to the end of a command.
+----
+Whereas nice is used to start a new process, the renice command enables you to alter the scheduling priority of an already running process. You use the -n option to specify the new nice value that you want the process to have.
+
+------
+What kill signal is used to pause a process from the terminal?
+The SIGSTP signal is used to pause a process from the terminal. The signal can be caught or ignored. This is the same as pressing Ctrl+Z at a terminal; a process might change this shortcut behavior, however.
+
+The SIGSTOP signal is used to pause a process. The signal cannot be caught or ignored. This is typically sent from kill or another program and not the terminal.
+
+The SIGTERM signal is used to terminate a process, enabling it to end gracefully. The signal can be caught or ignored. This is typically sent from kill or another program and not the terminal.
+
+The SIGKILL signal is used to kill the process immediately. The signal cannot be caught or ignored. This is typically used as a last resort.
+
+-----
+
+You are implementing an orchestration project. While researching orchestration tools, you decide that you would like agentless file transfers to happen over SSH (Secure Shell). Which tool do you use?
+Ansible uses YAML files to create repeatable "playbooks" that define a desired configuration state. Ansible is an agentless solution that delivers files over SSH connections.
+
+Puppet uses manifest files (written in Ruby) to define infrastructure as code for application, cloud, and infrastructure orchestration. Puppet uses an agent on the target nodes.
+
+Chef uses "cookbooks" to deliver configuration declarations to cloud and on-premises managed systems.
+
+Kubernetes is an open source solution that provides container deployment and application orchestration. Administrators can configure desired states and Kubernetes can configure containers to match those states.
+
+
+
+
+-------
+When you add modules using the command modprobe, what option do you use?
+To add modules using the command modprobe, use the -a option and specify the modules you want to add. For example, enter modprobe -a {module name} to add the specified module to the running kernel.
+
+To unload a module, use the -r option and specify the modules you want to remove. For example, enter modprobe -r {module name} to remove the specified module from the running kernel.
+
+The modprobe command option -n is used to conduct a dry run, i.e., output results without actually executing operations.
+
+The modprobe command option -s is used to print errors to the system log (syslog) rather than stderr.
+
+---------
+What specifically emphasizes the initial operating system deployment?
+Build automation specifically emphasizes the initial operating system deployment. One example of build automation is the use of Kickstart files with Red Hat-derived distributions.
+
+Orchestration enables the automation of multiple related tasks—an entire workflow. One example of orchestration might be the deployment of a web app.
+
+Infrastructure as code is a name for orchestration tools that manage the entire deployment and configuration process through scripting and code files, rather than through traditional software tools.
+
+Automation is the process of accomplishing a configuration task without human intervention. This is different than orchestration. Automation refers to a single task, whereas orchestration manages a larger scale series of tasks.
+
+-------------
+Which command invokes a record that summarizes the current running processes on a system? 
+The ps command invokes the process table, a record that summarizes the current running processes on a system. When the command is run without any option, it displays the processes run by the current shell with details such as the PID, the terminal associated with the process, the accumulated CPU (central processing unit) time, and the command that started the process.
+
+The ps command invokes the process table, a record that summarizes the current running processes on a system. When the command is run without any option, it displays the processes run by the current shell with details such as the PID, the terminal associated with the process, the accumulated CPU (central processing unit) time, and the command that started the process.
+
+The pgrep command displays the PID (process ID) of processes that match any given pattern, similar to how grep is used to match patterns in a text file.
+
+Like ps, the top command lists all processes running on a Linux system. It acts as a process management tool by enabling you to prioritize, sort, or terminate processes interactively.
+
+The systemd-analyze command is used to retrieve performance statistics for boot operations. The command takes one or more subcommands that determine what type of information to print and how.
+----------------
+
+You are traveling around the world. You get a phone call to administer a Linux server at your company's HQ. You connect to the server using a remote access virtual private network (VPN). Which VPN mode would you typically be using in this situation? 
+
+IPSec (Internet Protocol Security) has two primary modes of operation: transport mode and tunnel mode. In transport mode, only the packet contents are encrypted, whereas the header is not. Transport mode is typically used in remote access VPNs (Virtual  Private Networks). In tunnel mode, both packet contents and header are encrypted. Tunnel mode is typically used in site-to-site VPNs.
+-----
+
+If you need to change a shell variable into an environment variable, which command should you use? A shell variable can be changed into an environment variable by using the export command. For example, a shell variable SHL_VAR can be made an environment variable with export SHL_VAR.
+-----
+
+You will be configuring a Linux system with DNS (Domain Name System) services. Which port will you need to be sure is not being blocked on the network? DNS (Domain Name System) services relate easy-to-remember hostnames with more difficult to remember IP (Internet Protocol) addresses. A DNS server contains records that map and translate the names to the addresses. DNS uses port 53 by default.
+----
+Configuration files typically require you to specify times in seconds. Remember to multiply by 60 to get minutes from seconds.
+----
+
+
+
+You are configuring virtualization on a Linux host. Your plan is to configure networking so that virtual machines may communicate with each other but not with the host operating system or the physical network. Which configuration will you use? With an internal virtual switch configuration, the virtual machine can communicate with other virtual machines, but not with th e host operating system or the physical network.
+----
+What is an application that enables you to create, modify, or view the contents of text files? A text editor is, not just vim.
+----
+What is the mechanism by which BASH, or any other shell, maintains settings and other behavioral details about the shell? The shell environment is the mechanism by which Bash, or any other shell, maintains settings and other behavioral details about the shell. The shell creates this environment when starting a session and uses the environment's settings to determine how to interact with the user.
+----
+
+Which of the following is a feature of the Linux kernel that provides redundancy and improved performance for block storage devices? DM-Multipath is a feature of the Linux kernel that provides redundancy and improved performance for block storage devices. It leverages the device mapper to support multiple I/O paths(connection interfaces) between the CPU and storage devices.
+----
+You are writing a Bash script and would like to connect multiple values together for evaluation. What type of operator should you use in this script? Logical operators connect multiple values together, so they can be evaluated. They include AND, OR, and NOT.
+
+DenyHosts primarily protects SSH(secure shell) servers from brute force password cracking attacks. In such attacks, an attacker will repeatedly attempt to log in to the SSH server using credentials that increment each time.
+
+The .bash_profile file, if it exists in your home directory, will be executed on login. Note that placing the function in /etc/profile would technically work, but then the function would be available to all users , which is not what the question asked for.
+
+The find -inum option searches for files by their inode number. This can be useful when searching for files involved in hard links.
+
+User-based configuration files are located in the order .bash_profile, .bash_login, and .profile. Only the first file found is executed; the others are ignored. The /etc/profile is a system-wide bash profile.
+
+The -m option causes the user's home directory to be created when running useradd. So useradd -m.
+
+dmesg -c clears the contents of the kernel ring buffer after they have been read once.
+
+The /etc/passwd file contains various information about users on a system such as username and real name, along with user id (UID) and login shell. The file is world-readable.
+
+wc -l prints the number of lines given as input.
+
+The DISPLAY variable can be used to remotely send the windows of an X session to another computer when using protocols like SSH.
+
+The http_access directive is combined with ACL directives to define access to use the Squid proxy.
+
+The --level option enables the setting of specific runlevels.
+
+The apt-get update command will cause the package cache to be updated by retrieving the latest package list form the package sources. 
+
+The environment variable for a Wayland display session is WAYLAND_DISPLAY.
+
+The system is booted from the /boot directory under the / partition.
+
+The rndc command is used to control a BIND server, including over a remote connection.
+
+The crontab command can be used for the purpose of listing cron jobs by user. crontab -l -u <username> will do this.
+
+systemctl get-default will show the default target on a computer running systemd.
+
+The tee command will send output to both STDOUT and to the specified file, thus making answer C correct. cat /etc/passwd | tee passwordfile
+
+The file named.conf, located in /etc/ or /etc/bin/ is the default configuration file for the BIND server. The file typically loads or includes other configuration files for specific configurations.
+
+The nmbd daemon is reponsible for NetBIOS name service request handling. 
+
+The smbd daemon is responsible for file and print sharing.
+
+Winbindd provides user and group information. There is no samba daemon.
+
+TCP port 631 is used as the administrative interface into CUPS. Visiting an active CUPS server on that port will show the administration website for working with print queues and other configuration items related to CUPS.
+
+pkiill would allow you to both find all the problematic processes and kill them based on the user controlling the terminal as well as the process names.
+
+df would show the system's disk stats for its mounted filesystems.
+
+The following would mount a shared NFS filesystem to a mount point and make it persistent after reboot.
+mkdir testhost:/testvolume at /mnt/testvol
+mount -a
+
+A grouped together set of services for systemd to operate with are called units.
+
+If both cron.allow and cron.deny exist, only users in cron.allow can use crontab.
+
+-----
+
+TFTP protocol is used to serve the initial PXE image to the local workstation when booting from a remote server and mounting the root of the system from those remote servers.
+
+------
+After starting a long-running script, a systems administrator needs to verify the frequency of what is filling up the /var partition and kill it because it is consuming too much space.
+
+1. CTRL-Z 2. bg 3. watch df /var 4. CTRL-Z 5. fg 6. CTRL-C
+
+-------
+
+date command is show with the LC_TIME variable for formatting.
+
+The primary modprobe configuration file is in /etc/.
+
+id_rsa.pub is the file that the RSA token should be added to.
+
+fg and fg %2 wold move the top command in the foreground if:
+
+jobs
+[1] - Stopped vim
+[2]+ Stopped top
+
+A hard link cannot be created if the link spans filesystems.
+
+in 130.88.101.75 the network part of the address is 130.
+
+mkdir -p or rmdir -p would create/delete nested subdirectory trees.
+
+logger This is a message would be logged to syslog from the command line.
+
+atrun can be used to set a custom value for the batch command.
+
+tar -cvf applicationfiles.tar.bz2 /var/log/app/* would package and compress the files.
+
+mkfs and mkfs.ext4 are valid commands to create an ext4 filesystem.
+
+The execute permission on a directory allows for a user to change into the directory.
+
+cat > servicea.conf creates a simple text configuration file without a text editor.
+
+lpq shows the default printer on a Linux system.
+
+if [[3 -eq $#]] will ensure that you've received exactly three parameters in bash script.
+
+/etc/cron.d is where crontabs that specify the user that will run the cron job are located.
+
+iostat -c 2 4 will display CPU statistics every 2 seconds for a total of 4 times.
+
+The batch command runs a job when the system load is low/at a specified level.
+
+TACACS+ and RADIUS provide AAA features. (Authentication, Authorization and Accounting)
+
+NAT networking will allow that network traffic must always travel through the host OS first before it gets to the VM.
+
+find / -perm +7000 will show all of the files that have any combination of special bits set.
+
+ping remotehost < results will allow other uers to access the terminal while the command is executing.
+
+Crontabs are stored in /var/spool/cron.
+
+Multifactor authentication is something that the user knows, something that the user is, and something that the user has.
+
+A system administrator has deployed a Linux server based on an Anaconda process with all packages and custom configurations necessary to install a web server role. Which of the following could be used to install more Linux servers with the same characteristics? /root/anaconda-ks.cfg
+
+An initramfs image is a cpio archive of boot files that can be sized dynamically and does not require a special driver to be compiled into the kernel.
+
+A vmlinux file is a non-compressed executable file that is essentially the kernel and is used for debugging.
+
+----
+A Linux administrator issues the following command with root or sudo privileges:
+
+rpm -i installpackage.rpm
+
+Once the command is issued, the console outputs the following error message: failed dependency. The administrator confirmed in a previous step that all dependencies have already been installed.
+
+Which of the following commands should the administrator issue to bypass this error message?
+
+Response:	
+rpm -i installpackage.rpm --nodeps
+
+---
+
+Find unsucessful login attempts with pam_tally2 and lock users out as well.
+
+Use the locale command to view the current settings of he LC_ALL environment variable.
+
+Use export $LANG=en_US.UTF to modify the LANG environment variable to US English Unicode.
+
+Runlevel 5 will start with the GUI by default.
+
+A directory with free space but is not allowing users to create files in it likely has run out of inodes.
+
+The modprobe command is used to add or remove modules from a kernel. This command can load all the dependent modules before inserting the specified module.
+
+The apt-get check command will update the package cache and check for broken dependencies.
+
+sudo apt-show will report information about a package.
+
+The apt-cache stats command will display some statistics about the cache.	
+
+The free command parses the /proc/meminfo file for easier analysis of memory usage statistics.
+
+The deadline scheduler uses a first-in-first-out sorted approach and is ideal for multi-threaded large workloads since it uses two queues, one for read and one for write.
+
+A proxy service resides on a system that has direct connection to the Internet and an internal network connection (untrusted and trusted connections). The purpose of the proxy is to pass Internet requests between the two networks. Most Linux distributions include a proxy service called Squid.
+
+The useradd -c options sets the commend field, which is often used as the field for the user's full name.
+
+A sticky bit is a special permissions bit that provides protection for files in a directory. It ensures that only the owner of a file or directory (or root) can delete the file or directory. Without the sticky bit, any user with write and execute permissions on an object can delete that object.
+
+AppArmor is an alternative context-based permissions scheme and MAC(Mandatory Access Control) implementation for Linux. AppArmor is packaged with Debian-based and SUSE Linux distributions. AppArmor works with file system objects based on paths.
+
+DenyHosts is an IPS(Intrusion Prevention System) that primarily protects SSH servers from brute force password cracking attacks. It only works with IPv4 traffic.
+
+The pgrep command is similar to the grep command as it can search based on a pattern. A list of PIDs can be obtained with pgrep by providing a user ID for pattern matching.
+
+The cloud-init command is a cloud-based Linux mechanism to customize a virtual machine during its first bootup. This customization might include security settings, software package installations, user and group creation, etc. The cloud-init command references YAML files to find the necessary settings.
+
+The /proc/cpuinfo contains information about the system's processor. This information includes details on vendor, model, speed, cache size, flags and more.
+
+SysVinit is an older init method that has been replaced by systemd. It is not related to systemd.
+
+The /usr/share/zoneinfo directory is a container for all the regional time zones that you can configure the system to use. Subdirectories in this container usually organize languages by region; for example, the Africa subdirectory includes time zone files for specific countries or cities within the continent.
+
+A file descriptor is assigned to every open file. One a very busy server where many files may be opened simultaneously, the descriptors may all be consumed. As a result, most Linux commands will not run until descriptors become available.
+
+The mdadm command is a tool used to manage software based RAID. THe mdadm tool enables you to create, manage, monitor RAID arrays.
+
+The Automatic Bug Reporting Tool (ABRT) is a utility that analyzes and reports on problems detected during system runtime. abrt-cli can configure the abrt daemon.
+
+MBR (Master Boot Record) is a type of partition structure and can only have 4 primary partitions and has a limitation of two terabytes.
+
+The SIGINT signal is used to interrupt a process from the terminal enabling it to end gracefully. The signal can be caught or ignored.
+
+The /etc/passwd file stores user account information.
+
+Hashing is a process or function that transforms plaintext input into a indecipherable fixed-length output and ensures that this process cannot be feasibly reversed.
+
+The time zone variable is represented as TZ={time zone). It is a localization environment variable and is an alternative to using commands like date or timedatectl to set the time zone.
+
+During installation, GRUB 2 boot loader files are copied into the /boot/grub2 directory on Basic Input/Output System (BIOS) systems.
+
+Kernel panic is a mechanism by which the system detects there has been a fatal error and responds to it. A fatal error typically results in the system becoming unstable or totally unusable.
+
+Preboot Execution Environment (PXE) enables a client to retrieve the necessary boot loader and system files from a server over the network. During the startup process, it will search for Dynamic Host Configuration Protocol (DHCP) servers that transfer the boot files to the client over the Trivial File Transfer Protocol (TFTP).
+
+rmmod -w causes the module to wait until it's not longer needed prior to unloading.
+
+The mount command is used to mount drives in Linux. The source and destination mount point are expected as arguments. Drive partitions begin at number 1, making the first partition number 1.
+
+The dmesg command displays the contents of the kernel ring buffer. On many Linux distributions, this log is also saved to /var/log/dmesg.
+
+The Shift key, if pressed when control has first been handed to GRUB, will cause the GRUB menu to be displayed.
+
+The keyword single given on the Linux kernel command line will boot the system into single-user mode.
+
+The modprobe command loads the module and its dependencies, if applicable. The lsmod command is used to list currently loaded modules, making answer B incorrect.
+
+echo $1 to see the exit code that was returned by a command.
+
+listen_port 1066 is what you add to /etc/ssh/sshd_config to change the port that SSH listens on.
+
+When implementing a network gateway, implementing a firewall, or increasing performance, multiple NICs can be added to a computer. An overlay network can be implemented on a VM to provide this capability.
+
+cat 1> turbo is the same as cat < turbo.
+
+The octal permission 4744 would allow everyone to execute the following file as if they were the root user.
+
+chmod 750  myscript changes ownership of a script called myscript so that only the user owner has read/write access to it and only the user owner and group owner have execute permissions.
+
+dnf install httpd installs a webserver on a system configured with a yum repository.
+
+myscript < mydata.txt = myscript outputs (stdout) data received from the mydata.txt input (stdin).
+
+The device file for the terminal is /dev/null.
+
+A .vmx file is a VM template that is open and can be used by hypervisors from different vendors.
+
+ipconfig will view current connections and active sessions and ports on a computer.
+
+The "Socket" systemd-unit specific  sections describes how to manage services or applications on the server.
+
+ACII character set uses a variable-lengths encoding standard.
+
+AppArmor is an alternative context-based permissions scheme and Mandatory Access Control (MAC) implementation for Linux. AppArmor is packaged with Debian-based and SUSE Linux distributions. AppArmor works with file system objects based on paths.
+
+Infrastructure as code relies on a single configuration specification to deploy the supporting infrastructure (the operating system) and the necessary applications. It manages the entire deployment and configuration through scripting and code files.
+
+A {module name}.conf configuration file can be created with a line of code that references the alias name of the specified module.
+
+The git subcommand commit is used to update the Git repository with any changes that have been made. This will create a snapshot of that repository.
+
+The tail command when used along with a file name, displays the last 10 lines of that file. A command example of quick review of recent entries is looking up the most recent logon attempts on a server. Using the -f option will dynamically watch a file and automatically update the output when the file changes.
+
+The pgrep command is similar to the grep command as it can search based on a pattern. A list of PIDs (Process IDs) can be obtained with pgrep by providing a user ID (UID) for pattern matching.
+
+Build automation specifically emphasizes the initial operating system deployment. One example of build automation is the use of Kickstart files with RHEL derived distributions.
+
+After the boot loader determines the kernel and locates the corresponding kernel binary, it then uploads the respective initramfs image into memory and transfers control of the boot process to the kernel.
+
+Which is an object that stores metadata about a file or directory on a file system? An index node (inode) is an object that stores metadata about a file or directory on a file system. This metadata includes when a file was created and last modified and permission and ownership information. 
+
+Pluggable Authentication Modules (PAM) define the underlying framework and centralized authentication method leveraged by authentication services like Kerberos and LDAP. Which is NOT one of the four PAM interfaces? - Pluggable Authentication Modules (PAM) utilize module control flags. A required control flag means that a module result must be successful in order to continue authentication.
+
+The /proc/cpuinfo file contains information about the system's processor. This information includes defaults on vendor, model speed, cache size, flags and more.
+
+Which command is an often unreliable way of querying the system for attached hardware components? -  The dmidecode command dumps the system's Desktop Management Interface (DMI) table and presents it in a human-readable format. The authors of dmidecode caution that the information in DMI tables is often "inaccurate, incomplete, or simply wrong." Therefore, don't rely on DMI tables as the sole source of hardware information.
+
+The yum command improves on the functionality of rpm while still using .rpm packages and maintaining and RPM database (Red Hat Package Manager). YUM (Yellowdog Updater Modified) is the ability to automatically handle software dependencies.
+
+an exit code, or exit status, is a value that a child process passes back to its parent process when the child process terminates. An exit code of 1 signifies that errors have been encountered.
+
+The available file descriptor is assigned to every open file. On a very busy server where many files may be opened simultaneously, the descriptors may all be consumed. As a result, most Linux commands will not run until descriptors become available.
+
+What boots the operating system into an environment where the superuser must login in? - Single-user mode boots the operating system into an environment where the superuser must log in. Networking is also disabled in single-user mode and most partitions are not mounted.
+
+MBR is a type of partition structure. An MBR type of partitioned drive can only have four primary partitions and has a limitation of 2 terabytes.
+
+The chcon command is used in SELinux to change the security context of a file. The basic syntax is chcon {-u|-r|-t} {context value} {file or directory name} where {-u|-r|-t} refers to user, role, or type, respectively. A SELinux security policy defines access parameters for every process and resource on the system. It enforces rules for allowing or denying different domains and types to access each other.
+
+The chown command is used to change the owner, the group or both for a file or directory. At times, you may wish for someone else to manage an object's permissions other than the user who created that object.
+ SUID, or setuid, is the permission that allows a user to have similar permissions as the owner of the file. Certain executable files and commands, like passwd, require access to additional resources that the user may not have explicit permissions to.
+
+The chage or "change age" command is used to control password expiration, expiration warnings, inactive days, etc. The chage -M 90 user1 command sets the maximum of 90 days for the password to be valid.
+
+The fstab file is a configuration file that stores information about storage devices/ To activate quotas on a system the fstab file can be edited to add the options usrquota and grpquota to the relevant system on the storage device.
+
+DM-Multipath is a feature of the Linux kernel that provides redundancy and improved perofmrnace for block storage devices. It leverages the device mapper to support multiple I/O paths (connection interfaces) between the CPU and the storage devices.
+
+The Automatic Bug Reporting Tool (ABRT) is a utility that analyzes and reports on problems detected during system runtime. ABRT runs as the abrtd daemon and can be configured using the abrt-cli command.
+
+The /etc/passwd file stores user account information for all accounts, default or user-specific. This includes the name with which the user logs into the system and unique user and any group IDs.
+
+The SIGSTP signal is used to pause a process from the terminal. The signal can be caught or ignored. This is the same as pressing Ctrl+Z at a terminal; a process might change this shortcut behavior, however.
+
+After the boot loader determines the kernel and locates the corresponding kernel binary, the initramfs image is generated with the dracut command.
+
+The ifconfig command enables a user to view the current IP addressing information for each NIC recognized by the system.
+
+When a user cannot access a file despite the owner context having full permissions, it means that the user is not the owner of the file. The solution for this is to use the chown command to make the user the owner of the file.
+
+A display server is the component of a GUI that constructs and manages the windowing system and other visual elements that can be drawn on the screen. Display servers accept client input requests and send them to appropriate kernel modules for processing.
+
+Memory information could not be found in the /proc/cpuinfo file, it would be found in the /proc/meminfo file. This file contains memory information and statistics including total memory, free memory, cached memory, and more.
+
+The newly configured Linux server has an IP (Internet Protocol) conflict and can no longer communicate with other servers and clients in the local area network. Which command or tool can you use to configure a new IP address on the server.
+
+A printer may become sluggish or unresponsive if multiple users are trying to print to it. The lprm command can be used to stop a print job. For example the lprm 3 command can be used to remove the 3rd job from the queue. The lpq command can be used to review the queue.
+
+The /etc/passwd file stores user account information. All accounts, default or user-specific, will be found in this file. It is common for administrators to reference this file to learn about specific user accounts on the system.
+
+To add modules using the command modprobe, use the -a option and specify the modules you want to add. For example, enter modprobe -a {module name} to add the specified module to the running kernel.
+
+Assuming the superuser privileges is the first step of updating SSH security settings. Editing the configuration file requires elevated privileges.
+
+MBR is a type of partition structure. An MBR type of partitioned drive can only have four primary partitions and has a limitation of two terabytes.
+
+A boot loader is a small program stored in ROM (Read Only Memory) that loads the kernel from a storage device, and then starts the operating system.
+
+The modprobe command is used to add or remove modules from a kernel. It is capable of loading all the dependent modules before inserting a specified module. 
+
+A file descriptor is assigned to every open file. On a very busy server where many files may be opened simultaneously, the descriptors may all be consumed. As a result, most Linux commands will not run until descriptors become available.
+
+Netfilter is a Linux kernel framework that handles packets that traverse a network interface. Some of the major services it provides are packet filtering, NAT(Network Address Translation), and connection tracking.
+
+The iperf command is used to test the maximum throughput an interface will support. The utility must be installed on both endpoint systems.
+
+The OVA(Open Virtualization Appliance) template refers specifically to a single package representing the network appliance, usually stored in a different format, such as a .tar file. Transferring a single file template is much easier than a template format with multiple files such as an OVF template.
+
+Ansible uses YAML files to create repeatable "playbooks" that define a desired configuration state. Ansible is an agentless solution that delivers files over SSH connections.
+
+DenyHosts primarily protects SSH (secure shell) services from brute force password cracking attacks. In such attacks, an attacker will repeatedly attempt to log in to the SSH server using credentials that increment each time.
+
+Processes are prioritized based on a number from -20 to 19. These numbers are called a nice value or niceness value. The lower the number, the higher the priority.
+
+Preboot Execution Environment (PXE) is a part of the UEFI standard that enables a client to retrieve the necessary boot loader and system files from a server over the network.
+
+The /var/log/secure log file contains authentication messages (e.g., login successes and failures). This log file is primarily used by RHEL and CentOS.
+
+System logs that records a "Machine Check Exception" error message usually indicate an issue with RAM. The mcelog command can retrieve and print these error messages for easier analysis.
+
+The raw table is used to configure exceptions for packets involved in connection tracking. The raw table is one of five default tables available when using the iptables command to manage packet filtering and stateful firewall functions. The syntax of the iptables command is iptables [options] [-t tables] commands {chain/rule specification}.
+
+A {module name}.conf configuration file can be created with a line of code that references the alias name of the specified module.
+
+The chkconfig command is used in a SysVinit system  and can be used to control services in each runlevel. It can also be used to start or stop services during system startup. The chkconfig {service} on command will enable a service to be started on boot.
+
+The /etc/grub.d/40_custom file enables the customization of the menu presented to the user during the boot process.
+
+Thin storage provisioning is best for when cost of maintaining large storage pools is highest.
+
+Persistent volumes are for Kubernetes orchestration.
+
+Dual homed means multiple NICs are connected to different network segments.
+
+Thick storage is for fluctuating dedicated storage.
+
+Kubernetes is a container orchestration solution.
+
+Subscription based cloud services provide financial flexibility and control.
+
+Anaconda prompts an administrator during an installation.
+
+Open Virtual Files (OVF) contains a virtual machine's requirements and dependencies in an XML file.
+
+The combination of Anaconda and Kickstart bootstrap methods enables rapid consistent and customized Linux installations. Network address translation translates between the reserved private and the public Internet address ranges.
+
+Open Virtualization Appliances are usually stored in a .tar file.
+
+Kickstart files are used to customize the installation and provides an unattended install.
+
+Persistent volume storage are used in Kubernetes orchestration.
+
+Object storage may be more efficient than block storage, especially for larger files.
+
+Containers are virtualized at the operating system layer.
+
+Type 1 hypervisor example = Vmware ESXi.
+
+VMM(Virtual Machine Manager) is a gui interface for managing connectivity to virtual machines.
+
+Libvirt provides the building blocks for developers to write their own Linux virtualization tools.
+
+Anaconda is the name of the Linux installer that prompts an administrator during installation.
+
+JSON files may be used to store information that is easy for most programming languages to interpret and use.
+
+Open Virtual Files contain the necessary configuration files, packages forvirtual machines and network drives.
+
+You use YAML files to deploy virtual machines with cloud-init.
+
+Anaconda and Kickstar boostrap methods enable rapid, consistent and customized Linux installations.
+
+Kubernetes uses persistent volume storage.
+
+Internal virtual network = the VM is connected to a virtual switch that permits network communication with other virtual machines, but not network communication with the host operating system or the physical NIC.
+
+JSON files may be used to store information that is easy for most programming languages to interpret and use. JSON files can be used for quick deployment and configuration of one or more virtual machines.
+
+Thick storage is used for dedicated storage for a device. An example would be a database that will constantly fluctuate in size. Thick provisioning immediately reserves the allocated space for use, regardless of whether that much capacity is actually needed.
+
+Kickstart files are used to customize the install, provided an unattended install. All information about partitions, packages, user accounts, software deployments, etc., are contained in the Kickstart file.
+
+Open Virtual Files (OVF) contains a virtual machine's requirements and dependencies in an XML file.
+
+Blob storage is best when worried about performance.
+
+Kubernetes uses persistent volume storage.
+
+Cloud-init is a cloud based Linux mechanism to customize a virtual machine during its first bootup. Cloud-init references YAML files to find the necessary settings. 
+
+The Anaconda installer can provide prompts to an adminstrator to configure a new Linux server. Cloud-init uses YAML files to isntall software or create user accounts during the virtual machine's first foot.
+
+Thick provisioning is most appropriate when disruption to the continuous storage process present an intolerable risk, such as with a database server. Thick provisioning immediate reserves the allocated space for use, regardless of whether that much capacity is actually needed.
+
+Thin provisioning is most appropriate in environments where the cost of maintaining large storage pools is much more of a concern than the risk of temporarily running out of storage. Thin storage referes to a virtual storage device file that will grown on demand to a maximum size. It's more efficient use of space but it may also include a performance hit.
+
+Libvirt is an API that preovides the sfotware for devs to build their own virtualization solutions. JSON files are used for the quick deployment and configuration of one or more VMs. JSON stores information that is easy for most programming langguages to interpret and use. 
+
+Open Virtual Files (OVF) are XML files that describe the metadata for a VM including information about a VMs requirements and dependencies. 
+
+Cloud-init references YAML files to find the necessary settings. 
+
+Date format can be called using +%F.
+
+Localization is about adapting system components to a distinct culture. The local clock reflects the current time in the system's locale. This clock does not need to be set to Greenwich Mean Time (GMT).
+
+The time command doesn't actually display the time, it displays the time it took to execute a command and dadditional stats about I/O and memory during command execution.
+
+UTF-8 is the default character set of many Linux systems.
+
+date +%j appends a filename with the Julian date.
+
+export LC_ALL=en_US.UTF-8 at the command line to quickly override all localization variables. LC_Monetary is a localization environment variable.
+
+ The local clock reflects the current time in the system's locale (i.e., the time zone). This clock does not need to be set to GMT.
+
+Set the LC_MEASUREMENT variable in the /etc/locale.conf file to set units to the metric system. The command timedatectl status will verify that Daylight Savings Time will work automatically.
+
+Updating the TZ variable in /etc/locale.conf file will set the time zone.
+
+The LANG variable is the locale to use for all LC_* variables that aren't defined.
+
+The command timedatectl set-ntp1 configures servers to synchronize to the NTP server.
+
+The command localectl list_locales will list all available locales on the system.
+
+A compressed tarball file has a tar.gz extension.
+
+Debian uses APT(Advanced Package Tool).
+
+The .gz file extension identifies a file as being compressed with the gzip utility. Compressed files save disk space and are quicker to transfer. 
+
+Using .deb file packages is not a feature of DNF package manager.
+
+rpm -v enables Red Hat Package Manager verbose mode. 
+
+After make, use the make install command.
+
+Centralized internal repositories are stored and synhronized on one or more systems within a local network. For example, one system would host the central reposistory and other systems would download pkackages from it.
+
+The curl command is a method that is used to access and retrieve files from a website. It is not capable of downloading files recursively.
+
+A file with a file extension .tar identifies a file as being a tarball file. A tarball file is a single archive file that contains multiple files for easy file management and downloading. A tarball file is not compressed. 
+
+The software compilation process involves downloading and building an executable.
+
+The make command is used to compile an application using the information stored in a file called a makefile.
+
+YUM(Yellowdog Updater, Modified) is an advanced package management utility that is used with RPM packages on Red Hat based Linuc distributions. To remove a software using YUM, the remove  {package name} subcommand is used. The full command is yum remove {package name}.
+
+The DNF package manager is an improved version of YUM (Yellowdog Updated, Modified).It uses simplified commands. It uses fewer resources and it uses many YUM subcommands. The "enabled" value is a component of a YUM .repo file. The value enabled=1 would indicate that the repository is enabled for use.
+
+Zypper is an openSUSE package manager that supprots .rpm packages. To uninstall a package using Zypper, the command is Zypper rn {package name}.
+
+The purpose of tar is to bundle together multiple files into a single tarball with a .tar extension. Creating a tarball file combines many files into one for easy management and download. Running tar -r appends more files to the existing tarball.
+
+Tar -c is used to create the tarball.
+
+Tar -x is used to extract the tarball.
+
+Tar -t is used to used to test the tarball.
+
+"Synchronized" is not a repository type.
+
+You can  view package information and uninstall a package and remove configuration files by running apt version {package name}. Apt does not use rpm files. 
+
+The /usr/lib directory contains shared libraries and binaries for general programs and software packages. Shared libraries enable more modular program build and reduce time when compiling the software.
+
+A file with the file extension .tar idetifies a file as being a tarball file. A tarball file is a single archive that contains multiple files for easy file management. A tarball file is not compressed.
+
+Mirroring is the synchronization of an online repository to a local storage location.
+
+Curl does not download files recursively.
+
+"Synchronized" is not a repository type.
+
+Debian uses dpkg.
+
+"make" is used to compile software.
+
+The ldd command confirms any shared library dependencies.
+
+The .gz file extension identifies a file as being comrpessed with the gzip utility.
+
+Compressed files save disk space and are quicker to transfer.
+
+The purpose of tar is to bundle together multiple files into a single tarball with a .tar extension. Creating a tarball file combines many files into one for easy management and download. running tar with the -r option appends more files to the existing tarball.
+
+Centralized internal repositories are stored and synhronized on one or more systems within a local network. For excample, one system would host the central repository and other systems would download packages from it.
+
+YUM (Yellowdog Updater, Modified) is an advanced package management utility that is used with RPM pacakages on RHEL distributions.
+
+To remove a software package using YUM, the remove {package name} subcommand is used. The full command is yum remove {package name}.
+
+APT(Advanced Package Management) is a utility that is used with dpkg packages on Debian-based distributions. 
+
+$ identifies a user as a standard user.
+
+The groupdel command deletes a group without deleting the members of a group. 
+
+The /etc/profile.d/ directory services as a storage location for script administrators may use to set system-wide variables.
+
+The .bashrc file provides settings for all of the user's interactive shells. The .bashrc file is read with all logins after the initial login. 
+
+Administrators can pre-populate the /etc/skel directory with configuration file or other content. This content is copied to new user home directories when the useradd command is used.
+
+To activate quotas on a system, the fstab file needs the options usrquota and grpquota added to the relevant file system on the storage device.
+
+Sudo useradd -c "Jim Smith" jsmith adds a new user with a display name of Jim Smith.
+
+User specific bash customizations are pulled form the .profile file located in the user's home directory. 
+
+A shell is a computing environment that provides the user with a mmethod of interacting with the operating system. A common shell is bash.
+
+The chage command is used to control password expiration, expiration warnings, inactive days and other information for existing accounts. Any changes are reflected in the /etc/shadow file and not int he /etc/passwd file.
+
+Once a user exceeds a quota's soft limit, they are placed in a grace period status for a default of seven days. When the grace period expires, the soft limit can become a hard limit if space is still exceeded.
+
+The /etc/profile file proides system wide environment variables.
+
+userdel -r gets rid of the account /user from the system and remove the home directory.
+
+Bash is the default environment in many Linux distributions. The add user command applies settings to user accounts as they are created. Any accounts are configured according to various options set in the /etc/log.defs file.
+
+The "w" command is primarily used to display the deftails of users who are currently logged in to a system and their transactions. This includes the user's current activity.
+
+The /etc/bashrc file can be configured by the administrator and then used to provide system-wide Bash settings for all users of the system.
+
+Use the command chage -E 2020/12/31 jsmith to edit the user's account expiration date. 
+
+/etc/profile.d/ serves as a storage location for system scripts.
+
+Administrators can pre-populate the /etc/skel/ directory with configuration files or other content. This content is copied to new user home directories when the useradd command is used.
+
+The /etc/passwd file stores user account information. All accounts, default or user-specific will be found in this file. When a user account is modified, the file is automatically edited.
+
+User-specific Bash customizations are pulled from the .profile file located in the user's home directory.
+
+The passwd command is used by root to set or reset a passwd for any user. A user can also use the passwd command themselves to reset their own password.
+
+/etc/bashrc pertains to global system configuration.
+
+/etc/skel provides content that is copied into the home directories of new users. User specific Bash customizations are pulled from the .profile file located in the user's home directory.
+
+The .bashrc file provides settings for all of the user's interactive shells. The .bashrc is read with all logins after the initial login.
+
+ls -a /etc/skel would show a list of files including hidden files.
+
+The "w" command is primarily used to display the details of users who are currently logged into a system and their transactions. This includes the user's current activity.
+
+/etc/login.defs is modified by the adduser command that applies settings to it.
+
+The passwd command resets a user's password.
+
+The .bash_profile field provides shell configuration for a user's initial login environment. It is only read with the first login.
+
+The .bashrc file is read during all subsequent logins. 
+
+The /etc/bashrc file can be configured by the administrator and used to provide system-wide Bash settings for all users of the system. 
+
+The .bashrc file provides settings for all of the user's interactive shells.
+
+The .bashrc file is read with all logins after the initial login.
+
+/etc/shadow holds hashed user passwords.
+
+chage -E creates a user account that can only be used for a period of time.
+
+The userdel command is used to delete user accounts. By default this comand does not delete a user's home directory. 
+
+The /etc/profile.d directory services as a storage location for script administrators may use to set system-wide variables.
+
+The /etc/passwd file stores user account information. All accounts, default or user-specific will be found in this file. It is common for administrators to reference this file to learn about specific user accounts on the system.
+
+The quotacheck -cug command is used to create quota database files for a file system on a storage device and also to check for existing user and group quotas.
+
+Bash is the default environment. /etc/bashrc provides system wide Bash settings.
+
+The bash_profile file provides shell configuration for a user's initial login environment. It it only read with the first login. The .bashrc file is read during all subsequent logins.
+
+User specific Bash customizations are pulled from the .profile file located in user's home directory.
+
+ls -a /etc/skel ->to view a directory's file list, the ls command can be used. The -a option will display all files including those that are hidden. The /etc/skel directory contains files that are copied to the user's home directory when the account is created.
+
+If I add a comment to the account, /etc/passwd gets modified.
+
+The "w" command shows the list of user's logged in and their activity.
+
+The /etc/group file is automatically updated with new group information.
+
+The /etc/profile.d/ directory serves as a storage location for scripts administrators may use to set system-wide variables.
+
+The .bashrc file provides settings for all of the user's interactive shells. The .bashrc file is read with all logins after the initial login. .bashrc enables the customization of a user's own computing environment. /etc/bashrc file provides systems wide Bash settings. .bashrc is pertaining to user configuration and not global configuration.
+
+quotacheck -cug creates a quota database for the file system.
+
+chage doesn't modify the /etc/passwd file. 
+
+The /etc/profile.d/ directory serves as a storage location for scripts administrators may use to set system-wide variables. 
+
+User-specific Bash customizations are pulled from the .profile file located in the user's home directory. User specific Bash customizations are pulled from the .profile file located in the user's home directory.
+
+tr is a text processing command that can be used to modify a text file.
+
+"|" combines the standard I/O streams of commands. Directories are blue, executables are green and archives are red. 
+
+">>" appends output to a destination file.
+
+"scp" can be used to transfer files to a remote system, but cnanot work with directories.
+
+tail displays only the end of a file's contents on screen.
+
+The "<<" redirection operator provides input data from the current source. Processing stops when a line containing the provided string occurs. An example is cat << EOF (where processing stops when EOF is found in the file. 
+
+&> redirects standard output and standard error message to a file. 
+
+When the << string redirection operator (whic is used to provide input data from the current source, stopping when a line containing the provided string occurs) is placed in a script, it is called a here document.
+
+Standard input, or stdin is a text stream that acts as the source for command input. Standard input for the Linux command-line is usually generated from the keyboard.
+
+The "tr" command is used to translate a string of characters. It is commonly used to translate a string of characters. It is most commonly used to change the case of letters in a file. 
+
+"ln -s" creates a soft link for a file on a system. 
+
+"sed" can be used to globally search and replace content in a text file.
+
+"grep" can find file names and contents within a file.
+
+"wc" can be used to count items in a text file. 
+
+The "less" command can be used to view the contents of a text file one page at a time. It supports both forward and backward navigation. Use pg-up and pg-down to novaigate page by page. 
+
+The ">" redirection operator redirects standard output to a file. An example is ls > file.txt (the output of the "ls" command will be redirected to a file).
+
+The "wc" command works with various options that can be used with a file(or multiple files) to provide byte, character, newline, and word counts. If you use the -m option with the command, the output will display thae character count for the file.
+
+The whereis command is used to display various details associated with a specific command. This includes the directory where the command and its manual page are located. 
+
+Nano is a small user-friendly text editor that evolved from the Pico text editor. While it is not as powerful as other editors, it is known as one of the more user-friendly. A standout feature is the on-screen display of command shortcuts.
+
+The ls command is used to list directory contents. The option -l displays a long list including the permissions number of hard links, owner, group, size, date, and file name.
+
+The paste command is used to merge lines from a text file horizontally. Each line of an initial file is a row in the first coluymn. Every line in the second file becomes a row in a new, second column. An index node (inode) is an object that stores metadata about a file or directory on a file system. 
+
+The ls command is used for listing files and directories.
+
+When the -i option is used, inode information is displayed as part of the output.
+
+Standard input or stdin is a text stream tha acts as the source for command input. Standard input for the Linux command-line is usually generated from the keyboard. 
+
+The 2> redirection operator redirects the standard error message to a file. As an example, ls file3.txt 2> errorfile.txt (assuming that file3.txt does not exist, the errors will be redirected to the file errorfile.txt.)
+
+grep -E does the same thing egrep does.
+
+The < redirection operator reads input from a file rather than from the keyboard or mouse. An example is mail user@address < myletter.txt (the myletter.txt file will be taken as the input and attached to the email message.)
+
+The locate command searches a database and retrieves information about files that are present on a system. Outdated results are possible if the database is not kept up to date. 
+
+The less command can be used to view the contents of a file one page at a time. It supports forward and backwards navigation. It supports forward and backwards navigation.
+
+2> redirects the stnadard error message to a file.
+
+head is used to display the beginning oa  file's contents on screen.
+
+The rsync command is used to copy files locally and to remote systems. It efficiently uses network bandwidth as it only copies differences between files. 
+
+The "which" command displays the complete path of a specified command by searching the directories assigned to the PATH variable.
+
+When the << string redirection operator (whch is used to provide input data from the current source, stopping when a line containing the provided string occurs) is placed in a script, it is called a "here" document.
+
+The more command can view the contents of a text file one page at a time. Unlike the less command, the more command does not support forward and backward navigation.
+
+"tee" is used to read standar dinput and then copies the output to any specified files.
+
+stderr is used to report problem output. It is a text stream.
+
+echo writes a line of text in the terminal.
+
+grep is used to search files for strings of text. 
+
+The "dar" command allows for an incremental approach to backing up data.
+
+The > redirection operator redirects standard output to a file. An example is ls >file.txt (the output of the ls command will be redirected to a file).
+
+The xargs command reads from standard input and executes a command for each argument that is provided.
+
+The pipe operator is used between arguments to make the output of one command the input of the next command. 
+
+The ls command is used to list directory contents. The option -l displays a long list including the permissions, number  of hard links, owner, group, size, date and filename.
+
+The which command displays the complete path of a specified command by searching directories in the PATH variable. 
+
+< is a redirection operator that is used to read input.
+
+oprintf supports conversion characters and can output content to the terminal. 
+
+The "tr" command can change the case of letters in a text file.
+
+The sort command arranges the lines in a file.
+
+Command sort command options are provided in the table. The -r option sorts fields in descending order. By default, the fields are sorted in ascending order.
+
+The find command enables live searching for files and directories that adhere to search criteria (such as file or directory). Unlike locate, which uses a database, the results of a find command are always up to date.
+
+THe wc command works with various options that can be used with a file or multiple files to provide byte, character, newline, and word counts. If you use the -m option with the command the output will display the character count for the file.
+
+The locate command searches a database and retrieves information about files that are present on a system. Outdated results are possible if the database is not kept up to date. 
+
+The less command can be used to view the contents of a text file one page at a time. It supports both forward and backward navigation.
+
+The 2> redirection operator redirects the standard error message  to a file. As an example, ls file3.txt 2> errorfile.txt 
+
+The "which" command displays the complete path of a specified command by searching the directories assigned to the PATH variable. 
+
+The paste command is use to merge lines from text files horizontally. Each line of an initial file is a row in the first column. Every line of the second file becomes a rown in the new second column.
+
+The more command can view the contents of a text file one page at a time. The more command does not support forward and backward navigation.
+
+The "find" command performs a live search of a system for files and directories.
+
+sort -r sorts fields in descending order.
+
+The cat command is commonly used to display small text files on screen. 
+
+Terminal redirection is the process of redirecting input or output to a terminal. A terminal is referenced with its terminal number by using /dev/tty followed by a number (/dev/tty#).
+
+The unlink command is used to remove files. It can only remove one file at a time and it is not used to remove directories /dev/null is useful for testing a stream and discarding any of its written data. The locate command performs a search of a system's database for files and directories.
+
+rm -i does not prompt after every file. The locate command is used to find files on a system, based on a provided string. 
+
+The find command is a separate search command that uses the -type option.
+
+Terminal redirection is the process of redirecting input or output to a terminal. A terminal is referenced with its terminal number by using the /dev/tty followed by a number (/dev/tty#).
+
+The << redirection operator provides input data from the currents ource. Processing stops when a line containing the provided string occurs. An example is cat << EOF(where processing stops when EOF is found in the file.
+
+An index node is an object that stores metadata about a file or directory on a file system. 
+
+The ls command is used for listing files and directories. When the -i option is used, inode information is displayed as part of the output.
+
+cut -c specifies which caracter to cut in a text file. xargs can read from standard input and execute a command for any provided arguments.
+
+The which command displays the complete path of a specified command by searching the directories assigned to the PATH variable.
+
+The grep command with the -o option is used to print only the matching part of a line and not the entire line of text.
+
+The wc command works with various options that can be used with a file(or multiple files) to provide byte, character, newline, and word counts. If you use the -m option with the command, the output will display the character count for the file. 
+
+/dev/tty is used for terminal redirection.
+
+The locate command is used to find files on a system based on a provided string.
+
+The find command is a separate search command that uses the -type option.
+
+The awk command performs pattern matching on files. This command can be used to proces text files in a variety of ways, including extracting or deleting text matching a certain patter.
+
+The rsync command is used to copy files locally and to remote systems.
+
+It efficiently uses network bandwidth as it only copies differences between files.
+
+Vi is a visual text editor that was originally created for Unix and was later cloned into open source versions.
+
+Use the command sudo less /var/log/messages and then use the page down key to scroll down page by page. 
+
+The unlink command removes a file one at a time from a directory.
+
+The "<" redirection operator is used to read input.
+
+The "paste" command is used to merge lines from multiple text files. The "more" command can view the contents of a text file one page at a time.
+
+The "more" command can view the contents of a text file one page at a time.
+
+The "more command does not support both forward and backwards navigation. 
+
+The "locate" command searches a database and retrieves information about files that are present on a system. Outdated results are possible if the database is not kept up to date.
+
+The "wc" command works with various options that can be used with a file or multiple files to provide byte, cahracter, newline and word counts. If you use the -0m option with the command, the output will display the character count for the file.
+
+The 2> redirection operator is used for redirecting standard error message to a file.
+
+The which command displays the complete path of a specified command by searching drectories in the PATH variable.
+
+The grep command with the -o option is used to print only the matching part of a line and not the entire line of text.
+
+The ls command is used to list directory content. The option -l displays a long list including the permissions, number of hard links, owner, group , size, date, and file name.
+
+The > redirection operator redirects standard output to a file.
+
+An example is ls>file1.txt(the output of the ls command will be redirected to a file.
+
+The << redirection operator provides input data from the current source. Processing stops when a line containing the provided string occurs. An example is cat << EOF(where processing stops when EOF is found in the file).
+
+The awk command performs pattern matching on a files. This command can be used to process text files in a avariety of ways, including extracting or deleting text matching a certain pattern.
+
+The whereis command is used to display various details associated with a specific command.
+
+This includes the directory where the full command its man pages are located at.
+
+The more command can view the contents of a text file one page at a time. Unlike the less command, the more command does not support both forward and backward navigation. 
+
+STandard input or stdin is a text stream that acts as the source for command input. Standard input for the Linux command line is usually generate from the keyboard.
+
+The > redirection operator redirects standard output to a file. An example is ls > file1.txt - the output of the ls command will be redirected to a file.
+
+The wc command works with various options that can be used with a file or multiple files to provide byte, character, newline and word counts. If you use the -m option with the command, the output will display the character count fo the file.
+
+The locate command perofrms ssearch of a system's database for files and directories.
+
+The << redirection operator provides input data from the current source. Processing stops when a line containing the provided string occurs.  An example is cat << EOF (where processing stops when EOF is found in the file.
+
+The tr command is used to translate a string of characters. It is commonly used to change the case of letters in a file.
+
+The rm command removes files and directories.
+
+The -i option is used to prompt for confirmation before each removal. This is different than the -I option that does not prompt after every file. 
+
+The which command displays the complete path of a specified command by searching the directories assigned to the PATH variable. 
+
+The redirection operator redirects standard output to a file. An example is ls > file1.txt - the output of the ls command will be redirected to a file. 
+
+The grep -o command will print the matching part of a line and not the entire line of text. 
+
+The "tr" command can change the case of letters in a text file.
+
+The ls -l command will show the number of hard links. The 2> redirection operator redirects the standard error messsage to a file. As an example, ls file3.txt 2> error file.txt - assuming that file3.txt does not exist, the errors will be redirected to the file errorfile.txt.
+
+The << redirection operator provides input data from the current source.Processing stops when a line containing the provided string occurs. An example is cat << EOF(where processing stops when EOF is found in the file).
+
+The which command displayts the complete path of a specified command by searching the directories assigned to the PATH vairable. 
+
+The awk command performs pattern matching on files. This command can be used to process text files in a variety of ways, including extracing or deleting text matching a certain pattern.
+
+The whereis command can be used to display the location of a command's man pages. 
+
+The > redirection operator redirects standard output to a file.
+
+The 2> redirection operator redirects the standard error message to a file.
+
+wc -m displays the character count for the file.
+
+The locate command searches a system's database for files and directories.
+
+The << redirection operator provides input data from the current source. Processing stops when a line containing the provided string occurs. 
+
+The more command can view the contents of each file one page at a time and does not support forward and backward navigation.
+
+rm -i confirms each file is removed.
+
+The which command displays the complete path of a specified command by searching the directories assigned to the PATH variable. 
+
+"wc -m" displays the caracter count for a file. 
+
+The << redirection operator provides inpuot data from the current source. Processing stops when a line contining the provided string occurs.
+
+The which command displays the complete path of a specified command by searching directories assigned to the PATH variable.
+
+SysVinit run levels has been mapped to systemd targets for each of use.
+
+/etc/init.d/stores initialization scripts for services on most Linux distributions.
+
+Sysvinit uses the chkconfig command to control and directly manage these services with a variety of options. The on option enables a service to be started at boot. 
+
+Systemd-analyze command is used to retrieve performance statistics for boot operations. The blame sub-command is used to identify services and ther units to make the system slow to boot.
+
+Single-user mode is a limited funcitonality mode that is useful in troubleshooting.
+
+On a system that usesthe SysVinit method, different modes of operation are caled runlevels. Runlevel 3 is not a single-user mode runlevel. It is multi-user runlevel. Unit files can be used to set custome system environment variabels (also known as paramteres) which are values that are passed from a parent process to any child process it creates. 
+
+SysVinit uses the chkconfig command to control and directly manage these services with a variety of options. The off option is used to dsiable a service from being started at boot.
+
+Systemd uses "disable" to disable a service.
+
+Unit files are configuration files that systemd uses to determine how it will handle units which are system resources that systemd can manage. Resources can include network services, block storage devices, peripheral devices and more. The unit file in /etc/systemd/system/ is used for functionality changes.
+
+The stop command will end a running service.
+
+A target is a method of grouping systemd unit files into a colelction that can be used to set a system's mode of operation. Systemd targets are like SysVinit runlevels. 
+
+The systemctl command enables control of the systemd init daemon which provides an init method for initializing a system. By using the -H option the operation is executed on a remote host specified by an IP address or hostname.
+
+"systemctl start" starts a service immediately.
+
+chkconfig off is used to disable a service from being started at boot. It is equivalent to "systemd disable".
+
+"sysvinit restart" restarts a service.
+
+A unit file is a configuration file that systemd uses.
+
+The systemctl command with the mask subcommand prevents a provided unit file from being enabled or activated even when done manually.
+
+Sysvinit service reload will reload a services configuration file while the service is still running.
+
+systemctl enable is used to enable a particular service at boot. systemctl itself enables control of the system init daemon which provides an init method for initializing a system.
+
+/etc/inittab stores details of the runlevels in use.
+
+The rc.local file is executed at the end of the init boot process. It is used to start custom services. 
+
+systemctl-enable "Service name" makes a service start when a system boots.
+
+system-ctl disable reverses the enable.
+
+systemd replaced sysvinit.
+
+A target is a method of grouiping systemd unit files into a collection that can be used to set a system's mode of operation. Systemd targest are like sysvinit runlevels.
+
+Single-user mode is a limited functionality mode that is useful in troubleshooting.
+
+On a system that uses the sysvinit method, differemnt modes of operation are called runlevels.
+
+Runlevel 3 is not a single-user mode runlevel. It is a multiuser runlevel.
+
+Systemd uses unit files to manage systemd resources.
+
+Custom values in a  systemd unit file are called environment parameters. 
+
+Sysvinit uses the chkconfig command to control and directly manage these services with a varietyt of options.
+
+The on option enables a service to be started at boot.
+
+A unit file is a configuration file that systemd uses.
+
+The systemctl command with the mask subcommand prevents a provided unit file from being enabled or activated, even when done manually. If you want to modify a unit file's functionality, the /etc/systemd/system directory should be used. Unit files in this directory that precedence over files elsewhere, and they can be replaced here.
+
+Use hostnamectl for seeing the hostname of a machine.
+
+At its core, services make up a computing environment.
+
+Systemd-analyze blame shows the time that it takes a service to boot.
+
+chkconfig off is similar to systemctl disable.
+
+/etc/rc.local is rarely used and not supported to some Linux distributions.
+
+The telinit [options]{runlevel}. If this command is run under a systemd environment the runlevel is translated to a target.
+
+Systemd is a newer system init method that has replaced sysvinit. When using systemd, unit files are put in place to hold configurations. To reload these files, the daemon-reload subcommand is used which also reloads the daemon.
+
+The Domain Name System (DNS) relates easy to understand names to IP addresses. By default DNS uses port 53.
+
+The Network Time Protocol (NTP) service uses port 123 by default and can be used to syncronize a system's time with an authoritative time source.
+
+LDAP provides centralized authentication services for network resources. 
+
+crontab manages cronjobs.
+
+bg%<jobid> sends a command to run in the background so that it does not consume the shell.
+
+The "nohup" command prevents a process from being ended when a user logs off a system.
+
+The "at" command is used to run a task once at a specified time and is not meant to be used for repetitive/scheduled tasks like cron jobs.
+
+Halt commands using "ctrl-z".
+
+The "Ctrl-C keyboard combination can be used at a terminal to interrupt a process enabling it to end gracefully. The key combination is similar to SIGINT kill signal.
+
+To run a process in the background, the & (and symbol) is added to the command as in "test.sh&".
+
+Halt a job consuming the terminal with "Ctrl-Z".
+
+The /dev/mapper/ directory contains logical volumes encrypted volumes, and other devices that are managed by the system's device mapper.
+
+The /dev/directory contains device driver files.
+
+Peripheral Compnent Interconnect (PCI) is a connection interface standard that is primarily used as an expansion bus for attaching peripheral devices. A PCI adapter card can be used to add more Universal Serial Bus (USB) ports to a system, but it is not USB itself.
+
+Wifi has the longest communication range.
+
+To create a udev rule for a USB disk drive, create a new file in /etc/udev/rules.d/my-local.rules.
+
+The lpq command shows the status of the printer queue. By default it will report each job's rank in the queue.
+
+The /proc/ directory contains various files that represent system inform,ation reported by the system's kernel. In particular, /proc/devices file contains a list of all device drivers that the kernel is currently running.
+
+udevadm command is used to manage udev.
+
+The trigger subcommand executes rules that apply to any devices that is currently plugged in. You can also specify an action using the -c option, such as "add".
+
+udevadm command is used to manage udev. The udevadm control subcommand can modify the running state of udev.
+
+For example,. providing the --reload-rules option ensures that udev is using the latest rules configuratoin.
+
+A network adapter, also known as a network interface card (NIC), is a device that provides an interface with which hosts exchange data over a network.
+
+The dmesg display message or driver message command is used to print any messages that have been sent to the kernels message buffer during and after reboot.
+
+Monitoring tools report performance of a system.
+
+The lsdev command displays various information about a system's hardware as reported by the kernel. 
+
+/etc/udev/rules.d/ directory is used to configure rules for how udev functions.
+
+Files created in this directory tell udev to configure a device in a certain way or run a certain command when a device is plugged in. This incluides creating a ssymbolic link to a device.
+
+The udevadm is used to manage udev. The trigger subcommand exuectes rules that apply to any device that is currently plugged in. You can specify an action using the -c option, such as add. 
+
+lsdev is a monitoring and configuration tool, and it reports on various information about a system's hardware as reported by the kernel.
+
+udevadm control subcommand can modify the running state of udev. 
+
+"udevadm control --reload-rules option ensures that udev is using the latest rules configuration.
+
+The Automatic Bug Reporting Tool (ABRT) is a utility, typically used on Fedora and RHEL based distros which analyzes and reports on problem detected during system runtime.
+
+A Host-Bus-Adapter is a hardware compoennt that connects a host system to a storage device.
+
+The /dev/ directory contains device driver files.
+
+The /dev/mapper directory contains logical volumes, encrypted volumes, and other devices that are managed by the system's device mapper.
+
+The /sys/ directory is a virtual files system similar to /proc/ but it focuses more on creating a hierarchical view of the system's device information. 
+
+The /sys/devices subdirectory includes files that expose details about specific system devices.
+
+A hot pluggable device is a hardware device that can be physically added or removed from a system wihtout requiring a reboot. Ex=hotswap hard drives and USB devices.
+
+Peripheral Component Interface (PCI) is a connection interface standard that is primarily used as an expansion bus for attaching peripheral devices. A PCI adapbter card can be used to add more USB ports to a system, but it is not USB itself.
+
+The /etc/udev/rules.d directory is used to configure rules for how udev functions.
+
+Files created in this directory tell udev to configure a device in a certain way or run a certain command when a device is plugged in. This includes creating a symbolic link to a device.
+
+lspci command shows a list of PCI devices that are connected to the system.
+
+lsusb shows a list of usb devices.
+
+udevadm trigger executes rules that apply to any device that is currently plugged into the system.
+
+udevadm trigger -c add executes rules that apply to any device that is currently plugged in.
+
+udevadm control reload-rules is a command for udevadm.
+
+The /dev/ directory contains device driver files.
+
+The /dev/directory contains device driver files.
+
+The /dev/mapper/ directory contains logical volumes, encrypted volumes and other devices that are managed by the system's device mapper.
+
+udevadm is used to manage udev. udevadm control-reload-rules ensures that udev is using the latest rules configuration. 
+
+The /sys/ directory is a virtual files system similar to /proc/ but it focuses more on creating a hierarchical view of the system's device information.
+
+Gnome is the default for Wayland. Wayland is a display server and reference implementation in Unix-like operating systems that is meant to improve upon and replace the X window system. Forwarding X traffic through a Secure Shell (SSH) tunnel is known as X Forwarding. 
+
+Local SSH forwarding tunnels a local client connection  on a port to a remote server.
+
+An example is remotely accessing a system over the Internet like Virtual Network Computing (VNC).
+
+Simple Protocol for Independent Computing Environments (SPICE) is a free and open source protocl designed for use in virtual environments. It is often used to connect to virtual machines (VMs) that are hosted by the KVM hypervisor.
+
+Cinnamon is a fork of GNOME 3. It does not support Wayland.
+
+Remote SSH forwarding sends inbound client traffic to a server off to another system on a different port.
+
+Using the settings(gear icon) on a Linux GUI screen will provide options for switching to a supported and available desktop environment.
+
+KDE is the second-most common desktop environment for Linux distributions that run the X Window System or Wayland. 
+
+X11 was developed by MIT.
+
+ Unity was initially designed to make better use of space on devices with small screens, such as netbooks.
+
+NoMachine (NX) is cross-platform proprietary remote desktop software that offers support for multi-session environments and account management.
+
+MATE is a fork of GNOME2.
+
+Cinammon is a fork of GNOME3.
+
+Remote SSH forwarding sends inbound client traffic to a server off to another system on a different port. Some VNC use cases from this configuration.
+
+getenforce displays which mode SELinux is running in. The SELinux restorecon restores the default of one or more files. 
+
+I should always adhere to the principle of least privilege. I should not give a file the same SUID as the root user. If the user runs a program with the SUID set to root, the user retains root as the effective user ID when the user goes through a back door.
+
+The GUID partition table is a successor MBR(master boot record) and is part of the Unified Extensible Firmware (UEFI) standard.
+
+GPT has the advantage of storing its boot data in multiple locations on a drive to enhance redundancy.
+
+SELinux was developed by the NSA. It provides additional file system and network security so that unauthorized processes cannot access or tamper with data, bypass security mechanisms, create security policies, or execute untrustworthy programs.
+
+The setfacl command is used to recursively set access control list (ACL) options for directories, set the ACL of an object, modify the existing ACL, remove entires from an existing ACL, and remove all ACL entries. 
+
+By default, files created by a user take on that user's group ID. 
+
+You can use the chmod command to set the SGID permission on the containing directory so that all new files inherit the directory's group ID.
+
+With umask, you set the default permissions using octal numeric format. However, instead of specifying which permissoins you set, you specify which permissions to mask or clear from the default. 
+
+You can use the ulimit command to change the available number of file descriptors. 
+
+The /bin/ directory stores essential command line utilities and binaries.
+
+
+The command ps -z can be used to configure an SELinux environment and list running processes along with each process' security context.
+
+If the user's home directory is not in the default location, you can adjust the appropriate tunable file to account for this. Tunable files are located in the /etc/apparmor.d/tunables/ directory.
+
+Permission attributes on files and folders are applied to one of several contexts on the permissions you can give to the types of users and entities.
+
+The "sestatus" command retrieves the current mode and policy information.
+
+Service accounts are usually disabled for regular login. The setuid (SUID) permission allows a user to have similar permissoins of the owner of a file.
+
+AppArmor is a context based permission scheme and mandatory access control (MAC) implementation for Debian and SUSE Linux.
+
+The chmod absolute mode uses octable (base - 8) numbers to specify permissions. Each permission (-r/w/x) has an associated number: read(4) write(2) execute(1).
+
+User accounts represent identities that authenticate to the system and can use authentication credentials to do specific tasks.
+
+SELinux defines three main contexts for each file and process. The user context defines which users can access an object. The role context defines what role can access the object. The type context is the "label" portion of mandatory access control (MAC). 
+
+SELinux has three different nodes , disabled, enforcing, and permissive. Each node configures the overall implementation of SELinux on the system.
+
+chcon changes the security context of a file.
+
+A sticky bit is a special permissoin bit that provides protection for files in a directory. It ensures only the owner of a file or directory (or root) can delete the file or directory.
+
+The setfacl command is used to recursivle set access control lists (ACL) options for directories, set the ACL of an object, modify the existing ACL, removing entries from an existing ACL, and remove all ACL entires.
+
+AppArmor is a context-based permissoins scheme and mandatory access control (MAC) implementatoin for Debian and SUSE Linux.
+
+The advantage of setting a standard user account to have administrative privileges over permitting the user to log on as root directly is that the privileges of the standard user can be limited, whereas the root user privilege cannot.
+
+The command ps -z can be used to configure an SELinux environment and lists running processes along with each processes' security context. 
+
+I should always adhere to the principle of least privilege.
+
+I should not give a file the same SUID as the root user. If the user runs a program with the SUID set to root, then the user retains root as the effective user ID when the user goes through a back door.
+
+By default, files created by a user task on that user's group ID. You can use chmod to set the SGID permissions on the containing directory so that all new files inherit the directory's group ID.
+
+The command ps -z can be used to configure an SELinux environment and list its running processes along with each process' security context.
+
+SELinux "getsebool" command displays the on/off status of SELinux boolean values. Boolean values enable you to change policy configuration at runtime without actually writing the policy directly.
+
+The "Disabled" SELinux mode turns off SELinux. Therefore MAC will not be implemented and the default DAC method will be prevalent.
+
+SELinux security policies define access parameters for every process and enforces rules for allowing or denying different domains to access each other.
+
+By default, files created by a user take on that user's group ID.
+
+You can use the chmod command to set the SGID permission on the containing directory so that all new files inherit the directory's group ID.
+
+The SELinux command getenforce is one of the major commands that you can use to configure an SELinux environment.
+
+The getneforce command displays which mode SELinux is running on.
+
+Permission attributes define exactly what a user can do with a file or directory. The attributes behave differently based on whether they apply to a file or directory.
+
+According to a targeted SELinux policy, except the targeted subjects or objects, all other subjects and objects will run in an unconfined environment. The un-targeted subjects and objects will operate on the DAC method and the targeted one will operate on the MAC method.
+
+Permission contexts are applied to permissions you can give to the types of users and entities.
+
+A sticky bit is a special permission bit that provides protection for files in a directory.
+
+It ensures that only the owner of a file or directory (or root) can delete the file or directory.
+
+The getfacl command is used to retrieve the ACLs of files and directories and show metadata, the owner, its group, sticky bit flags, standard object permissions, and individual permissoins for users and groups.
+
+The "disabled" SELinux mode turns off SELinux. Therefore MAC will not be implemented and the feault DAC method will be prevalent.
+
+SELinux was developed by the NSA.
+
+By default files created by a user take on that user's group ID.
+
+You can use chmod to set the SGID permission on the containing directory so that all new files inherit the directory's group ID. 
+
+The SElinux command getenforce is one of the major commands that you can use to configure an SELinux environment. The getenforce command displays which mode SELinux is running on.
+
+The getfacl command is used to retrieve the ACLs of files and directories and shows metadata, the owner, its group, sticky bit flags, standard object permissoins and individual permissions for users and groups.
+
+The sudoedit option is a appropriate for files that need to be edited with elevated privileges. This command permits a user to edit a file with their own credentials, even if the file is only available to the root user. 
+
+SELinux has 3 different modes, disabled, enforcing, and permissive. Each mode configures the overall implementation of SELinux on the system.
+
+The SELinux command getenforce is one of the major commands that you can use to configure an SELinux environment. The getenforce command displays which mode SELinux is running on. 
+
+THe GUID Partition Table (GPT) is a successor to MBR and is part of the Unified Extensible Firmware Interface UEFI standard. GPT has the advantage of storing its boot data in multiple locations on a drive to enhance redundancy.
+
+Permission attributes on files and folders are applied to one of several contexts or to the permissions you can give to the types of users and entities. 
+
+Pluggable Authentication Modules (PAM) define the underlying framework and centralized authentication method leveraged by authentication services like Kerberos and lightweight Directory Access Protocol (LDAP). 
+
+If users are authenticating through an external service like a Kerberos, you should ensure the user identities are correctly configured and that this service is available over the network.
+
+The authorized keys file exists on a remote server that lists the public keys that the server accepts. In other words, the server uses this file to authenticate the client. 
+
+The pam_failback moddule will trigger a temporary user lockout and supports user lockout when authentication is done over a screensaver.
+
+The Datagram Transport Layer Security (DTLS) protocol essentially implements SSL/TLS over datagrams using UDP as the transport layer protocol.
+
+In IPSec transport mode, only the packet contents are encrypted wheras the header is not. Transport mode is typically used in remote access VPNs. In IPSec tunnel mode, both the packet contents and headers are encrypted. Tunnel mode is typically used in site-to-site VPNs.
+
+The authorized_keys file exists on a remote server that lists the public keys that the server accepts. In other words the server uses this file to authenticate the client. 
+
+Pluggable Authentication modules (PAM) define the underlying framework and centralized authentication method leveraged by authentication services like Kerberos and LDAP(Lightweight Directory Access Protocol).
+
+As a security best practice, you should separate operating system data and other types of data into different partitions. Segmenting data can help increase the availability of one type of data should another type be inaccessible. 
+
+Default FTP configurations do not use encryption and therefore send data in cleartext over the network. They can also be used for data exfiltration and the spreading of malware. 
+
+Finger is an outdated service used to retrieve the status of hosts and users over a network. It is susceptible to many attacks and should not be used.
+
+Disabling root access on SSH can prevent an authorized user from gaining complete access over a system from a remote location. Instead of enabling root access, you should assign sudoer privileges to the necessary accounts.
+
+You should consider changing the default port associations for certain services, like SSH and HTTP/S, to confuse attackers and stop attacks on well-known ports. However, changing default ports may be more hassle than it's worth.
+
+For remote access and receiving other types of network connections from clients, you should configure the system to, by default, deny hosts that it does not recognize.
+
+LDAP clients authenticate to the LDAP service, and the service's schema defines the tasks that clients can and cannot perform while accessing a directory database, the form the directory query must take, and how the directory server will respond.
+
+When dealing with data at rest (stored on a device) encryption, full drive/disk encryption (FDE) encrypts an entire storage drive, partition, or volume using either hardware or software utilities.
+
+Telnet is similar to FTP in that remote connections using Telnet do not encrypt data and passwords used in authentication.
+
+You should consider disabling the user of CTRL+ALT+DEL to prevent users from rebooting a system and disrupting service availability. 
+
+Default FTP configurations do not use encryption and therefore send data in cleartext over the network. They can also be used for data exfiltration and the spreading of malware.
+
+You should enable a password within your system's BIOS/UEFI to prevent unauthorized personnel from installing and/or booting into a new operating system.
+
+Disabling root access on SSH can prevent an authorized user from gaining complete access over a system from a remote location. Instead of enabling root access, you should assign sudoer privileges to the necessary accounts.
+
+Terminal Access Controller Access-Control System (TACACS) and its predecessor TACACS+, also provide AAA services for remote users. TACACS+ is more secure and more scalable than RADIUS.
+
+Log rotation is the practice of creating new versions of a log file to maintain a minimum log file size. The logrotate utility is used to perform automatic rotation of logs.
+
+The journalctl command enables you to view and query log files created by the journal component of the systemd suite. Log information is collected and stored via the systemd journald service.
+
+The Linux log file /var/log/[application] contains messages from miscellaneous applications such as cron, firewalld, and mailog.
+
+In order to facilitate integration between syslog and non-syslog platforms, you need to use third party agents. An agent is a software program that acts on behalf of some other program or service.
+
+The /etc/rsyslog.conf file is the configuration file for the rsyslogd service. This file determines how to handle syslog messages through a variety of rules that you can modify as needed.
+
+You can configure local logging behavior to be more finetuned and less noisy by filtering the /var/log/messages log to reduce the number of non-critical system events it records.
+
+The journalctl command enables you to view and query log files created by the journal component of the systemd suite. Log information is collected and stored via the systemd journald service.
+
+The Linux log file /var/log/secure contains authentication messages and is primarily used by RHEL and CentOS. For example, private authentication messages such as login and logout events are logged in the /var/log/secure file.
+
+The lastb command displays the running history of failed user login and logout events, along with the actual time and date.
+
+The syslog is an event logging standard that facilitates centralized logging services over a network that records text files, which include the data and time of an event, the process name and ID that sent the message, as well as the message itself.
+
+The logrotate utility is used to perform automatic rotation of logs. When executed, logrotate adds a .1 to the end of the file name of the current version of the log files. Previously rotated files are suffixed with .2, .3, etc.
+
+The /etc/rsyslog.conf file is the configuration file for the rsyslogd service. This file determines how to handle syslog messages through a variety of rules that you can modify as needed.
+
+The journalctl command enables you to view and query log files created by the journal component of the systemd suite. Log information is collected and stored via the systemd journald service.
+
+The syslog is an event logging standard that facilitates centralized logging services over a network that records text files, which include the data and time of an event, the process name and ID that sent the message, as well as the message itself.
+
+The journalctl command enables you to view and query log files created by the journal component of the systemd suite. Log information is collected and stored via the systemd journald service.
+
+Firewall zones are the rule sets, often used by the firewall daemon (firewalld), that can apply to specific network resources, like a network interface. You'd typically place resources in a zone to group them with resources that have similar security requirements or similar levels of trust.
+
+In contrast to packet filters, stateful firewalls can identify past traffic that is related to a packet. Packet filtering firewalls also known as stateless firewalls only inspect a packet in isolation. 
+
+To tighten the network security of web servers without denying access to the necessary services, you need to configure the firewalld service, set the DMZ zone for your primary network interface, and then add the HTTP and HTTPS service to the zone.
+
+Once a firewall matches traffic to a rule, it needs to perform an action. With the Drop firewall action, the traffic is blocked at the firewall and the firewall does not notify the sender.
+
+Netfilter is a Linux kernel framework that handles packets that traverse a network interface. Netfilter supports the configuration of major servies by providing hooks into the kernel's network stack that catch every packet.
+
+Fail2ban prevents brute force attacks and can monitor log files that pertain to any system service with an authentication component. Fail2ban leverages Netfilter and iptables to perform blocking actions, and can even be used to update your firewall rules.
+
+
+Once a firewall matches traffic to a rule, it needs to perform an action. With the Accept firewall action, the traffic is allowed through the firewall and sent on to its destination.
+
+Trusted ports, also called privileged ports, are ports in the well-known range (0-1023) that require superuser privileges for any services attempting to use this port.
+
+The syslog uses remote logging via a centralized server and also supports local logging where logs are stored on the same system that generated them.
+
+To manage packet filtering through various tables, iptables use chains and rules. Each table applies to a certain contact and consist of rule sets, called chains, that the table uses to implement the firewall.
+
+The iptables tool enables you to manage packet filtering as well as stateful firewall functionality within Linux through various tables. An alternative to firewalld, iptables use chains and rules rather than zones and services.
+
+DenyHosts primarily protects SSH servers from brute force password cracking attacks, by monitoring the authentication log to look for the number of failed login entries based on an IP address.
+
+If you want to use UFW to employ a more complex firewall configuration, you'll need to edit text files rather than use the ufw command. The /etc/default/ufw file is used to configure high-level settings like policy defaults and kernel module usage.
+
+You can configure the firewall to log any of the previous actions. These logs typically include information about the packet, like its source and destination, as well as timestamps and other useful data.
+
+Like iptables, firewalld does not persist its changes by default. This is called runtime mode. You must commit a change with the --permanent option for it to persist upon restart of the daemon. 
+
+Services require the use of a port to establish a connection endpoint. Most common protocols have a dedicated port number as assigned by the Internet Assigned Numbers Authority (IANA).
+
+To tighten the network security of web servers without denying access to the necessary services, you need to configure the firewalld service, set the DMZ zone for your primary network interface and then add the HTTP and HTTPS service to the zone.
+
+Fail2ban prevents brute force attacks, and can monitor log files that pertain to any system service with an authentication component. Fail2ban leverages Netfilter and iptables to perform blocking actions and can even be used to update your firewall rules.
+
+The dd command copies and converts files to enable them to be transferred from one type of media to another.
+
+Secure File Transport Protocol (SFTP) uses an SSH tunnel as a transportation mechanism to encrypt data. SFTP can transfer files and manage files and directories.
+
+You should consider using gzip if you just care about compressing and decompressing files as fast as possible and are less concerned with storage space. 
+
+With differential backups, all selected files that have changed since the last full backup are backed up. When differential backups are used, you must restore the last full backup plus the most recent differential backup.
+
+The zip command is another compression utility, but unlike gzip, xz, and bzip2, it also features file archiving functionality. The zip command option -T performs an integrity check on the archive file.
+
+Hashing is the process of transforming plaintext input into an indecipherable fixed-length output and ensuring that this process cannot be feasibly reversed.
+
+You should use gzip if you just care about compressing and decompressing files as fast as possible and are less concerned with storage space.
+
+When swap space is not configured or not enough is available to take on a load the system crashes. Swap space is a portion of a hard disk drive that is used for virtual memory. This virtual memory simulates additional main memory. Swap space is primarily used to substitute disk space for RAM (random access memory). Data is stored here when physical RAM fills up and more space is needed.
+
+Restarting the DNS(domain name system server will affect users and other services that rely on name resolution to access network resources (e.g., file shares). Rebooting the server is the last resort. The DNS configuration settings should be reviewed to further troubleshoot the issue.
+
+The du ("disk usage") command displays how a device is used, including the size of directory tree and files within it. It also enables you to track space hogs, which are directories and files that consume large amounts of space on the storage drive. This information can beu sed to better organize your data and/or delete unnecessary files.
+
+The mkswap command formats the newly created file with the swap file system. The command can also be used to format an entire partition. A  command would be mkswap /dev/sda1.
+
+Use Unix sockets(or Unix domain sockets) will often provide a performance increase by removing the Transmission Control Protocol (TCP) overhead from the data transactions.
+
+It is best practice to unmount the file system prior to running the fsck command to prevent damage to the file system and lost data. In rare cases, fsck (file system consistency  check) can run if the file systems are not able to unmount forcibly. An attempt to fix file system errors will occur if needed.
+
+The /proc/meminfo file contains a great deal of statistics about the system's memory usage. This information can be used to ensure the system's RAM (random access memory) modules are performing to specification, that the OS (operating system) is consuming memory at the expected rate, and that the system has enough available memory to perform intensive tasks.
+
+A server with a running operating system and application services points to an issue arising in the physical network adapter. All network adapters come with LED lights indicating data traffic and a live connection. LED lights on the network port that are off usually indicate a failed network adapters and must be replaced.
+
+The whois command provides information on Internet DNS registrations for organizations. This can be useful for learning or verifying information regarding ownership of a domain name an even contact information for an organization.
+
+The iftop command displays bandwidth usage information for the system, helping to identify whether a NIC (network interface card) or protocol is consuming the most bandwidth. The iftop command may not be installed on all Linux distributions. The iperf command is used to test the maximum throughput an interface will support. The utility must be installed on both endpoint systems.
+
+The ipset command enables you to create and modify IP sets. For you need to set a name, storage method and data type for your set. You would run this command - ipset create myset hash:net - before configuring iptables.
+
+The vmstat command displays various statistics about virtual memory, as well as process, CPU, and I/O statistics. Some memory-based statistics include: the total virtual memory that is free for use, total memory used in buffers and cache, and total memory used in swap space. Some CPU-based statistics include: time spent running in user space, time spent running in kernel space, time spent idle, time spent waiting for I/O.
+
+The KVM(Keyboard, Video, Mouse) switch is a standard device used to connect directly to physical servers. Direct access to the server is the first step, after which, network settings must be updated. At a minimum, the (Internet Protocol) IP address, subnet mask and gateway must be re-applied to the server.
+
+The partprobe command is used to update the kernel with changes in the partition table. After creating a partition with fdisk, you cannot add a file system to that partition unless the kernel can read it from the partition table. 
+
+The netplan network configuration utility is available in some Linux distributions. It uses YAML description files to configure network interfaces. These files are stored in the /etc/netplan/ directory. You will use a text editor to create or modify interface configuration files. For example, you can enter sudo netplan to have the configuration file checked for syntax errors before attempting to implement it. The sudo netplan apply command makes the configuration change.
+
+The mtr utility is a combination of ping and traceroute, with additional improvements to enable testing of the quality of a network connection. The output shows a numbered line in the report that represents a hop. In the public Internet, these hops represent other Internet nodes that packets pass through to get to their destination, in this case, the Linux server hosted in the public cloud.
+
+The sar command displays system usage reporst based on data collected from system activity. The default mode of the sar command displays CPU usage in 10-minute intervals for each category of resource that accessed the CPU, such as users, the system, I/O scheduling, etc.
+
+The uptime command provides information CPU load average at specific times from the time the command is initiated. After entering the command, you may see load average at the 1-minute, 5-minute, and 15-minute mark.
+
+RDMA or remote direct memory access interfaces require a driver. If one is not installed, the kernel module must be loaded so that its features can be fully utilized.
+
+The ip command replaces the ifconfig command in Linux. The ip addr add 192.168.50.5/24 dev eth0 will set the IP address of eth0 to 192.168.50.5. Entering the same command without '/24' will set its subnet mask by default to 255.255.255.0.
+
+The "complete fair querying" schedule or cfq gives each process its own queue and each queue has an interval by which it is accessed or its time sliced. The scheduler uses a round-robin system to access each queue and service requests from these queues until either their time slices or requests are exhausted. The cfq scheduler has greater flexibility and resolution where other I/O (input/output) schedulers fail.
+
+The dig command will provide information including the IP address mapped to the domain name, the DNS server that answered the query, and how long it took to receive that answer. Using the command dig@{ip address}{domain name} will resolve the domain name against the DNS server specified by the IP address.
+
+The ss(socket state) command is an information gathering utility like netstat but providing simpler output and syntax.
+
+The parted tool uses command option names that are related to their actual action. The fdisk command options are single-letter characters which can be confusing, leading to accidental actions on the hard drive. Entering a command option like mkpart in a parted menu will inform you of the command being enetered and ensure a "make partition" action will occur on the disk.
+
+Restarting the DNS(domain name system) server will affect users and other services that rely on name resolution to access network resources (e.g., file shares). REbooting the server is the last resort. The DNS configuration settings should be reviewed to further troubleshoot the issue.
+
+The ps command invokes the process table, a record that summarizes the current running processes on a system. When the command is run without any option, it displays the processes run by the current shell with details such as the PID (processor ID), the terminal associated with the process, the accumulated  CPU time, and the command that started the process.
+
+The netplan network configuration utility is available in some Linux distributions. It uses YAML description files tpo configure network interfaces. These files are stored in the /etc/netplan directory. You will use a text editor to create or modify interface configuration files. For example, you can enter sudo netplan to have the configuration file checked for syntax errors before attempting to implement it. The sudo netplan apply command makes the configuration change.
+
+The /proc/meminfo file contains a great deal of statistics about the system's memory usage. This information can be used to ensure the system's RAM (random access memory) modules are performing to specification, that the OS (operating system) is consuming memory at the expected rate, and that the system has enough available memory to perform intensive tasks.
+
+The NetworkManager utility includes three different interfaces: nmcli, nmtui, and nmgui. The nmcli command is the most fundamental of the three and contains many subcommands that enable you to view and configure network information, such as the IP address.
+
+Many network devices and server services timeout idle sessions after about 300 seconds. The /etc/ssh/ssh_config file can be edited by adding the line 'ServerAliveInterval 60' to send a null command and keep the session going. This will configure global settings so the issue won't affect any other administrator using SSH to connect to the server.
+
+The TCP/IP utility called ping will generate a response request from the sending computer and shoudl receive a reply from the destination computer. Using the -c subcommand as administrator can specify the amount of ping replies to receive. By default, Linux will send a continuous ping until interrupted with a Ctrl + C keyboard combination.
+
+The vmstat command displays various statistics about virtual memory, as well as process, CPU, and I/O statistics. Some memory-based statistics include: the total virtual memory available, total virtual memroy that is free for use, total memory used in buffers and cache, and total memory used in swap space. Some CPU-based statistics include: time spent running in user space, time spent running in kernal space, time spent idle, time spent waiting for I/O.
+
+The ss(socket state) command is an information gathering utility like netstat but providing simpler output and syntax.
+
+The mtr utility is a combination of ping and traceroute, with additional improvements to enable testing of the quality of a network connection. The output shows a numbered line in the report that represents a hop. In the public Internet, these hops represent other Internet nodes that packets pass through to get to their destination, in this case, the Linux server hosted in the public cloud.
+
+Sudden hard drive failures may require administrators to re-mount the file share. The mount command can be used to load a file system to a specific directory. The /etc/fstab file can also be edited to include the file system to be mounted during each system boot. After the hard drive has mounted, reboot the server to ensure the directory is able to re-mount.
+
+tshark is the command line interface (CLI) version of Wireshark. It has the same functionality as the full graphic version of Wireshark.
+
+The iftop command displays bandwidth usage information for the system, helping to identify whether a NIC or protocol is consuming the most bandwidth. The iftop command may not be installed on all Linux distributions. This command can help you identify why a link may be slow by showing traffic on that connection.
+
+The ip command replaces the ifconfig command in Linux. The ip addr add 192.168.50.5/24 dev eth0 will set the IP address of eth0 to 192.168.50.5. Entering the same command without  '/24' will set its subnet mask by default to 255.255.255.0. 
+
+The ip command can be used for troubleshooting as well as for netweork configuration. The first step in troubleshooting network connectivity is to verify all settings are correct. This command enables an administrator to ensure the configuration is accurate. Network interface card eth0 will be set to 192.168.0.105.
+
+The iftop command displays bandwidth usage information tfor the system, helping to identify whether a NIC or protocol is consuming the most bandwidth. The iftop command may not be installed on all Linux distributions. This command can help you identify why a link may be slow by showing the traffic on that connection.
+
+The tracepath command is like traceroute but does not reqiure administrative privilege. It outputs a list of the nodes along a network path, each node's name or IP address, rouund trip time, and (maximum transmission unit) MTU information.
+
+The df ("disk free") command enables you to view the device's free space, file system, total size, space used, percentage value of space used, and mount point. This command is more device-specific rather than directory-specific. The -h option provides a human friendly output like size units such as GB (gigabyte).
+
+The ip command can be used for troubleshooting as well as for network configuration. The first step in troubleshooting network connectivity is to verify all settings are correct. This command enables an administrator to ensure the configuration is accurate. Network interface card eth0 wil lbe set to 192.168.0.105.
+
+The vmstat command displays various statistics about virtual memory, as well as process, CPU, and I/O statistics. Some memory based statistics include: the total virtual memory available, total virtual memory that is free for use, total memory used in buffers and cache, and total memory used in swap space. Some CPU-based statistics include: time spent running in user space, time spent running in kernel space, time spent idle, time spent waiting for I/O.
+
+The mkswap command formats the newly created file with the swap file system. The command can also be used to format an entire partition. A command example would be mkswap /dev/sda1.
+
+The nslookup tool is used for gathering name information and testing name resolution. It is available on most Linux distributions as well as Microsoft Windows. This command has a noninteractive and interactive mode. Entering nslookup google . com will outpuot the ip address of google . com.
+
+The deadline I/O scheduler is ideal for multi-thread workloads because it provides a guaranteed latency for requests. Its operations use three queues: a pending request queue, a read first in first out (FIFO) queue, and a write FIF queue. The latter two h ave an expiration value and, if the oldest requests get close to expigin, will be given priority so the scheduler does not "starve" or keep a request for too long.
+
+Many network devices and server services timeout idle sessions after about 300 seconds. The /etc/ssh/ssh_config file can be edited by adding the line 'ServerAliveInterval 60' to send a null command and keep the session going. This will configure global settings, so the issue won't affect any other administrator using SSH to connect to the server.
+
+The partprobe command is used to update the kernel with changes in the partition table. After creation a partition with fdisk, you cannot add a file system to that partition unless the kernel can read it from the partition table.
+
+The TCP/IP utility called ping will generate a response request from the sending computer and should receive a reply from the destination computer. Using the -c subcommand an administrator can specify the amount of piong replies to receive. By default, Linux wil lsend a continuous ping until interrupted with a Ctrl+C keyboard combination.
+
+The netplan network configuration utility is available in some Linux distributions. It uses YAML description files to configure network interfaces. These files are stored in the /etc/netplan/ directory. You will use a text editor to create or modify interface configuration files. For example, you can enter sudo netplan to have the configuration file checked for syntax errors before attempting to implement it. The sudo netplan apply command makes the configuration change.
+
+The ip command can be used for troubleshooting as well as for network configuration. The first step in troubleshooting network connectivity is to verify all settings are correct. This command enables an administrator to ensure the confdiguration is accurate. Network interface car eth0 will be set to 192.168.0.105.
+
+The du ("disk usage") command displays how a device is used, including the size of directory trees and file swithin it. It also enables you to track space hogs, which are directories and files that consume large amounts of space on the storage drive. This information can be used to better organize your data and/or delete unnecessary files.
+
+The noop I/O scheduler is the simplest scheduler and does not sort I/P requests, but merely merges them. This can be ideal is situations where the device or its storage controller performs its own sorting operations. It can also benefit devices that don't have mechanical components requiring seek time, like SSDs and USB flash drives, because this scheduler doesn't expend much effort in reducing seek time.
+
+The mkswap command formats the newly created file with the swap file system. The command can also be used to format an entire partition. A command example would be mkswap /dev/sda1.
+
+The tracepath command is like traceroute but does not require administrative privilege. It outputs a list of the nodes along the network path, each node's name or IP address, round trip time, and (maximum transmission unit) MTU information.
+
+A server with a running operating system and application services points to an issue arising in the physical network adapter. All network adapters come with LED lights indicating data traffic and a live connection. LED lights on the network port that are off usually indicate a failed network adapter and must be replaced.
+
+The whois command provides information on Internet DNS registrations for organizations. This can be useful for learning or verifying information regarding ownership of a domain name and even contact information for an organization.
+
+The df ("disk free") command enables you to view the device's free space, file system, total size, space used, percentage value of space used, and mount point. This command is more device-specific rather than directory-specific. The -h option provides a human-friendly output like size units such as GB (gigabyte).
+
+The whois command provides information on Internet DNS registrations for organizations. This can be useful for learning or verifying information regarding ownership of a domain name and even contact information for an organization.
+
+Processes go through a lifecycle from creation until eventual termination. There are five different states that a process can be in during this lifecycle. In the Interupptible state, the process relinquishes access to the CPU and waits to be reactivated by the scheduler. A process typically enters this state when it requests currently unavailable resources. The term "Interruptible" implies that the process will wake from its sleep if a scheduler finds a time slot for it.
+
+The time command is used to gather informatino about how long it took to execute a command, as well as some additional statistics about the I/O and memory used in command execution. The syntax is time cp -R /path/source /path/destination.
+
+The ps command invokes the process table, a record that summarizes the current running processes on a system. The u command option will list processes along with the user name and start time.
+
+The nice command enables you to run a command with a different nice value than the default value of 0. Using the -n option with a given integer will increment the nice value by 10. By entering nice {command}, the command will be given a nice value of -10.
+
+The pgrep command displays the PID of processes that match any given pattern, similar to how grep is used to match patterns in a text file. Patterns can include: the name or user PID(UID) of the user who invoked it, the start time, the parent PID, and more.
+
+The renice -n -12 -p 1055 command will change the nice value of PId 1055 to -12, which is in the range of high priority tasks. A nice value ranges from -20 to 19. The highest priorities are a given value in the negative range, -20 being the highest priority. 
+
+Processes go through a lifecycle from creation until eventual termination. There are five different states that a process can be in during this lifecycle. In the Interruptible state, the process relinquishes access to the CPU and waits to be reactivated by the scheduler. A process typically enters this state when it requests current unavailable resources. The term "Interruptible" implies that the process will wak from its sleep if a scheduler finds a time slot for it.
+
+The top command lists all processes running on a Linux system. It acts as a process management tool by enabling you to prioritize, sort, or terminate processes interactively. It displays a dynamic process status, reflecting real-time changes. By entering the r key, you are able to change the nice value of a specified PID. 
+
+In the uninterruptible sleep state, the process will only wake when the resource it's waiting for is made available to it. Otherwise, it will stay in its sleep state. This state is common for processes that perform storage or network I/O (input/output).
+
+Configuring permissions on a file or direcotry ensures that the right people have the right access to the right resources, while ensuring that no one has more access than is necessary.
+
+Applying storage quotas with soft and hard limits will help manage the excessive usage of storage, and keep users informed about their excessive use-of-storage habits. Soft limits can trigger a notification to users to start removing unnecessary files and, if at a certain time the user doesn't comply, he or she will not be able to save more data.
+
+During the Linux startup process, the /etc/fstab file is checked to see what partitions should be automatically mounted. Mistakes in the /etc/fstab file will result in the volumes not being properly mounted or available to the users.
+
+Setting the immutable flag, along with basic permissions on a directory, will prevent it from being modified by errant processes and even by the root user.
+
+TACACS+ (Terminal Access Controller Access-Control System) is used most commonly to verify administrator credentials to access network devices like routers and switches. TACACS+ is more secure and more sacalable than RADIUS.
+
+Before you can use the quota management commands, you must activate user and/or group quotas on the file system. You can do this by editing the fstab file to add the options 'usrquota' and 'grpquota' to the relevant file system.
+
+The immutable flag is an attribute of a file or directory that prevents it from being modified, even by the root user. In other words, no one can delete, rename, or write to an immutable file. To resolve, as root, remove the immutable flag from the directory using the chattr command.
+
+The df -i command is used to verify that the inode pool has not been exhausted. If the inode pool has been exchausted, meaning at close to 100% used, then you will need to investigate the affected file system to see if it contains many unnecessary files, like temporary files, and delete them with the rm command.
+
+If remote access still fails, try signing on with the account locally to see if it's a service issue or some other networking issue. You can also test if it's a local issue by ensuring the account is active and not expired and that the password is still valid. If the account has expired or its password is otherwise invalid, you may need to reset the password using the passwd command.
+
+Fail2ban also prevents brute force attacks, but unlike DenyHosts, it does not focus on any one service. Instead, it can monitor log files that pertain to any system service with an authentication component. Fail2ban supports both IPv4 and IPv6. 
+
+Hashing is a process or function that tranforms plaintext input into an indecipherable fixed-length output and ensures that this process cannot be feasilby reversed. The resulting output of the hashing process is called a hash, hash value, or message deigest. A hash of a file can be used to verify the integrity of that file at any time.
+
+Re-inserting the USB (universal serial bus interface into the port is the first step when troubleshooting physical communication ports. The device must be correctly slotted into the port and ensure the physical cable is not loose or damaged.
+
+Running the mkfs -c /dev/device command syntax will check the storage device for bad blocks before building the file system.
+
+Application-layer firewalls can drop packets whose contents match a specific application-layer protocol such as HTTP (hypertext transfer protocol) that travels through TCP port 80. Although port 80 is allowed, HTTP is not allowed.
+
+Newly added SCSI devices must be rescanned after being added to a system, whether physical or virtual. You must first find the host bus adapter (HBA) number and use the following command: echo "---"> /sys/class/scsi_host/host#/scan.
+
+The fsck command is used to check the integrity of a file system. You must know the path to the partition in order to use this command.
+
+Creating restrictive firewall rules that are granular can be very useful, but it can produce false positives because of complex settings. Configure you ACL (Access Control List) rules as straightforward as possible, support immediate needs first.
+
+Statefull firewalls can identify past traffic that is related to a packet. This means that a stateful firewall can view the entire conversation of a transmission, such as the three-way TCP/IP handshake.
+
+Newly added SCSI devices must be rescanned after being added to a system, whether physical or virtual. You must first find the host bus adapter (HBA) number and use the following command: echo "--->" /sys/class/scsi_host/host#/scan.
+
+The abrt-cli command is used to configure the Automatic Bus Reporting Tool (ABRT) service. ABRT is used to analyze and report on problems detected during system runtime including device problems.
+
+A network printer relies on network connectivity to receive data from the remote user to process the print job. Running a ping command to test network connectivity to the printer fomr the workstation can help determine the next steps in troubleshooting.
+
+Running the mkfs -c /dev/device command syntax will check the storage device for bad blocks before building the file system.
+
+If you are accessing a Linux system remotely, your remote terminal client may have some optoins for addressing keyboard mapping issues. SSH(secure shell) clients like PuTTY enable you to change the effects that certain keystrokes have on the environment. For example, you can configure the backspace character to move on character to the left without deleting the character. This can be helpful in cretain applications that don't handle the default behavior well.
+
+The mdadm command -F will activate monitor mode on the RAID (redundant array of independent disks) volume to identify missing and or failed drives in an array.
+
+The /dev/ directory contains files that represent and support devices attached to the system. Linux uses naming conventions so that storage devices will be easily located by the system when they are attached and when they system boots. An attached SATA (Serial ATA) storage device will be indicated with a /dev/sda1 file.
+
+Running the mkfs -c /dev/device command syntax will check the storage device for bad blocks before building the file system. 
+
+The benefit of SCSI (Small Computer System Interface) and SATA (Serial ATA) is that their different generations of devices are usually backward compatible. You can connect a SATA 3 hard drive into a SATA 2 interface in a workstation.
+
+The abrt-cli command is used to configure the Automatic Bug Reporting Tool (ABRT) service. ABRT is used to analyze and report on problems detected during system runtime including device problems.
+
+The user context defines which users can access the object. SELinux uses distinc SELinux user values wihch include unconfined_u, user_u, sysadmin_u, and root. The user who was trying to access the file is mapped to user_u, which is why the user did not have access to a file whose user context is mapped to sysadmin_u.
+
+Creating restrictive firewall rules that are granular can be very useful, but it can produce false positives because of complex settings. Configure your ACL (Access Control List) rules as straightforward as possible, support imeddiate needs first.
+
+Consider using env if you want to overrid values in child processes or add new ones. The env command is used to run a command with modified environment variables.
+
+The until look is similar to the while loop, except that the code is executed when the control expression is false.
+
+The environment variable LANG={locale} specifies the locale to use for all PC_* variables that aren't explicitly defined.
+
+Globbing is another name for file/path name expansion. This method of shell expansion is used to replace a specific wildcard pattern with values that match the pattern.
+
+The source command is used to execute another command within the current shell process. In this sense, it performs the opposite functionality of the exec command.
+
+you can effectively change a shell variable into an environment variable by using the export command. For example, if you have a shell variable SHL_VAR, you can enter export SHL_VAR to make it an environment variable.
+
+The while loop enables you to repeat a set of instructions while a specific condition is met. The expression is evaluated, and if the expression is true, the actions in the loop are performed.
+
+You can use the exit command in a script to force the shell to terminate with whatever exit code you provide. For example, exit 1 will cause the script to terminate with a failure status.
+
+You must use redirection to actually change a file. It is the process of accepting input data from a source other than the keyboard and sending output data to a destination other than the display device.
+
+You can use the set command without any arugments to print all shell variables, environment variables, and shell functions. This command can also enable the use of options in a shell script to change its behavior.
+
+File globbin, such as defining a list of files as *.sh is a shorthand method of defining a list of files with a common name attribute. 
+
+A conditional statement is a control statement that tells the program it must make a decision based on various factors. If the program evaluates these factors as true, it continues to execute the code in the conditional statement. If false, the program does not execute this code. 
+
+The esac statement ends the case statement.
+
+The ({}) curly brackets will print: The plural of computer is . This is because Bash expects a variable that is exactly name $words even through you just intended to add a letter ot the actual value. you can get around this by enclosing the variable in braces, ${word}s.
+
+The while loop enables you to repeat a set of instructions while a specific condition is met. The expression is evaluated, and if the expression is true, the actions in the loop are performed.
+
+The second step is to create a directory where you project will reside. Change into that directory, and then initialize it with Git to designate it as a Git repository by entering, mkdir /dev-project and git init /dev-project.
+
+When managing branches, the first step in managing is to enter git branch <branch name> to create a new copy of the project files.
+
+Infrastructure automation is the process of accomplishing a configuration task without human intervention. This is different than orchestration. Automation refers to a single task, whereas orchestration manages a larger scale series of tasks.
+
+Build automation specifically emphasizes the initial operating system deployment. One example of build automation is the use of Kickstart files with RHEL distributions. These files can be referenced by the installation procedure and the operating system is then deployed according to the instructions int he Kickstart file.
+
+Automation is the process of accomplishing a configuration task without human intervention. This is different than orchestration. Automation refers to a single task, wheras orchestration manages a larger scale series of tasks.
+
+Ansible is an agentless solution that delivers files over SSH connections. RHEL emphasizes the use of Ansible.
+
+The benefits of configuration management include consistently configured systems and a more efficient build process. Ensuring that all systems meet a given configuration baseline helps to enforce security requirements and service-level agreements and makes change management more efficient.
+
+Infrastructure as code is the name for orchestration tools that manage the entire deployment and configuration process through scripting and code files, rather than through tranditional software tools.
+
+PRACTICE TEST NOTES
+--------------------------
+The deadline scheduler performs sorting of I/O operations using three queues: a standard pending request queue, a read first in first out (FIFO) queue and a write FIFO queue, the latter two of which are sorted by submission time and have expiration values.
+
+Open Virtualization Format (OVF) contains the necessary configuration files, packages, etc., for virtual machines and network devices. These files may be used in the deployment of virtual machines in a virtualized environment.
+
+For an organization that uses multiple operating systems, GRUB 2 (GNU Grand Unified Bootloader) provides a customizable menu during boot that can allow for the user to select an OS (Operating System). Support for non-x86 architecture (also known as x64) will benefit the organizations current platform. 
+
+What command is used to test the maximum throughput an interface will support? The iperf command is used to test the maximum throughput an interface will support. The utility must be installed on both endpoints.
+
+A text editor is an application that enables you to view, create, or modify the contents of text fiels. Text editors were originally created to write programs in source code, but now are used to edit a wide variety of text based files.
+
+What is the Linux kernel framework most firewall services rely on to some degree? Netfilter is a Linux kernel framework that handles packets that traverse a network interface. SOme of the major services it provides are packet filtering, NAT (Network Address Translation), and connection tracking.
+
+There are many different kill signals. Which signal is used to interrupt a process from the terminal, enabling it to end gracefully? The SIGINT signal is used to interrupt a process from the terminal, enabling it to end gracefully. The signal can be caught or ignored.
+
+You deploy a new Linux service used for administration and management tasks. You are tasked to set up the server so that your team's custom scripts with custom global variables will run successfully. What of the  following actions would you take to accomplish this? The /etc/profile.d/ directory serves as a storage location that scripts administrators may use to set additional system wide variables via scripts contained in /etc/profile.d/.
+
+The crontab files that contain scheduled task information about cron jobs can be found in the /etc/cron.d directory. The root user can schedule system-wide tasks by using the /etc/cron.d/ directories. Services may also add the scheduled tasks at this location.
+
+You are unable to load a kernel module using its alternate name. How you configure this module so that its alias can be used to load or run? A {module name}.conf configuration file can be created with a line of code that references the alias name of the specified module.
+
+Which command enables a user to view the current IP (Internet Protocol) addressing information for each NIC (network interface card) recognized by the system? The ifconfig command enables a user to view the current IP adressing information for each NIC recognized by the system.
+
+A user if having difficulty connecting to an access point with a Linux laptop. Which command can ytou use to check the laptop's wireless network adapter configuration? The iwconfig command is used to provide the wireless NIC (Network Interface Card) configuration for a system. This includes settings like the wireless SSID (Service Set Identifier), encryption information, and more.
+
+You are tasked with deploying a firewall solution that examines more than just destination and source IP (Internet Protocol) address to allow or deny traffic. You wish to examine the entire converastion of a transmission. What type of firewall is ideal for your needs? A statefull firewall can identify past traffic that is related to a packet. It can view the entire conversation of a transmission, such as a three-way TCP/IP handshake. Stateful firewalls can therefore make more informed decisions about what traffic to deny and what to allow.
+
+You are tasked to deploy multiple Linux file servers across multiple remote branch offices in a virtualized environment. The servers must share the same baseline settings upon deployment. How would you prepare the server baselines for deployment with the least amount of resources used? The OVA(Open Virtualization Appliance) template refers specifically to a single package representing the network appliance, usually stored in a different format, such as a .tar file. Transferring a single file template is much easier than a template format with multiple files such as an OVF template.
+
+Which of the following desktop environments was developed to maintain and extend the functionality of GNOME 2 (GNU Network Object Model Environment 2)? MATE is another form of GNOME (GNU Network Object Model Environment) that was created in response to the changes in GNOME 3. It was developed to maintain and extend the functionality of GNOME 2. It does not currently support Wayland Linux distros (distributions).
+
+You are connected to a remote server using SSH (secure shell) and you need to locate a file in a large share directory using the command-line interface. You want to search all the files in a directory but only want to return files starting with 'ant.' How can you combine the two commands together? The '|' is a pipe. Piping is the process of combining the standard I/O streams of commands. It uses the standard output of one command as the standard input for another command. The output format of the first command should be compatible with the format that the second command works with.
+
+A change is security policy has be implemented due to a breach in security. Users are ont required to change their password every 90 days or else it becomes invalid. How you would you implement this new policy. The chage or "change age" command is used to control password expiration, expiration warnings, inactive days, etc. The chage -M 90 user1 command sets the maximum of 90 days for the password the be valid.
+
+You are given a YAML (YAML Ain't Markup Language) template to be used to create a virtual machine (VM) for a new Linux server. Special configurations are included inthe template. What tool can you use to create specific user accounts during the VM's first boot? The cloud-init command is a cloud-based Linux mechanism to customize a virtual machine during its first bootup. This customization might include security settings, software package installatoins, user and group creation, etc. The cloud-init command references YAML files to find the necessary settings.
+
+What boot option is part of the Unified Extensible Firmware Interface (UEFI) standard that enables a client to retrieve the necessary boot loader and system files from a server over the network? Preboot Execution Environment (PXE) is a part of the UEFI standard that enables a client to retrieve the necessary boot loader and system files from a server over the network.
+
+You wish to configure SSH (secure shell) to disable root login. What is the first thing to do on the destination server? Assuming superuser privileges is the first step of updating SSH security settings. Editing the configuration file requires elevated privileges.
+
+Between GNOME (GNU Network Object Model Environment), a type of desktop environment, and KDE (K Desktop Environment) Plasma which is the most popular and why? GNOME(GNU Network Object Model Environment) follows design principles called human interface guidelines (HIG) that emphasize clarity of focus, simplicity, limiting the amount of work the user has to perform and much more. GNOME also offers a great deal of support for people with disabilities. Starting with version 3, GNOME changed from using a typical desktop metaphor to a more abstract metaphor in which users can switch between virtual desktops and tasks from an overview screen.
+
+You wish to send a message to another user, but want to be sure the contents of the message have not been altered in transit. What must you add to the message? You must add a digital signature to the message so that the receiver can verify that the message has not been altered during transit. It also verifies to the receiver that you, the sender, is who you say you are. To create a digital signature, the sender creates a hash of the message text and encrypts the hash with the sender's private key. The encrypted has is attached to the message as the digital signature.
+
+You are modifying user accounts on a Linux system. You decide to use the useradd command to modify accounts to include a user's full name. Which option do you use with the useradd command? The useradd command is used to create user accounts and configure basic settings. Using the -c option sets the comment field, which is often used as the field for the user's full name. The syntax is useradd -c "User's Full Name" user1.
+
+You would like to re-read a SysVinit service's configuration file while the service is running. Which subcommand do you issue? The service command is a way to control SysVinit services through SysVinit scripts. A variety of subcommands are supported. The reload command has the ability to re-read a service's configuration files while the service continues to run. The syntax is {service} reload.
+
+The df command gives users the chance to see specific information about the disk space on a specified partition. The added -h command puts results into an easy-to-read list for humands. The df command returns the storage device, total disk space, and the amount used.
+
+The scheduler file is located in the /sys/block/<computer name>/queue/scheduler folder.
+
+The deadline scheduler uses first-in-first-out sorted approach and is ideal for multi-threaded large workloads since it uses two queues, one for read and one for write.
+
+The noop scheduler would be the best scheduler to use if the device does not have a moving read/write head since it does not reduce seek time. The noop scheduler would also be better for smaller workloads.
+
+A "bare metal" hypervisor is a type 1 hypervisor. Which of the following hypervisors are NOT type 1? Oracle VM is a virtualization hypervisor by Oracle Corporation. It incorporates the free and open-source Xen hypervisor technology. As a type 2 hypervisor, Oracle VM requires a host operating system to be present, whereas a type 1 hypervisor can be installed directly on hardware.
+
+Which of the following process states is common for processes that perform storage or network I/O? A process state is a moment in a process lifecycle. In the uninterruptible sleep state, the process will only wake when the resource it's waiting for is made available to it. This state is common for processes that perform storage or network I/O.
+
+A process is causing problems with a Linux system. What command can you use to retrieve a list of processes based on a user ID (UID)? The pgrep command is similar to the grep command as it can search based on a pattern by providing a user ID (UID) for pattern matching.
+
+You are troubleshooting some system issues on your Red Hat Enterprise Linux (RHEL) 7 web server that is managing services on a systemd environment. As part of the troubleshooting process, you want to prevent Apache from running after the system is rebooted. You would like to keep it disabled until the system is ready. How can you accomplish this? The systemctl command enables you to control the systemd init daemon. You can view running services, manage (enable/disable) services to run at boot or in the current session, determine the status of these services, and manage the system target. The systemctl disable httpd.service command will prevent a service from starting on boot.
+
+Which popular tool uses manifest files that are written in Ruby to define infrastructure as code for application, cloud, and infrastructure orchestration? Puppet uses manufest files (written in Ruby) to define infrastructure as code for application, cloud, and infrastructure orchestration. To accomplish this, Puppet uses an agent on target nodes (systems).
+
+You are creating a script to handle a few tasks on a Linux system. You would like to declare a shell vairable. Which of the following is the proper syntax to use? An environment variable consists of a name, usually written in uppercase letters, and a value, such as a path name. An environment vairable is declared as a key value pair in the format KEY=value, such as MYVAR=123.
+
+You decide to implement storage quotas on a Linux system. To activate any quotas that you have defined on a file system, what must be done? The fstab is a configuration file that stores information about storage devices. To activate quotas on a system the fstab file can be edited to add the options usrquota and grpquota to the relevant file system on the storage device.
+
+The apt update command will update the APT database of available packages.
+
+The apt-cache stats  command will display some statistics about the cache.
+
+The apt show command will report information about a package.
+
+The apt upgrade command will upgrade the package, or all packages if none specified.
+
+The apt purge command will uninstall the package and remove its configuration files.
+
+The apt install command will install the package.
+
+The apt-cache showpkg {package name} command will show information about a package.
+
+The apt-get check command updates the package cache and checks for broken dependencies.
+
