@@ -1,0 +1,1845 @@
+A+ Certmaster Practice Questions
+
+
+1.1 – Given a scenario, install and configure laptop hardware and components.
+Hardware/device replacement
+Keyboard – Hard drive
+SSD vs. hybrid vs. magnetic disk
+1.8in vs. 2.5in – Memory
+Smart card reader – Optical drive
+Wireless card/Bluetooth module
+Cellular card
+Video card
+Mini PCIe
+Screen
+DC jack
+Battery
+Touchpad
+Plastics/frames – Speaker
+System board
+CPU
+
+Questions to review:
+
+CPUs that use Ball Grid Array(BGA) sockets are soldered to the motherboard and therefore are not upgradeable. They still require you to detach the stand-offs, update the chipset driver, and allow Windows Plug-and-Play.
+
+Users can maximize battery life in their phones by turning off Bluetooth and cellular service when Wi-Fi is available to save power.
+
+
+When replacing plastics and aluminum laptop frames you should send it to the manufacturer if it still under warranty.
+
+1.8" for factor hard drives often require the use of the uSATA, also known as Micro SATA connector. These are typically found inside portable devices such as laptops.
+
+SODIMM DDR4 RAM is more expensive but will give you the best performance in a laptop. It has 260 pins and is installed into slots on the motherboard that pop-up at a 45 degree angle.
+
+You can obtain a wireless mini PCIe or M.2 adapter for laptops that will provide WiFi functionality. Note that you may need to install a new antenna kit.
+
+If the battery will not hold a charge, it could be at the end of its useful life and will need to be replaced with a new manufacturer-recommended one.
+
+Optical drives are of decreasing relevance to mobile computing. It is more cost-effective to use an external hard drive as a replacement.
+
+An AC adapter is easily replaceable in a laptop. The AC connector connects to the DC Jack. The DC Jack is what is soldered to the motherboard, not the AC connector from the power supply.
+
+The DC jack can become loose or the jack itself can become separated from the motherboard. To replace it you have to de-solder and remove the old jack, then solder the new jack into place.
+
+When you upgrade the keyboard in a laptop, you will need to make sure to configure the settings properly and install the new driver associated with the new upgraded keyboard.
+
+Many laptops are built using proprietary components. When replacing plastics and a aluminum frames, you should send it to the manufacturer if it still under warranty.
+
+Optical drives are of decreasing relevance to mobile computing. It is more cost-effective to use an external drive as a replacement.
+
+-----------------------------------------
+
+1.2 – Given a scenario, install components within the display of a laptop.
+Types
+LCD
+OLED
+WiFi antenna connector/placement
+Webcam
+Microphone
+Inverter
+Digitizer/touchscreen
+
+LCD (TFT) backlight is a fluorescent bulb that illuminates the image, making it bright and clear. An inverter supplies the correct AC voltage to the blacklight from the laptop's DC power circuits. 
+
+The laptop display screen holds the antenna wires for the Wi-Fi adapter. These are connected to the adapter via internal wiring. The antenna wires are usually routed around the screen in the laptop's lid.
+
+Removing a faulty digitizer from an existing display can be tricky. It might be cheaper to replace the whole unit, depending on the cost of parts.
+
+-----------------------------------------
+
+1.3 – Given a scenario, use appropriate laptop features.
+Special function keys
+Dual displays
+Wireless (on/off)
+Cellular (on/off)
+Volume settings
+Screen brightness
+Bluetooth (on/off)
+Keyboard backlight – Touchpad (on/off)
+Screen orientation
+Media options (fast forward/rewind)
+GPS (on/off)
+Airplane mode
+Docking station
+Port replicator
+Physical laptop lock and cable lock
+Rotating/removable screens
+
+You can toggle the radio for Wi-Fi, Bluetooth, cellular data, and/or Global Positioning System (GPS) on and off with the radio function.
+
+Most port replicators use proprietary connectors. There are USB versions, but their performance can be a bit erratic.
+
+The touchpad can interfere with typing, causing the cursor to jump around. A touchpad toggle Function (Fn)  key allows you to disable it.
+
+A laptop is limited in the number of peripherals that can connect to it. When docked, a portal computer can function like a desktop, expanding the amount of ports and adding a full size expansion card.
+
+You can toggle the radio for Wi-Fi, Bluetooth, cellular data, and/or Global Positioning System (GPS) on and off with the radio function key.
+
+Toggling on airplane mode will completely disable all wireless functions, including Wi-Fi, Bluetooth, cellular data, and/or Global Positioning System (GPS).
+
+Most port replicators use proprietary connectors. There are USB versions, but their performance can be a bit erratic.
+
+
+-----------------------------------------
+
+1.4 – Compare and contrast characteristics of various types of other mobile devices.
+Tablets
+Smartphones
+Wearable technology devices
+Smart watches
+Fitness monitors
+VR/AR headsets
+E-readers
+GPS
+
+
+Tablets can come with built-in GPS technology. However, tablets tend to be sized at around either 10" or 7" screens, which would NOT be practical for a cyclist.
+
+The Atom CPU designates chips designed for low-power portable devices (smartphones and tablets).
+
+E-readers use Electronic Paper Display technology. Tablets use fast multi core CPUs anywhere between two and six GB system memory and 16 GB+ flash memory storage.
+
+-----------------------------------------
+
+1.5 – Given a scenario, connect and configure accessories and ports of other mobile devices.
+Connection Types
+Wired
+Micro-USB / Mini-USB / USB-C
+Lightning
+Tethering
+Proprietary vendor-specific ports (communication/power)
+Wireless
+NFC
+Bluetooth
+IR
+Hotspot
+Accessories
+Headsets
+Speakers
+Gamepads
+Extra battery packs/battery chargers
+Protective covers/waterproofing
+Credit card readers
+Memory/MicroSD
+
+Mobile device unlock methods are almost always single factor. Multi factor authentication is much better as authentication methods are stronger when they are combined.
+
+When a Bluetooth device won't pair after multiple attempts, you should move devices closer together or change their orientations to each other for better connectivity.
+
+-----------------------------------------
+
+1.6 – Given a scenario, configure basic mobile device network connectivity and application support.
+Wireless/cellular data network (enable/disable)
+Hotspot
+Tethering
+Airplane Mode
+Bluetooth
+Enable Bluetooth
+Enable pairing
+Find a device for pairing
+Enter the appropriate PIN code
+Test connectivity
+Corporate and ISP email configuration
+POP3
+IMAP
+Port and SSL settings
+S/MIME
+Integrated commercial provider email configuration
+iCloud
+Google/Inbox
+Exchange Online
+Yahoo
+PRI updates / PRL updates / baseband updates
+Radio firmware
+IMEI vs. IMSI
+VPN
+
+Autodiscover means that the mail service has published special Domain Name System (DNS) records that identify how the account for a particular domain should be configured.
+
+It is imperative that a device be protected by a screen lock to help prevent an attacker gaining access to it. Access control can be implemented by configuring a password or PIN and screen lock in the device's settings.
+
+If you notice unintentional behavior however, such as connecting to a Wi-Fi network without prompting or the Wi-Fi radio turning itself on, suspect that a malicious rogue app has been installed.
+
+To test the connection, you should first simply try to use the device. Check that music plays through Bluetooth headphones.
+
+Exchange is usually an integrated provider option and clients can autodiscover the correct settings. When manually configuring an Exchange ActiveSync account there is often a field for a domain but this is usually left blank.
+
+A handset that has been jailbroken or rooted might be able to be configured to prevent baseband updates or apply a particular version manually.
+
+Most airlines prevent flyers from using radio-based devices while onboard a plane, and some carriers insist that devices must be switched off completely at times such as take-off and landing.
+
+Tethering uses a mobile device's 4G plan to get internet access on a device. Connect the smartphone to the PC via USB then configure tethering settings.
+
+You should first attempt to log into the user's email using a webmail browser or other email client. This helps determine if the issue is with the email client or on the web server's side.
+
+Usually PRI and PRL updates are pushed as an over the air update. To update you dial a special code (unique to each provider).
+
+It is imperative that a device be protected by a screen lock to help prevent an attacker gaining access to it. Access control can be implemented by configuring a password or PIN and screen lock in the device's settings.
+
+
+
+
+-----------------------------------------
+
+1.7 – Given a scenario, use methods to perform mobile device synchronization.
+Synchronization methods
+Synchronize to the cloud
+Synchronize to the desktop
+Synchronize to the automobile
+Types of data to synchronize
+Contacts
+Applications
+Email
+Pictures
+Music
+Videos
+Calendar
+Bookmarks
+Documents
+Location data
+Social media data
+E-books
+Passwords
+Mutual authentication for multiple services (SSO)
+Software requirements to install the application on the PC
+Connection types to enable synchronization
+
+What does "Mutual authentication for multiple services SSO [Single Sign On] mean?
+In the CompTIA syllabus, "mutual authentication for multiple services (SSO [Single Sign On]) is more usually described as federated identity management.
+
+Where can you see a record of a website you visited? A bookmark is a record of a website or web page that you visited. Browsers keep an automatic history of bookmarks and you can create a shortcut (or favorite) manually.
+
+What is the main sync issue with files? The main sync issue with media files tends to  be the amount of space they take up. There might not be enough space on one device to sync all the files the user has stored.
+
+What do you need if you want to control your in-vehicle navigation system from your smartphone? If supported, a smartphone can be used to "drive" the head unit so the navigation features from your smartphone will appear on the display (simplified for safe use while driving).
+
+
+Domain 2.0 – Networking
+
+-----------------------------------------
+
+2.1 – Compare and contrast TCP and UDP ports, protocols, and their purposes.
+Ports and Protocols
+21 – FTP
+22 – SSH
+23 – Telnet
+25 – SMTP
+53 – DNS
+80 – HTTP
+110 – POP3
+143 – IMAP
+443 – HTTPS
+3389 – RDP
+137-139 – NetBIOS/NetBT
+445 – SMB/CIFS
+427 – SLP
+548 – AFP
+67/68 – DHCP
+389 – LDAP
+161/162 – SNMP
+TCP vs. UDP
+
+The main directory standard for interoperability of network resources directories is X.500. What protocol what standardized by Internet Engineering Task Force (IETF) to query and update an X.500 directory over which default protocols and ports?  Lightweight Directory Access Protocol(LDAP) is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed X.500 directories over an Internet Protocol (IP) network using either TCP or UDP for its transport on port 389.
+
+Transport Control Protocol (TCP) and User Datagram Protocol (UDP) are the most widely used protocols that are built on the top of the Internet Protocol (IP). Both protocols are used to send bits of data over the Internet, which is also known as 'packets'. How is UDP different from TCP? UDP is a connectionless, simple protocol that sends messages as packets. It is faster than TCP and is a lightweight transport layer. UDP does not ensure packets are received if missing packets are just lost.
+
+What protocol and ports perform a file sharing function on Apple networks running macOS? Apple Filing Protocol (AFP), being phased out for Server Message Block 2(SMB2), is used for file sharing functions over an Apple network running macOS. It uses two ports: UDP or TCP port 427 and TCP port 548.
+
+
+What is the critical service on most networks that uses Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) for its transport on port 53? DNC uses either TCP or UDP on port 53. It is the most critical service on most networks allowing users to access resources using host names by resolving those names to IP addresses.
+
+Which protocol is used to automatically provide IP addresses to network computers? Dynamic Host Configuration Protocol (DHCP) allocates IP addresses to new devices joining the network. Windows client default to using Automatic Private IP Addressing(APIPA) addreses if the DHCP Server fails to allocate an IP address. This results in the IP address being in the range 169.254.x.y.
+
+If the goal is to use Secure Sockets Layer (SSL) for incoming emails, which Post Office Protocol (POP3) incoming mail server port is used to configure the email client settings. The default port number using SSL/TLS security to protect POP3 email communications between the client and server is 995 (POP3S).
+
+In the network, what does HyperText Transfer Protocol(HTTP) use to submit a request for a resource? Resources on the Internet are accessed using an addressing scheme known as a URL. A URL contains all the information necessary to identify and access a resource requested.
+
+What mail server uses Transmission Control Protocol (TCP) port 25 by default? SMTP is an outgoing mail server which sends email messages between servers using TCP port 25 by default. The delivery o the message usually requires several "hops" which are recorded in the message header.
+
+What is the critical service on most networks that uses Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) for its transport on port 53? DNS uses either TCP or UDP port 53. It is the most critical service on most networks allowing users to access resources using host names by resolving those names to IP addresses.
+
+What makes up the Simple Networks Management Protocol (SNMP) used for collecting information from, and configuring, network devices, such as servers, printers, hubs, switches, and routers on an Internet Protocol (IP) networks? SNMP consists of a management system to provide a location for network activity and agents. The agents maintain a database of network device activity and can initiate traps identify notable network events.
+
+Which protocol is used to automatically provide Internet Protocol (IP) addresses to network computers? Dynamic Host Configuration Protocol (DHCP) allocates IP addresses to new devices joining the network. Windows clients default to using Automatic Private IP Addressing (APIPA) addresses if the DHCP Server fails to allocate an IP address. This results in the IP address being in the range 169.254.x.y.
+
+If the goal is to use Secure Sockets Layer (SSL) for incoming emails, which Post Office Protocol (POP3) incoming mail server port is used to configure the email client settings? The default port number using SSL/TLS security to protect POP3 email communications between  the client and server is 995 (POP3S).
+
+What mail server uses Transmission Control Protocol (TCP)port 25  by default? SMTP is an outgoing mail server which sends email messages between servers using TCP port 25 by default. The delivery of the message usually requires several "hops" which are recorded in the message header.
+
+What makes up the Simple Network Management Protocol (SNMP) used for collecting information from, and configuring, network devices, such as servers, printers, hubs, switches, and routers on an Internet Protocol (IP) network? SNMP consists of a management system to provide a location for network activity and agents. The agents maintain a database of network device activity and can initiate traps identifying notable network events.
+
+What mail server uses Transmission Control Protocol (TCP) port 25 by default? SMTP is an outgoing mail server which sends email messages between servers using TCP port 25 by default. The delivery of the message usually requires several "hops" which are recorded in the message header.
+
+Which of these refers to a wireless connection to connect devices with a few meters? A personal area network (PAN) is a computer network that enables communication between computer devices near a person. PANs can be wired, such as USB or FireWire, or they can be wireless, such as infrared, ZigBee, Bluetooth and ultrawideband (UWB).
+
+What is the fully digital telephone service, providing data, voice and video channels over existing phone lines which requires that a phone number be dialed to access the internet? ISDN (Integrated Services Digital Network) is a telecommunications technology that enables the delivery of a digital data over standard phone lines. It is a dial-up service that is faster than 56K modem but slower than Digital Subscriber Line (DSL).
+
+What is a network that refers to the interconnection of many nodes that can establish links to connect to others enabling the content to hop between them until it reaches a destination? In a wireless mesh network (WMN), the network connection is spread out among dozens or even hundred of wireless mesh nodes that "talk" to each other to share the network connection across a large area. 
+
+The Finance department in your company has its administrative staff on the second floor connected to a new switch and its progressional staff on the third floor connected to a different new switch. These two groups need to work as a team on the same logical and physical network on the server/router side. What would be the best solution? Add Virtual Local Area Networks (VLANs) to each of these switches. Virtual Local Area Networks (VLANs) will allow you to create different logical physical networks; whereas IP address subnetting will simple allow you to create logical networks through the same physical network.
+
+
+A type o
+
+-----------------------------------------
+
+
+2.2 – Compare and contrast common networking hardware devices.
+Routers
+Switches
+Managed
+Unmanaged
+Access points
+Cloud-based network controller
+Firewall
+Network Interface Card
+Repeater
+Hub
+Cable/DSL modem
+Bridge
+Patch panel
+Power over Ethernet (PoE)
+Injectors
+Switch
+Ethernet over Power
+
+-----------------------------------------
+
+
+2.3 – Given a scenario, install and configure a basic wired/wireless SOHO network.
+Router/switch functionality
+Access point settings
+IP addressing
+NIC configuration
+Wired
+Wireless
+End-user device configuration
+IoT device configuration
+Thermostat
+Light switches
+Security cameras
+Door locks
+Voice-enabled, smart speaker/digital assistant
+Cable/DSL modem configuration
+Firewall settings
+DMZ
+Port forwarding
+NAT
+UPnP
+Whitelist/blacklist
+MAC filtering
+QoS
+Wireless settings
+Encryption
+Channels
+QoS
+
+A bridge divides a local network into two or more segments. Where collisions occur in these segments, the bridge can separate those collision domains. How does the bridge perform this function? The bridge keeps track of the MAC addresses attaches to each segment. It only passes signals from one segment to another if there is a match to the destination MAC address, reducing traffic loads in any one segment.
+
+SOHO (Small Office Home Office) networks, often built around a single connectivity appliance, face the challenge of joining up devices where the network equipment and Internet access line are located. What would be an alternative solution if network installation is needed quickly and interference may be an issue? Ethernet over Power utilizes Powerline products that can make use of building power circuits. A network connections is established via a Powerline adapter plugged directly into an electrical outlet.
+
+What type of device is designed to filter and transfer data packets between dissimilar types of computer networks? Routers are devices designed to filter and transfer data packets between dissimilar types of computer networks by assigning a local IP address to each of the devices.
+
+A bridge divides a local network into two or more segments. Where collisions occur in these segments, the bridge can separate those collision domains. How does the bridge perform this function? The bridge keeps track of the MAC addresses attached to each segment. It only passes signals from one segment to another if there is a match to the destination MAC address, reducing traffic loads in any one segment.
+
+
+Power over Ethernet (PoE) is a means of supplying electrical power from a switch port over data cabling, category 5 (Cat 5) or better, to a connected powered device. What is a Power over Ethernet (PoE) power injector used for? Upgrading each network connection to Power over Ethernet (PoE) is as simple as patching it through the power injector, and as with PoE switches, power injection is controlled and automatic.
+
+The use of patch cords, permanent links, and what other devices is referred to as a structured cabling system? The use of patch cords, permanent links, and patch panels is referred to as a structured cabling system. It is important to label the ports and cables when installing patch panels.
+
+If you had both wired and wireless user devices on a SOHO (Small Office/Home Office) network and you needed to connect these devices, what networking device would you need? Access points are wireless network devices that act as portals for devices to connect to a local area network extending the wireless coverage and increasing the number of connected users. An access point can take the place of a switch or a range extender, or can connect to a wired router, switch, or hub, to create a wireless local area network (WLAN).
+
+What would be a disadvantage, which has a negative impact on performance, of using a hub on a network? In a hub-based network, contention arises because all communications are received by all computer connected on a hub. A lot of the communications are unnecessary and a lot of them "collide". When there is a collision, all the nodes must stop and resend frames, slowing the network down.
+
+In setting up a new Small Office Home Office (SOHO) network for a small business, you want to ensure that more bandwidth is allocated to business apps and discourage game-playing during work hours. What would you need to configure on the wireless router?  Quality of Service (QoS) allows for prioritization of network traffic. For example more bandwidth can be allocated to business apps while less bandwidth can be allocated to games.
+
+In terms of network access, what is the purpose of a blacklist? A blacklist is a list of items, such as usernames or IP addresses that are denied across a certain system or protocol. When a blacklist is used for access control, all entities are allowed access, except those listed on the blacklist.
+
+In what way does Dynamic Network Address Translation (DNAT) differ from static NAT? In Dynamic Network Address Translation (DNAT), there is not a one-to-one ration of internal to external addresses. This basically means that any number of internal addresses can share a pool of external addresses. Static NAT maps an internal IP address to a static port or a specific IP address.
+
+What feature is a requirement for port forwarding to work? For port forwarding to function, Network Address Translation (NAT) must be enabled on the router. NAT is used to conceal internal private IP addresses from external networks. A router is configured with a single public IP address on its external interface and a private address on its internal interface.
+
+A technician is configuring wireless for a home office. The customer wants to prevent others from accessing the wireless network. The customer has a small number of devices on the network and does not want to have to remember a complicated password. Which of the following should the technician recommend? MAC filtering can be enabled on a wireless router by using only the MAC addresses of authorized devices. The router will block access to the network to all systems except for ones with specifically allowed MAC addresses.
+
+You are building a Small Office Home Office (SOHO) network for a new upstart gaming business. You are placing the gaming server in the Demilitarized Zone (DMZ). Why? The demilitarized zone (DMZ) provides a layer of protection for the internal network and the gaming server that can be accessed from the Internet. So, the business' customers can access the server without threatening its internal network.
+
+Which router feature would allow you to specify which wireless clients may join your network? Media Access Control (MAC) filtering refers to a security access control method whereby the 48-bit address assigned to each network car is used to determine access to the network. This can be enabled for both wired and wireless clients. This will also require that the network admin configure blacklists or whitelists to manage authorized devices. 
+
+You have an older desktop PC that you connect to the network using Ethernet, but you would like to add WiFi to it for those occasions when you might need it. You do not want to have to replace the existing motherboard and want the best throughput. What's the best way to do this? Older model PCs do not usually come with built-in WiFi. A WiFi adapter can be installed as a PCIe expansion card if the function is not available on the motherboard.
+
+IoT door locks can offer a good deal of convenience when leaving and entering your home. However, there are several things you should consider before installing an IoT door lock. Which of these is NOT a consideration? If you want to keep your existing deadbolt, you can buy a smart lock "conversion kit" that essentially turns your traditional deadbolt into a smart lock.
+
+What are the only three channels in the 2.4 GHz WiFi spectrum that do not overlap with each other? The only three channels in the 2.4 gigahertz (GHz) WiFi spectrum that have no overlap with each other are 1, 6, and 11. Channels 1, 6, and 11 may be the busiest channels because of their popularity.
+
+In an enterprise network, a Demilitarized Zone (DMZ) is a means of establishing a more secure configuration. How do many SOHOs (Small Office Home Offices) use the term DMZ? Demilitarized Zone (DMZ) refers to a computer on the Local Area Network (LAN) that is configured to receive communications for any ports that have not been forwarded to other hosts.
+
+In terms of network access, what is the purpose of a blacklist? A blacklist is a list of items, such as usernames or IP addresses, that are denied access to a certain system or protocol. When a blacklist is used for access control, all entities are allowed access, except those listed in the blacklist.
+
+
+
+-----------------------------------------
+
+
+2.4 – Compare and contrast wireless networking protocols.
+802.11a
+802.11b
+802.11g
+802.11n
+802.11ac
+Frequencies
+2.4 GHz
+5 GHz
+Channels
+1-11
+Bluetooth
+NFC
+RFID
+Zigbee
+Z-Wave
+3G
+4G
+5G
+LTE
+
+Which of the following wireless communications standards is a mesh network with a limit of four "hops" between the controller device and endpoint? Z-Wave is run by Silicon Labs, which has stricter controls to make sure every Z-Wave device works with every Z-Wave controller. It is a mesh network where signals can hop from controlling device to endpoint a maximum of four times.
+
+Which of the following wireless communication standards requires line of sight to operate? Infrared (IR), sometimes called infrared light, is a wireless technology that requires a clear path between communication devices. A good example of this is a TV remote.
+
+You need to configure a wireless SOHO (Small Office Home Office) network that can operate at two different channel widths on the same spectrum simultaneously. It needs to ensure that a mixture of old and new company smartphones, tablets, laptops, and desktops can access the WiFi. What network standard will your network setup need to support? 802.11n products can use channels in the 2.4 GHz band of the 5 GHz band. For example, a dual band access point can support both 2.4 GHz and 5 GHz bands simultaneously. This allows legacy clients to access the network on the 2.4 GHz band.
+
+If you wanted to install a wireless mesh network to monitor and remotely control your home using the 2.4 GHz band, what wireless networking protocol would you use? Zigbee, which uses the widely populated 2.4GHz Industrial, Scientific and Medical Radio (ISM) band, can be used to remotely monitor and control your home. It is like Z-Wave but provides an open source solution that supports more overall devices.
+
+ What does 5G add to the cellular communications networks that 3G or 4G did not? 5G is the fifth generation of wireless technology providing 3 new features to the cellular networks: up to 20 Gbps with standard rates of 1 Gbps, a lower latency at only 1 ms, and the ability to connect more devices.
+
+Which standard supports speeds as high as 11 megabits per second (Mbps) and uses the Direct Sequence Spread Spectrum (DSSS) transmission method in the 2.4 gigahertz (GHz) band for up to 30 meters indoors? The 802.11b standard supports speeds as high as 11 Megabits per second (Mbps). However, 5.5 Mbps is another support data rate. It uses 2.4 gigahertz (GHz) band and the Direct Sequence Spread Spectrum (DSSS) transmission method. It has a maximum distance of 32 meters indoors and 140 meters outdoors.
+
+If you wanted to install a wireless mesh network to monitor and remotely control your home using the 2.4 GHz band, what wireless networking protocol would you use? ZigBee, which uses the widely populated 2.4-GHz Industrial, Scientific and Medical Radio (ISM) band, can be used to remotely monitor and control your home. It is like Z-Wave but provides an open source solution that supports more overall devices.
+
+
+
+Which of these are the maximum transfer rate, band and range of the 801.11ac WLAN, also called WiFi standard? The 802.11ac standard supports speeds as high as 1.7 Gbps. It works only in the 5 GHz band for up to 100 feet. 802.11ac continues the development of 802.11n technologies and its aim it to get throughput like that of Gigabit Ethernet or better.
+
+The 2.4 GHz band is subdivided into up to 14 channels with only 3 that are non-overlapping. These are 23-non-overlapping channels in the 5 GHz band. Which of these channels are permitted for use in the Americas? Wireless networks operate in either 2.4 GHz or 5 GHz frequency band which are divided up into a number of smaller bands, called channels. In the United States, regulations permit the use of channels 1-11 only. Channel 1 uses the lowest frequency band and each subsequent channel uses a a slightly higher frequency.
+
+Which standard supports speeds as high as 11 Megabits per second (Mbps) and uses the Direct Sequence Spread Spectrum (DSSS) transmission method in the 2.4 gigahertz (GHz) band for up to 30 meters indoors? 802.11b.
+
+Which of the following wireless communication standards is a mesh network with a limit of four "hops" between the controller device and endpoint? Z-Wave is run by Silicon Labs, which has stricter controls to make sure every Z-Wave device works with every Z-Wave controller. It is a mesh network where signals can hop from controlling device to endpoint a maximum of four times.
+
+
+The 2.4 GHz band is subdivided into up to 14 channels with only 3 that are non-overlapping. There are 23 non-overlapping channels in the 5 Ghz band. Which of these channels are permitted for use in the Americas? Wireless networks operate in either 2.4 GHz or 5 GHz frequency band which are divided up into a number of smaller bands, called channels. In the United States, regulations permit the use of channels 1-11 only. Channel 1 uses the lowest frequency band and each subsequent channel uses a slightly higher frequency. 
+
+What is the distance, speed, and frequency of wireless standard 802.11a? The 802.11a's use is limited to old equip,ent. In the 5 GHz frequency it has a maximum range up to 45 meters and maximum speeds of up to 54 Mbps.
+
+Which standard supports speeds as high as 11 Mbps and uses the Direct Sequence Spread Spectrum (DSSS) transmission method in the 2.4 GHz band for up to 30 meters indoors? The 802.11b standard supports speeds as high as 11 Mbps. However 5.5 Mbps is another supported data rate. It uses the 2.4 GHz band and the Direct Sequence Spread Spectrum (DSSS) transmission method. It has a maximum distance of 32 meters indoors and 140 meters outdoors.
+
+If you wanted to install a wireless mesh network to monitor and remotely control your home using the 2.4 GHz band, what wireless networking protocol would you use? ZigBee, which uses the widely populated 2.4 GHz Industrial, Scientific and Medical Radio (ISM) band, can be used to remotely monitor and control your home. It is like Z-Wave but provides an open source solution that supports more overall devices.
+
+Which standard supports speeds as high as 11 Megabits per second (Mbps) and uses the Direct Sequence Spread Spectrum (DSSS) transmission method in the 2.4 GHz band for up to 30 meters indoors? The 802.11b standard supports speeds as high as 11 Mbps. However, 5.5 Mbps is another supported data rate. It uses the 2.4 GHz band and the Direct Sequence Spread Spectrum (DSSS) transmission method. It has a maximum distance of 32 meters indoors and 140 meters outdoors.
+
+
+-----------------------------------------
+
+2.5 – Summarize the properties and purposes of services provided by networked hosts.
+Server roles
+Web server
+File server
+Print server
+DHCP server
+DNS server
+Proxy server
+Mail server
+Authentication server
+syslog
+Internet appliance
+UTM
+IDS
+IPS
+End-point management server
+Legacy/embedded systems
+
+Which of the following server logs event messages sent from networked devices? Syslog is a way for network devices to send event messages to a logging server, usually known as a Syslog server. The Syslog protocol is supported by a wide range of devices and can be used to log different types of events.
+
+Which of the following is an Internet appliance that discovers, manages and controls devices that request access to the corporate network? When a device attempts to log onto the network, the endpoint management server program validates user credentials and scans the device to make sure that it complies with defined corporate security policies before allowing access to the network.
+
+Which of the following is an Internet appliance that discovers, manages, and controls devices that request access to the corporate network? When a device attempts to log onto the network, the endpoint management server program validates user credentials and scans the device to make sure that it complies with defined corporate security policies before allowing access to the network.
+
+-----------------------------------------
+
+
+2.6 – Explain common network configuration concepts.
+IP addressing
+Static
+Dynamic
+APIPA
+Link local
+DNS
+DHCP
+Reservations
+IPv4 vs. IPv6
+Subnet mask
+Gateway
+VPN
+VLAN
+NAT
+
+The IP (Internet Protocol) provides packet addressing and routing at the network layer. It does this through IP addressing which provides two pieces of information encoded within the same value, these are: IP addressing is the use of a numerical address to identify a piece of hardware connected to a network. These numerical addresses include a network common to all hosts on the same IP network and a host number uniquely identifying a host on a IP network.
+
+Devices on a network are automatically assigned IP addresses for a designated time after which the IP address is either renewed or a new one is assigned. What is this called?  The IP address is assigned through a Dynamic Host Configuration Protocol (DHCP) services on either a DHCP server (more common in larger networks) or an access point (as in the case of a SOHO network).
+
+It is often useful for hosts such as servers, routers, and printers to use the same Internet Protocol (IP) address. To ensure these hosts keep the same IP address, what configuration settings need to be made on the Dynamic Host Configuration Protocol (DHCP) server? A reservation maps a media access control (MAC) address request a lease from the Dynamic Host Configuration Protocol (DHCP) server, it will always obtain the same IP address.
+
+What is the term used by open source products as a "fallback" mechanism for assigning an IP address when DHCP is unavailable? Link local is the term used by non-Windows vendors and open source products that assigns a class B IP address from 169.254.0.0 to 168.254.255.255 to a client when a DHCP server is unreachable.
+
+It is often useful for hosts such as servers, routers, and printers to use the same Internet Protocol (IP) address. To ensure these hosts keep the same IP address, what configuration setting needs to be made on the Dynamic Host Configuration Protocol (DHCP) server? A reservation maps ma MAC address to an IP address, so that anytime a machine with a reserved MAC address requests a lease from the DHCP server, it will always obtain the same IP address.
+
+When you want to connect a group of isolated computers in an organization, which of the following is the best choice? A VLAN is a group of hosts with a common set of requirements  that communicate as though they were connected together as normal on one switch regardless of their physical location. A VLAN is implemented to segment a network, reduce collisions, organize the network, boost performance, and increase security.
+
+While working for an IT Consulting firm, you have been tasked with setting up several small office home office wireless networks. Which of the following will ensure the security of confidential data? WiFi Protected Access (WPA) and WiFi Protected Access II (WPA2) are two securities developed to secure wireless computer networks. Encrypting data before transmitting wireless is the best method to ensure data security.
+
+Which of the following processes assigns a public IP address to a computer inside a private network? Network Address Translation  (NAT) is the process where a network device, usually a firewall, assigns a public address to a computer (or group of computers) inside a private network. In large networks, some servers may act as Web servers and require access from the Internet.
+
+Devices on a network are automatically assigned IP addresses for a designated time after which the IP address is either renewed or a new one is assigned. What is this called? The IP address is assigned through a DHCP service on either a DHCP server (more common in larger networks) or an access point (as in the case of a SOHO network).
+
+It is often useful for hosts such as servers, routers, and printers to use the same IP address. To ensure these hosts keep the same IP address, what configuration setting needs to be made on the DHCP server? A reservation maps a MAC address to an IP address, so that anytime a machine with a reserved MAC address requests a lease from the DHCP server, it will always obtain the same IP address.
+
+A university relays data to staff and students across its nationwide network, consisting of smaller networks linked through a VPN and the Internet. Which term would best apply to this network? A WAN is a series of smaller networks that are linked together to form a single, large network. It allows a business to effectively carry out its daily function regardless of location. A university that spans multiple campuses, or has online programs requiring a nationwide network, is best served by a WAN.
+
+
+
+-----------------------------------------
+
+
+
+2.7 – Compare and contrast Internet connection types, network types, and their features.
+Internet connection types
+Cable
+DSL
+Dial-up
+Fiber
+Satellite
+ISDN
+Cellular
+Tethering
+Mobile hotspot
+Line-of-sight wireless Internet service
+Network types
+LAN
+WAN
+PAN
+MAN
+WMN
+
+A network made up of computers and peripherals in a distinct geographic are sharing wired or wireless communications is referred to as : LAN. A Local Area Network (LAN) is a self-contained network spanning a small area, such as a building, floor, or room. It is centered around connecting multiple users via wires or wirelessly.
+
+Which of the following describes an Internet connection type referred to as Line of Sight? A modem using a wireless connection to a wireless tower. Line of Sight is an internet service with a modem that uses a wireless connection from a wireless tower. The signal varies based on interference from outside sources.
+
+What is a fully digital telephone service, providing data, voice and video channels over existing phone lines which requires that a phone number be dialed to access the internet? ISDN. ISDN (Integrated Services Digital Network) is a telecommunications technology that enables the delivery of digital data over standard phone lines. It is a dial-up service that is faster than 56k modem but slower than DSL(Digital Subscriber Line).
+
+What solution was developed to update the last mile of the telephone network wiring to provide high bandwidth to small business premise equipment? FTTP. Fiber to the Premises (FTTP) is a fiber optic cable delivery medium that provides last mile telecommunication's Internet access directly to a business form an Internet service provider.
+
+Which of the following describes an Internet connection type referred to as Line of Sight? A modem using a wireless connection to a wireless tower. Line of Sight is an Internet service with a modem that uses a wireless connection from a wireless tower. The signal varies based on interference from outside sources.
+
+
+-----------------------------------------
+
+2.8 – Given a scenario, use appropriate networking tools.
+Crimper
+Cable stripper
+Multimeter
+Tone generator and probe
+Cable tester
+Loopback plug
+Punchdown tool
+WiFi analyzer
+
+The Engineering department has been relocated to new offices. You are responsible for moving RJ-45 wall jacks to new locations in these offices. Which tool can you use to verify these RJ-45  port connections after each has been moved? In networking, RJ-45 loopback plugs are great tools for quickly checking if data is being properly transmitted. Loopback plugs are inexpensive tools use to create a loop in wiring.
+
+How are tone generators and ton probes different from cable testers? It is common for tone generators and probes to be confused with cable testers. Tone generators and probes only allow you to differentiate between different unshielded twisted pair (UTP) cables, and do not confirm that a signal is actually present.
+
+You receive a trouble ticket from a user that the network seems to be running slow. You have verified the device side and found no problems and the Ethernet cable is properly connected. What tool would you use next to test the connection? A cable tester will help you identify the cable condition, any crosstalk, loss of attenuation, noise, resistance and any other characteristics that may be adversely affecting the cable connection.
+
+You have been given a support ticket to test a cable that does not seem to be working correctly. Using one of your hardware tools to troubleshoot connectivity issues, you get a reading of infinity. What tool did you use and what does the reading tell you about the cable? A multimeter can be used to measure voltage, current and resistance. The resistance reading between the two ends of the Ethernet cable means the cable has a break.
+
+The cable TV is not working in the Director's office. It does seem to be working in other offices. You have verified that the coax cables are all connected. Which tool will you now need to see if there are any issues with the cable? The basic multimeter device is among the easiest cable testing devices used to check the shorts in a coaxial cable. It comes many electrical meters as a single unit which can measure current, resistance and voltage.
+
+You receive a trouble ticket from a user that the network seems to be running slow. You have verified the device side and found no problems and the Ethernet cable is properly connected. What tool would you use next to test the connection? A cable tester will help you identify the cable condition, any crosstalk,, loss of attenuation, noise, resistance and any other characteristics that may be adversely affecting the cable connection.
+
+How are tone generators and ton probes different from cable testers? It is common for tone generators and probes to be confused with cable testers. Tone generators and probes only allow you to differentiate between different unshielded twisted pair (UTP) cables, and do no confirm that a signal is actually present.
+
+How are tone generators and tone probes different from cable testers? They can only help you differentiate between different unshielded twisted pair (UTP) cables. It is common for tone generators and probes to be confused with cable testers. Tone generators and probes only allow you to differentiate between different unshielded twisted pair (UTP) cables and do not confirm that a signal is actually present.
+
+Domain 3.0 – Hardware
+
+-----------------------------------------
+
+3.1 – Explain basic cable types, features, and their purposes.
+Network cables
+Ethernet
+Cat 5
+Cat 5e
+Cat 6
+Plenum
+Shielded twisted pair
+Unshielded twisted pair
+568A/B
+Fiber
+Coaxial
+Speed and transmission limitations
+Video cables
+VGA
+HDMI
+Mini-HDMI
+DisplayPort
+DVI
+DVI-D / DVI-I
+Multipurpose cables
+Lightning
+Thunderbolt
+USB
+USB-C
+USB 2.0
+USB 3.0
+Peripheral cables
+Serial
+Thunderbolt
+Hard drive cables
+SATA
+IDE
+SCSI
+Adapters
+DVI to HDMI
+USB to Ethernet
+DVI to VGA
+
+Coax cables use which type of connector? F- connector. Coax installations also use screw-down F-connectors. A broadband cable service, for example, is likely to use the F-connector for drop-cables.
+
+Which of these is the international standard for Ethernet technology? 802.3. Ethernet is technically known by the series of standards produced by the IEEE 802.3 working group. While the product name is not used in 802.3 standards documentation, it is otherwise universally referred to as Ethernet.
+
+A user reports their internet connection is not working. Which of these tools might you use to troubleshoot the problem? Tone generator. A tone generator and probe tool is used to trace a cable from one end to the other. This is the primary tool for testing for bad network cables.
+
+Which of these is NOT part of a fiber optic strand? Mesh conductor. A mesh conductor is part of a coaxial (coax) cable that serves both as shielding from EMI and as a ground. It is not found in fiber optic cables.
+
+Which USB standard defines a data rate of up to 480 Mbps? USB 2.0. The USB 2.0 (HighSpeed) standard specifies a data rate of 480 Mbps. Note that this bandwidth is shared between all devices attached to the same host.
+
+Which type of USB cable attaches to a host? USB-A You use USB Type A to connect to a host. The connector and port are shaped like flat rectangles.
+
+If you want to connect a non-Apple laptop to a TV set, which type of adapter would you use? DVI to HDMI. DVI is not supported on many consumer devices so you may use a DVI to HDMI adapter to connect a laptop to a TV set. There is not signal conversion involved so this can be performed by a passive cable.
+
+Which VGA standard uses a 5:4 aspect ratio? SXGA(Super XGA) - SXGA (Super XGA is a variant of the XGA standard and has a resolution of 1280x1024 and an aspect ratio of 5:4.
+
+Which of these IDE (Integrated Drive Electronics)interface standards has a maximum transfer rate of 66 MBps? ATA/ATAPI-5 - ATA/ATAPI-5 uses UDMA mode 4 (Ultra ATA/66) and has a maximum transfer rate of 66 MBps.
+
+The USB 3.0 version is missing which type of connector? USB-B Mini - Type B Mini is smaller connector for connection seen on early digital cameras but is no longer widely used. There is not version of this connector in USB 3.0.
+
+Coax cables use which type of connector? F-connector - Coax installations also use screw-down F-connectors. A broadband cable service, for example, is likely to use the F-connector for drop cables.
+
+Which of these is designed for flat panels but is being phased out? DVI - The Digital Visual Interface (DVI) is a high quality digital interface designed for flat-panel display equipment. You are unlikely to see DVI used on new display devices or computers.
+
+This was developed as a royalty free standard? - DisplayPort - DisplayPort was developed by VESA, the organization largely representing PC graphics adapter and display technology companies. It is a royalty-free standard intended to "complement" HDMI.
+
+Which DVI (Digital Visual Interface) configuration is used for HDTV digital and analog connections? DVI-I dual link - DVI-I dual link supports over 7.4 Gbps bandwidth and can transmit HDTV @ 85 fps and supports both analog and digital equipment.
+
+Which of these cables was invented by Intel? Thunderbolt - Intel developed the Thunderbolt (TB) interface for use on Apple workstations and laptops. It connects display devices (like DisplayPort) and peripheral devices (like USB). 
+
+For the office network upgrade to Gigabit Ethernet, you need proper cabling. What is your choice of cabling? Cat 5e and Cat 6 - Cat 5e has a capacity of 1 Gbps and is suitable for the network. Cat 6 cable has a capacity of 10 Gbps and both are suitable for the network.
+
+How many conductor pairs are found in Ethernet cables? 4 - With the type of Unshielded Twisted Pair (UTP)  used for Ethernet, the cable contains four copper conductor "pairs".
+
+If you want to connect an older flat panel display to your brand new non-Apple laptop, which type of adapter would you use? HDMI to VGA - You would use the HDMI to VGA adapter to connect a laptop to an older flat panel display. This type of converter usually requires an active Digital to Analog Converter (DAC) chip.
+
+Which SCSI connector was commonly used by Apple and Iomega devices? SCSI DB25 - The SCSI.DB25 connector is a 25-pin connector used primarily by Apple an Iomega ((Zip external data storage drives) hardware.
+
+A mesh conductor is part of a coaxial (coax) cable that serves both as shielding from an EMI and as a ground. It is not found in fiber optic cables.
+
+Which USB standard defines a data rate of up to 480 Mbps? USB 2.0 - The USB 2.0 (High Speed) standard specifies a data rate of 480 Mbps. Note that this bandwidth is shared between all devices attached to the same host.
+
+The USB 3.0 version is missing which type of connector? USB-B Mini - Type B Mini is smaller connector for connection seen on early digital cameras but is no longer widely used. There is not version of this connector is USB 3.0. 
+
+Ethernet is technically known by the series of standards produced by the IEEE 802.3 working group. While the product name is not used in 802.3 standards documentation, it is otherwise universally referred to as Ethernet. 
+
+A user reports their internet connection is not working. Which of these tools might you use to troubleshoot the problem? - Tone generator - A tone generator and probe tool is used to trace a cable from one end to the other. This is the primary tool for testing for bad network cables.
+
+Which of these Integrated Drive Electronics (IDE) interface standards has a maximum transfer rate of 66 MBps? ATA/ATAPI-5 uses UDMA mode 4 (Ultra ATA/66) and has a maximum transfer rate of 66 MBps. ATA/ATAPI-5 uses UDMA mode 4 (Ultra ATA/66) and has a maximum transfer rate of 66 MBps. 
+
+Which of these is designed for flat panels but is being phased out? DVI - The Digital Visual Interface (DVI) is a high quality digital interface designed for flat-panel display equipment. You are unlikely to see DVI used on new display devices or computers.
+
+
+
+-----------------------------------------
+
+3.2 – Identify common connector types.
+RJ-11
+RJ-45
+RS-232
+BNC
+RG-59
+RG-6
+USB
+Micro-USB
+Mini-USB
+USB-C
+DB-9
+Lightning
+SCSI
+eSATA
+Molex
+
+Which of these would be used as a drop/patch cable for modern Cable Access TV (CATV)? RG-6 - RG-6 is a coaxial cable that has a thicker core conductor for better signal quality and is often used as drop/patch cable Cable Access TV (CATV) and broadband cable modems.
+
+Which of these connectors would you use with coaxial (coax) cable? BNC - BNC (alternately Bayonet-Neill-Concelman, British Naval Connector, or Barrel Nut Connector) connectors are crimped to the ends of Coaxial (or coax) cable.
+
+Which of these would be used on older Cable Access TV(CATV) or Close Circuit (CCTV) cabling?  - RG-59 - RG-59 is a coaxial cable that has a thinner core conductor and was used as drop cable for older CATV/cable modem installs and is also used for CCTV cabling.
+
+which connector is an alternative to a 25-pin connector? DB-9 - DB9 is a cheaper 9-pin D-shell (DB9( male port used by PC manufacturers in places of the DB25 25-pin D-shell connector for serial ports.
+
+Which of these would be used as a drop/patch cable for modern Cable Access TV (CATV)? RG-6 - RG-6 is a coaxial cable that has a thicker core conductor for better signal quality and is often used a drop/patch cable for modern Cable Access TV(CATV) and broadband cable modems. 
+
+
+
+-----------------------------------------
+
+
+3.3 – Given a scenario, install RAM types.
+RAM types
+SODIMM
+DDR2
+DDR3
+DDR4
+Single channel
+Dual channel
+Triple channel
+Error correcting
+Parity vs. Non-parity
+
+What type of memory has enhanced parity circuits? Error correcting - Error Checking and Correcting (ECC) memory is enhanced parity circuity that can detect internal data errors and make corrections.
+
+You are building a computer from spare parts in the office. You build the computer and realize you have several different types of RAM chips. Which of these is NOT a consideration so you do not have memory errors? - The pin count is the same. - DDR comes packages in 184-pin chips. DDR2 & 3 has 240 pins and is keyed differently. DDR4 has 288 pins. Consequently, you can only install physically compatible chips into the motherboard. 
+
+Which of these has a memory clock of 200-400 MHz? - DDR4 - DDR4 has a memory clock from 200-400 MHz, a bus clock of 800-1699 MHz, a data rate of 1600 - 3200 MT/s and a transfer rate of 12.8 - 25.6 GBps.
+
+What is the term for a motherboard passing 128 bits of data per "transaction"? - Dual-channel - Which a dual-channel memory controller there can effectively be two pathways through the bus to the CPU, meaning that 128 bits of data can be transferred per "transaction" rather than 64 bits.
+
+Which chipset passes 192 bits of data per "transaction"? Triple-channel - Triple channel means there are three 64-bit bus channels between the CPU and RAM which can pass 192 bits of data per "transaction".
+
+Which of these has a data rate of 400-1066 MegaTransfers per Second (MT/s)? - DDR2 - 
+DDR2
+Memory clock from 100-266 MHz
+Bus clock of 200-533 MHz
+Data rate of 400-1066 MT/s
+Transfer rate of 3.2-8.533 GBps.
+
+A 64-bit bus channel between the CPU and RAM is called by what term? - ingle-channel - Single-channel memory means that there is one 64-bit bus between the CPU and RAM.
+
+Which chipset passes 192 bits of data per "transaction"? Triple-channel - Triple-channel means there are three 64-bit bus channels between the CCPU and RAM which can pass 192 bits of data per "transaction".
+
+Which of these has a bus clock of 200-533 Mhz? - DDR2 - DDR2 has a memory clock from 100-266 MHz, a bus clock of 200-533 MHz, a data rate of 400-1066 MT/s and a transfer rate of 3.28.533 GBps.
+
+Which of these has a memory clock of 200-400 MHz? DDR4 - 
+DDR4
+Memory clock from 200-400 MHz
+Bus clock of 800-1600 MHz
+Data rate of 1600-3200 MT/s
+Transfer rate of 12.8-25.6 GBps.
+
+You are building a computer from spare parts in the office. You build the computer and realize you have several different types of RAM chips. Which of these is NOT a consideration so you do not have memory errors? - DDR comes packaged in 184-pin chips. DDR2 & 3 has 240 pins and is keyed differently. DDR4 has 288 pins. Consequently, you can only install physically compatible chips into the motherboard.
+
+What is the term for a motherboard passing 128 bits of data per "transaction"? Dual-channel - With a dual channel memory controller there can effectively be two pathways through the bus to the CPU, meaning that 128 bits of data can be transferred per "transaction" rather than 64 bits.
+
+What chipset passes 192 bits of data per "transaction"? Triple-channel - Triple channel means there are three 64-bit bus channels between the CPU and RAM which can pass 192 bits of data per "transaction".
+
+Which of these has a data rate of 400-1066 MegaTransfers per Second (MT/s)? DDR2 - DDR2 has a memory clock from 100-266 MHz, a bus clock of 200-533 MHz, a data rate of 400-1066 MT/s and a transfer rate of 3.2-8.533 GBps.
+
+
+ 
+-----------------------------------------
+
+
+3.4 – Given a scenario, select, install and configure storage devices.
+Optical drives
+CD-ROM/CD-RW
+DVD-ROM/DVD-RW/DVD-RW DL
+Blu-ray
+BD-R
+BD-RE
+Solid-state drives
+M2 drives
+NVME
+SATA 2.5
+Magnetic hard drives
+5,400 rpm
+7,200 rpm
+10,000 rpm
+15,000 rpm
+Sizes
+2.5
+3.5
+Hybrid drives
+Flash
+SD card
+CompactFlash
+Micro-SD card
+Mini-SD card
+xD
+Configurations
+RAID 0,1,5,10
+Hot swappable
+
+You need to replace the broken high performance drive in your computer. Since it is an early high performance drive, what spin speed would you expect it to have? - 10,000 RPM - Revolutions per minute (RPM) determines overall drive performance. The higher the RPM, the faster the drive. The first high performance drives are rated at 10,000 RPM.
+
+You need to archive over 20 GB of data off your computer and the archive needs updating frequently. Which type of external drive would you use? - BD-RE - Blu-ray Recordable (BD-RE) media can be burned multiple times, much like a CD-RW and holds over 20 GB of data.
+
+You recently upgraded an office computer by installing a hard drive. It was a tight fit in the small case as you filled the last available spot with the drive. The user is now complaining the computer randomly shuts down. What could be the issue? - The installed drive is blocking case airflow. - Thermal problems are likely to cause symptoms such as spontaneous reboots, blue screens, and lockups. The last drive is probably blocking airflow in the case.
+
+You are replacing a very old hard drive in a computer. What spin speed would you expect from this very early average performance hard drive?  - RPM determines overall drive performance. Average performance drives would have lower RPMs, such as 7,200 or 5,400 rpm. Earliest drives had a speed of 5,400 rpm.
+
+You have just over 3 GB of data you need to archive off your computer. Which of these would be the best choice to store the data with the least amount of leftover space on the disk? DVD-ROM/DVD-RW.DVD-RW DL - A DVD(Digital Video or Versatile Disc) is a storage format for consumer multimedia, such as music and video and has a capacity of 4-17 GB.
+
+You are installing hard drives into your new computer and need to have the best drive input/output performance but do not need fault tolerance. Which type of RAID do you need? - RAID 0 - RAID 0 (Striping without Parity) spreads the data in a fixed order among all the disks in the array. Its principal advantage is to improve performance but provides no redundancy of data.
+
+You want to upgrade the hard drive in your computer so that it can hold large amounts of data but can very quickly provide frequently accessed data. which kind of data would you use?  - Hybrid drives - In a hybrid drive, the SSD portion functions as a large cache, containing dat that is accessed frequently. The magnetic disk is only spun up when non-cached data is accessed.
+
+You need to archive over 20 GB of data off your computer and the archive needs updating frequently. Which type of external drive would you use? BD-RE - Blu-ray Recordable (RD-RE) media can be burned multiple times, much like a CD-RW and holds over 20 GB of data.
+
+You have an old Olympus digital camera and want to expand its external storage. What type of flash card would you expect to need? xD -  xD was a format used on Olympus cameras but has been discontinued.
+
+
+
+
+
+
+
+-----------------------------------------
+
+
+3.5 – Given a scenario, install and configure motherboards, CPUs, and add-on cards.
+Motherboard form factor
+ATX
+mATX
+ITX
+mITX
+Motherboard connectors types
+PCI
+PCIe
+Riser card
+Socket types
+SATA
+IDE
+Front panel connector
+Internal USB connector
+BIOS/UEFI settings
+Boot options
+Firmware updates
+Security settings
+Interface configurations
+Security
+Passwords
+Drive encryption
+TPM
+LoJack
+Secure boot
+CMOS battery
+CPU features
+Single core
+Multicore
+Virtual technology
+Hyperthreading
+Speeds
+Overclocking
+Integrated GPU
+Compatibility
+AMD
+Intel
+Cooling mechanism
+Fans
+Heat sink
+Liquid
+Thermal Paste
+Expansion cards
+Video cards
+Onboard
+Add-on card
+Sound cards
+Network interface card
+USB expansion card
+eSATA card
+
+Building your new computer, you realize you need to use the least amount fo power possible for cooling the central chip. What type of cooling solution would you need? - Passive cooling - Passive cooling means that it does not require extra energy (electricity) to work. In order to work well, a heat sink requires good airflow around the PC.
+
+Which type of motherboard connector is a 9-pin header which can accept up to two 4-pin port connections? - An internal USB connector -  Internal USB connections are made via 9-pin headers, which accept up to two 4-pin port connections. These allow external USB ports to connect to the motherboard.
+
+Which security system helps prevent malware from hijacking a computer? - Secure boot - Secure boot is designed to prevent a computer from being hijacked by malware. Under secure boot the system firmware is configured with digital certificates from valid OS vendors and prevents a boot loader that has been modified by malware.
+
+You want to build a small form factor (SFF) PC. What type of motherboard is often used in these types of computer? - mITX - Small Form Factor (SFF) PCs often used Via's Mini-ITX form factor. Mini-ITX(mITX) is 6.7x6.7" (170x170mm) with one expansion slot.
+
+If you had an older C3 processor and a case for a motherboard that is 8.4" wide and 7.5" deep, what form factor would you use? - ITX - VIA Technologies released a reference design for an ITX motherboard to promote the low power C3 processor. Full size ITX boards are 8.4" wide by 7.5" deep (215mm x 191mm) deep.
+
+You are setting up your new computer and select the settings for enabling/disabling controllers and adapters. Which section of the BIOS contains these settings? - The interface configuration settings section - The interface configuration settings include enabling/disabling and configuring any controllers and adapters provided on the motherboard.
+
+You upgrade a graphics workstation with a new HyperThreading Central Processing Chip. You expect the programs on the desktop to run much faster with the new technology, but you get little improvement. Why is this? - The programs on the desktop are not multithreaded software. - The main drawback of SMT is that it works best with multithreaded software. As this software is more difficult to design, desktop applications software often cannot take full advantage.
+
+If you have a slimline case that cannot accept a full height expansion card, what would you use to fit the full height card into the case?  - A riser card - A riser card enables you to connect additional adapters to the system in an orientation that is parallel to the motherboard and thus save space within that system case.
+
+Which type of Central Processing Unit (CPU) technology allows the operating system to see multiple CPUs even if there is only one CPU installed in the computer? - Hyperthreading technology - Hyperthreading (HT) is a CPU technology that allows the threads(stream of instructions) to run through the CPU at the same time. It duplicates many of the registers of the CPU.
+
+ You want to build a computer with a motherboard approximately 12" by 9.5" and smaller than a full-size AT form factor. Which type of motherboard would you use? ATX - The ATX(Advanced Technology Extended) specification was developed by Intel in 1995 to provide a new design for PC motherboards, updating the previous AT form factor. Full size ATX boards are 12" wide by 9.6" deep(or 305x244mm).
+
+You are setting up your new computer and select the settings for enabling/disabling controllers and adapters. Which section of the BIOS contains these settings?  - The interface configuration settings section - The interface configuration settings include enabling/disabling and configuring any controllers and adapters provided on the motherboard.
+
+You are building a computer with many expansion cards. One of the cards needs 75W of power supplied through the bus. What type of expansion card bus do you need? - PCIe - PCI Express(PCIe) is the replacement for the PCI architecture and PCI cards cannot be fitted into PCIe sockets. PCIe can supply up to 75W to a device via the motherboard slot.
+
+
+
+
+----------------------------------------
+
+
+3.6 – Explain the purposes and uses of various peripheral types.
+Printer
+ADF/flatbed scanner
+Barcode scanner/QR scanner
+VR headset
+Optical
+DVD drive
+Mouse
+Keyboard
+Touchpad
+Signature pad
+Game controllers
+Camera/webcam
+Microphone
+Speakers
+Headset
+Projector
+Lumens/brightness
+External storage drives
+KVM
+Magnetic reader/chip reader
+NFC/tap pay device
+Smart card reader
+
+
+
+-----------------------------------------
+
+
+3.7 – Summarize power supply types and features.
+Input 115V vs. 220V
+Output 5.5V vs. 12V
+24-pin motherboard adapter
+Wattage rating
+Number of devices/types of devices to be powered
+
+A power supply unit that uses the ATX12V version 2 specification has what type of power connector? - 24-pin motherboard adapter - Most systems are now based on the ATX12V version 2 specification. This specification defines a 24-pin (2x12) P1 adapter to replace the 20-pin P1 (2x10) adapter.
+
+Which output rail in a power supply unit(PSU) has a maximum load of 20 amps? - The +5V rail - The PSU has two +5V output rails, one as a standby, with the primary rail having a maximum load of 20 amps and a maximum output of 130 watts.
+
+You are connecting a new PSU(Power Supply Unit). The PSU has a square 4-pin P4 cable but there is no square 4-pin receptacle on the motherboard. Where does this cable connect? - Plug it into the EPS12V receptacle - The connector will plug into an 8-pin EPS12V receptacle near the CPU. You should check the motherboard documentation for advice about which pins are the correct connection.
+
+
+
+-----------------------------------------
+
+
+3.8 – Given a scenario, select and configure appropriate components for a custom PC configuration to meet customer specifications or needs.
+Graphic/CAD/CAM design workstation
+Multicore processor
+High-end video
+Maximum RAM
+Audio-video editing workstation
+Specialized audio and video card
+Large, fast hard drive
+Dual monitors
+Virtualization workstation
+Maximum RAM and CPU cores
+Gaming PC
+Multicore processor
+High-end video/specialized GPU
+High-definition sound card
+High-end cooling
+Standard thick client
+Desktop applications
+Meets recommended requirements for selected OS
+Thin client
+Basic applications
+Meets minimum requirements for selected OS
+Network connectivity
+Network attached storage device
+Media streaming
+File sharing
+Gigabit NIC
+RAID array
+
+
+When building a standard client, which of these is an important consideration? - Meets recommended requirements for the selected OS. When building a standard client, it is important to pay attention to the recommended Windows system requirements and to the software application requirements.
+
+You want to build a new home server. The new computer's primary functions are file storage, media streamer, and printer sharing. What would be a consideration in designing the machine? -  Install RAID storage - Most home servers would use RAID storage to reduce the risk of losing valuable movie and audio files (there must still be a backup system in place of ours, to protect against theft, fire or accidental deletion.)
+
+The location of which of these determines if a computer is a thin or standard client? - The desktop applications - A standard client is an ordinary "office" PC. It will be used to run locally installed desktop applications. A thin client is a PC or appliance designed to act as an interface to applications that run on a network server.
+
+Which of these is a concern when building a home Network Attached Storage (NAS) device? - Media streaming across a network - Some NAS devices can stream media files to wireless speakers or an IP-enabled TV and would be a feature for consideration.
+
+
+
+-----------------------------------------
+
+
+3.9 – Given a scenario, install and configure common devices.
+Desktop
+Thin client
+Thick client
+Account setup/settings
+Laptop/common mobile devices
+Touchpad configuration
+Touchscreen configuration
+Application installations/configurations
+Synchronization settings
+Account setup/settings
+Wireless settings
+
+For your new mobile device, the manufacturer uses a walled garden model. What does this mean? - Any applications have to have approval before release.  - Apps have to be submitted to and approved before they are released to users. This is also referred as the walled garden model and is designed to prevent the spread of malware or code that could cause faults or crashes.
+
+Which type of system runs the Virtual Desktop Infrastructure (VDI)? - Thin client - A thin client is a PC or appliance designed to act as an interface to applications that run on a network server. When a thin client interfaces with a whole Windows Desktop, it is referred to as the Virtual Desktop Interface (VDI).
+
+Mobile accounts can be linked to all of these EXCEPT what? - A Trusted Platform Module - The Trusted Platform Module (TPM) is a chip on the computer motherboard. TPM provides storage of digital certificates, keys, and hashed passwords but does not interface with user accounts.
+
+Your company wants to purchase cloud-based application services, but is now concerned about users needing multiple accounts and passwords. What do you suggest as a solution? - Use mutual authentication for multiple services - Multiple authentication for multiple services means that one services accepts the credentials form another service. This is usually described as federated identity management. This way your company can get the services it actually needs. 
+
+What type of desktop system would you expect to have multiple local user accounts? - A thick client - A standard thick client might be configured with multiple user accounts. These user accounts can be defined locally on each computer.
+
+-----------------------------------------
+
+
+3.10 – Given a scenario, configure SOHO multifunction devices/printers and settings.
+Use appropriate drivers for a given operating system
+Configuration settings
+Duplex
+Collate
+Orientation
+Quality
+Device sharing
+Wired
+USB
+Serial
+Ethernet
+Wireless
+Bluetooth
+802.11 (a,b,g,n,ac)
+Infrastructure vs. ad hoc
+Integrated print service (hardware)
+Cloud printing/remote printing
+Public/shared devices
+Sharing local/networked device via operating system settings
+TCP/Bonjour/Airprint
+Data privacy
+User authentication on the device
+Hard drive caching
+
+
+Your office has a printer that needs to be put onto the network. Which of these solutions connects the printer directly to the network? - Connect the printer using its network port. - Using a network port on the printer assigns an IP address directly to the printer.
+
+What do you call a connection between a computer and a printer that uses a physical cable connection? - A wired connection - A wired connection is using a physical cable (Ethernet, USB, serial) is used to connect a printer to a computer.
+
+What is the name of the service that allows iOS mobile devices to print wirelessly? - Bonjour - The Bonjour service is a printer server that allow OS X PCs and iOS mobile devices to connect wirelessly to printer. Bonjour is the server part of the print solution.
+
+Your office uses an inkjet printer and needs to reduce the cost of printing. What is the most significant way to save costs? - Use the Paper/Quality tab and select draft mode on the printer. - USing the Paper/Quality tab and selecting the draft mode on the printer is the best way to cut costs. This way each print job uses less ink and the office saves money. Ink cartridges are the biggest cost for inkjet printers.
+
+What allows you to connect and print directly to a printer without connecting other hardware to the printer? - An integrated print server - Some printers with integrated or embedded print server hardware and firmware, allowingn client computers to connect to them over the network without having to go via a server computer.
+
+You installed a printer in your office by cabling it to one of the Windows-based computers because you cannot print to it directly. You want other to print to this printer as well. What would you call this setup? - Windows printer sharing - Since this printer does not have an integrated print server, it needs to be shared over the network by the Windows computer.
+
+If you need your printer to completely print each copy of a print job before printing the second copy, which setting would you turn on? - The Collated Jobs setting - A collated print job is one where all pages of the first copy are printed, followed by all pages of the second copy, and so on.
+
+
+
+-----------------------------------------
+
+3.11 – Given a scenario, install and maintain various print technologies.
+Laser
+Imaging drum, fuser assembly, transfer belt, transfer roller, pickup rollers, separate pads,
+duplexing assembly
+Imaging process: processing, charging, exposing, developing, transferring, fusing, and cleaning
+Maintenance: Replace toner, apply maintenance kit, calibrate, clean
+Inkjet
+Ink cartridge, print head, roller, feeder, duplexing assembly, carriage, and belt
+Calibrate
+Maintenance: Clean heads, replace cartridges, calibrate, clear jams
+Thermal
+Feed assembly, heating element
+Special thermal paper
+Maintenance: Replace paper, clean heating element, remove debris
+Impact
+Print head, ribbon, tractor feed
+Impact paper
+Maintenance: Replace ribbon, replace print head, replace paper
+Virtual
+Print to file
+Print to PDF
+Print to XPS
+Print to image
+3D printers
+Plastic filament
+
+The cash register started to print missing text on receipts. What can you do to solve the problem? - Clean the heating element - A dirty heating element can cause missing text. Use an appropriate cleaning fluid to clean the heating element.
+
+A blocked or dirty nozzle on an inkjet printer will show up on output as a missing line. Use the printer's cleaning routing or use an inkjet cleaning product to fix the problem.
+
+You find an old printer in your office. It has a print head, a ribbon and a tractor feed. What type of printer is this? - An impact printer - The print head, ribbon and a tractor feed are the major components of an impact printer. One common type of these printers is a dox matrix printer.
+
+If you have a direct thermal printer, what type of supplies do you need for it? - Special paper - Most direct thermal print devices require special thermal paper that contains chemicals designed to react and change color as it is heated by the heating element.
+
+You need to order supplies for your office printers. You have a mix of impact, inkjet and laser printers. What do you need to order to ensure the impact printers can print? - Two-spool ribbons - An impact printer will also have some form of replaceable ribbon. Older-style printers used to have a two-spool ribbon, the same as that found on typewriters. You would need to replace these ribbons.
+
+If you wanted to create multiple print copies in one pass using your impact printer, what would you use? - Impact paper - Carbon paper (or impact paper) is used to make multiple copies of a document in the same pass. A sheet of carbon paper is inserted between each sheet of plain paper when the print head strikes, the same mark is made on each sheet.
+
+Which part of a laser printer is conditioned by a charging roller? - The imaging drum - The imaging drum is conditionded bny a charging roller powered by a high voltage power supply assembly. The roller applies a uniform -600V electrical charge across the drum's surface.
+
+Your office printer is offline for maintenance. You still need to print documents while it is being fixed. What virtual print option would allow you to save a copy of the data that would be spooled to the printer? - Print to file - Print to file creates a file that can be sent to the print devices. It means saving a copy of the file that would normally be spooled by the printer.
+
+The cash register started to print missing text on receipts. What can you do to solve the problem? - Clean the heating element - A dirty heating element can cause missing text. Use an appropriate cleaning fluid to clean the heating element.
+
+If you want to create a file printable on modern Windows-compatible printers, which virtual print option is best? - Print to XPS- - Print to XPS creates a file using the XML Print Specification supported by Windows. An XPS format file should be printable on modern Windows-compatible printers.
+
+You find an old printer in your office. It has a print head, a ribbon and a tractor feed. What type of printer is this? - An impact printer - The print head, ribbon and a tractor feed are the major components of an impact printer. One common type of these printers is a dox matrix printer.
+
+
+
+Domain 4.0 – Virtualization and Cloud Computing
+
+-----------------------------------------
+
+4.1 – Compare and contrast cloud computing concepts.
+Common cloud models
+IaaS
+SaaS
+PaaS
+Public vs. private vs. hybrid vs. community
+Shared resources
+Internal vs. external
+Rapid elasticity
+On-demand
+Resource pooling
+Measured service
+Metered
+Off-site email applications
+Cloud file storage services
+Synchronization apps
+Virtual application streaming/cloud-based applications
+Applications for cell phones/tablets
+Applications for Laptops/desktops
+Virtual desktop
+Virtual NIC
+
+
+Which of the following is NOT a cloud-based email subscription service? - Exchange 2016 - Exchange 2016 is a Microsoft Email server technology. While components of Office use Microsoft Exchange for email, the server technology itself is not a subscription service.
+
+The in-house development team is looking to take their web and database development tools to the cloud. Doing so will reduce ownership costs and will streamline the deployment process. You have been tasked with researching the technical specifics. Which cloud model will provide the services you will need? - PaaS - PaaS(Platform as a Service) is a cloud-based offering that provides a platform for developers to create web-based applications and deploy them. Eamples of PaaS components would be web servers, application engines, and their functionality.
+
+You are setting up a Virtual Desktop Infrastructure (VDI) in the cloud for a group of users. The on-site thin clients are having difficulty connecting to the remote (VM) virtual machine. You check to see that the thin clients are connected properly to a network switch with the correct settings and that the cloud server is up and running. What might the problem be? -  THE VM virtual NIC - The VM virtual NIC that the thin clients are remoting to is likely not configured. On the server side, the hypervisor should be checked for the guest VM for virtual NIC settings.
+
+Which of the following is NOT an externally shared resources? - Printers - Printers can be shared locally and through remote desktop sessions. However, printers are not shared externally as cloud resources.
+
+A new user needs access to their files in iCloud. How would you access the
+Apple iCloud web service application from a Mac computer running OS X? - Log
+on to icloud.com with an Apple ID and password. - To access the icloud web
+service, a user would need to log on to the icloud.com website by using a web
+browser. They would then need to provide an Apple ID and password to access
+their files.
+
+-----------------------------------------
+
+4.2 – Given a scenario, set up and configure client-side virtualization.
+Purpose of virtual machines
+Resource requirements
+Emulator requirements
+Security requirements
+Network requirements
+Hypervisor
+
+A hypervison emulates resources so that each guest virtual machine functions
+independently with exclusive access to hardware. How is resource access
+accomplished? - Drivers - Drivers are required for guest virtual machines to
+be able to access the host's physical hardware. These physical resources are
+emulated and the drivers are provided within the hypervisor.
+
+You are going to setup a virtualized environment on a spare PC. A friend has
+suggested using some prebuilt Windows 7 virtualized machine images to use
+instead of installing from scratch. What concern should you have? - Malware -
+Security should be the main concern. As the full history of the prebuilt
+images is unknown, there is a potential risk. The operating systems in the
+images may not be up to date with security patches and there could possible be
+malware in the images.
+
+A group at your company is requesting a virtualized environment be created for their use. You have decided on a Windows 10 host using Hyper-V. What hardware will you maximize as a priority when pricing a workstation to act as the host? - The amount of RAM and the number of CPU cores. - The amount of RAM and number of CPU cores should be a priority for hardware specifications as these two areas directly impact guest virtual machine performance.
+
+You are setting up  a virtual machine by using VMWare Workstation Pro on a Windows 10 host. You want to set up the guest virtual disk image to use the least amount of space on the host as possible. How should you configure the virtual disk? - Dynamically expanding - A dynamically expanding disk will only use the space required by the virtual machine. It is the best choice to save disk space. It also allows for growth in the event the virtual machine grows in size. For example, a dynamically expanding disk can be created at 500 GB in size. If after installing the guest operating system and applications the disk is only 30 GB in size, it will only use 303 GB on the host system. It does however have the capability to expand to 500 GB. 
+
+A small department at work would like to virtualize a few workstations on a Windows 10 host using Hyper-V. You need to suggest hardware optinos for their project. How do you explain processor virtualization support to stakeholders? - The ability for the host to process instructions from multiple operating systems quickly and efficiently. - A CPU that has virtualization support includes extra sets of instructions within the processor. These instructions allow for a CPU to provide dedicated power to virtual machines. This in turn allows the guest virtual machine to operate as if it has its own dedicated processor or processors.
+
+-----------------------------------------
+
+Domain 5.0 – Hardware and Network Troubleshooting
+
+5.1 – Given a scenario, use the best practice methodology to resolve problems.
+Always consider corporate policies, procedures, and impacts before implementing changes
+1. Identify the problem
+Question the user and identify user changes to computer and perform backups before making changes
+Inquire regarding environmental or infrastructure changes
+Review system and application logs
+2. Establish a theory of probable cause (question the obvious)
+If necessary, conduct external or internal research based on symptoms
+3. Test the theory to determine cause
+Once the theory is confirmed, determine the next steps to resolve problem
+If theory is not confirmed re- establish new theory or escalate
+4. Establish a plan of action to resolve the problem and implement the solution
+5. Verify full system functionality and, if applicable, implement preventive measures
+6. Document findings, actions, and outcomes
+
+
+It is often difficult to extract useful information from a user when starting to troubleshoot a computer problem. For this reason, which of the following is an example of a good question to ask when beginning the troubleshooting process? - "What is the problem?" - Asking the user an open-ended question such as "What is the problem?" encourages the user to give you all the information they are able to.
+
+During which step of the A+ troubleshooting model does a technician determine the next steps to resolve the proble? - Test the theory to determine the cause. - Test the theory to determine cause and once the theory is confirmed, determine next steps to resolve problem. If the theory is not confirmed, re-establish and test a new theory or escalate.
+
+During which step of the A+ troubleshooting model do you step through a problem to test a theory of most probable cause? - Establish a theory - Attempting to re-create the issue is a common practice when establishing a theory about the cuase of the problem. It is usually helpful to watch the user create the circumstance that led to the problem so that you can see first-hand the result. At that point, you can try to re-create the issue to see if you can determine the cause.
+
+During which step of the A+ troubleshooting model does a technician determine the next steps to resolve a the problem? - Test the theory to determine the cause. - Test the theory to determine cause and once the theory is confirmed, determine next steps to resolve problem. If the theory is not confirmed, re-establish and test a new theory or escalate.
+
+Which of the following may increase the frequency of system lockups? - Overclocking - Overclocking is done using the system setup firmware program by adjusting the CPU Speed or Advanced Chipset Features properties. Increasing the clock speed requires more power and genereates more heat, which may cause system lockups.
+
+What is another term used to identfy the BLue Screen of Death (BSOD) that often indicates a hardware failure? - Windows STOP error - The BSOD or Windows STOP error can indicate hardware or software problems. You have to research the specific STOP error code to find out which it is.
+
+In Windows, where are boot messages written? - ntbtlog.txt - Boot messages are written to the %SystemRoot%\ ntbtlog.txt file. Windows 7, you can use the Startup Confifugraiton utility (msconfig) to show boot messages. In Windows 10, this setting does not work and you need to enable verbose boot messages via the registry.
+
+
+-----------------------------------------
+
+
+5.2 – Given a scenario, troubleshoot problems related to motherboards, RAM, CPUs, and power.
+Common symptoms
+Unexpected shutdowns
+System lockups
+POST code beeps
+Blank screen on bootup
+BIOS time and setting resets
+Attempts to boot to incorrect device
+Continuous reboots
+No power
+Overheating
+Loud noise
+Intermittent device failure
+Fans spin – no power to other devices
+Indicator lights
+Smoke
+Burning smell
+Proprietary crash screens (BSOD/pin wheel)
+Distended capacitors
+Log entries and error messages
+-----------------------------------------
+
+
+5.3 – Given a scenario, troubleshoot hard drives and RAID arrays.
+Common symptoms
+Read/write failure
+Slow performance
+Loud clicking noise
+Failure to boot
+Drive not recognized
+OS not found
+RAID not found
+RAID stops working
+Proprietary crash screens (BSOD/pin wheel)
+S.M.A.R.T. errors
+
+You just installed a new hard drive for a user. After rebooting the machine, the drive is not recognized by the host's operating system. How do you resolve this? - Check that the drive's host adapter is enabled. - If the drive is not detected, check either that the onboard controller is enabled (through system setup) or that the host adapter has been recognized. For an SSD, you should also check that the port is using the appropriate mode (AHCI or NVMe).
+
+Windows fails to recognize a second hard drive that you have recently installed for a user. Which of the following could be causing the problem? - System firmware settings - You need to verify that the drive is enabled in the BIOS or UEFI, and that the correct device settings for the hard drive are listed. You should also verify that the drive is installed correctly. 
+
+You have a usern who requires a large amount of fault tolerant storage. The user has a high-end workstation with five hard disks, what type of RAID fault-tolerant configuratino will make best use of them? - RAID 5 (striping with parity) - RAID 5 writes parity information across all the disks in the array. The data and parity information are managed so that the two are always on different disks. If a single disk fails, enough information is spread across the remaining disks to allow the data to be completely reconstructed.
+
+
+Which of the following is a reason to defragment a hard drive? - Improve performance - Disk performance can be improved by ensuring that file fragmentation is minimized. Disk defragmentation is a process whereby the contents of a disk are moved around the optimize disk access times.
+
+Malware has damaged the MBR scheme on a single boot Windows PC. Which of the following command line tools do you run after booting from the repair disk? - bootrec - The bootrec is a tool that can repair MBR problems, repair the boot sector, or add missing Winows installations to the Boot Configuration Database (BCD).
+
+-----------------------------------------
+
+5.4 – Given a scenario, troubleshoot video, projector, and display issues.
+Common symptoms
+VGA mode
+No image on screen
+Overheat shutdown
+Dead pixels
+Artifacts
+Incorrect color patterns
+Dim image
+Flickering image
+Distorted image
+Distorted geometry
+Burn-in
+Oversized images and icons
+Multiple failed jobs in logs
+
+A projector is being set up for a meeting and the presenter calls you to report a distorted image. Upon visual investigation, you notice that the screen image is narrow at the top of the screen and normal width at the bottom. How do you resolve this video problem? - Adjust the monitor's screen geometry - If a CRT/analog project image geometry is distorted (a pincushion effect where the edges appear to bulge for instance), try adjusting the monitor's image control knobs.
+
+Visual artifats on your computer screen are typically associated with which type of problem? - A video card problem - Visual artifacts usually point to a problem with the video card. Artifacts are unexpected objects or patterns appearing on the screen.
+
+A common method of troubleshooting video problems is to boot the system into a special troubleshooting mode, which is also known as what mode? - VGA Mode - VGA Mode allows you to view your graphical interface with a minimal set of colors in order to troubleshoot video problems, such as incorrect drivers or an errant video mode setting. Windows is fully functional in this mode.
+
+A user's report that their screen has a noticeable flicker to it. What do you check to fix the screen flicker? - Screen refresh rate - A flickering display can be a symptom of a  number of different issues, including outdated video card drivers or a loose wire connection from the system board to the display. The first thing you should check however is the refresh rate within the display settings. A refresh or frame rate of 60 Hz means the monitor will redraw the screen 60 times per second. Anything below 60 Hz may cause a user to notice flickering in the display. 
+
+A user reports screen issues while running a Graphics Processing Unit intensive application. The screen appears to blank out and go black, even through the computer is still on. What do you suspect is the problem? - The video card is overheating - The video card is overheating, which can occur due to other computer components, poor ventilation, or failed cooling fans. 
+
+A user has dual monitors, which are both producing color "glitches" such as purple or green horizontal lines or colors changing unexpectedly. What do you think the problem is? - A connector is loose or cabling is bad. - Incorrect color patterns can be cause by a faulty or loose connector or cabling that is either faulty or insufficient quality. Try replacing the cable. If this does not fix the issue, there could be a hardware fault.
+
+
+
+
+-----------------------------------------
+
+
+5.5 – Given a scenario, troubleshoot common mobile device issues while adhering to the appropriate procedures.
+Common symptoms
+No display
+Dim display
+Flickering display
+Sticking keys
+Intermittent wireless
+Battery not charging
+Ghost cursor/pointer drift
+No power
+Num lock indicator lights
+No wireless connectivity
+No Bluetooth connectivity
+Cannot display to external monitor
+Touchscreen non-responsive
+Apps not loading
+Slow performance
+Unable to decrypt email
+Extremely short battery life
+Overheating
+Frozen system
+No sound from speakers
+GPS not functioning
+Swollen battery
+Disassembling processes for proper reassembly
+Document and label cable and screw locations
+Organize parts
+Refer to manufacturer resources
+Use appropriate hand tools
+
+
+A technician is troubleshooting a new mobile device that is suddennly experiencing a very short battery life. Which of the following is likely the cause? - An app is putting excessive strain on battery life. - If the battery is not old or faulty, you could suspect that an app is putting excessive strain on the battery. On most mobile devices, you can view which apps are putting the most strain on battery life.
+
+You open the lid to your laptop and the display is blank/black. Identify the option that is most likely NOT the source of the problem. - The device's blank screen saver is activated. - It is unlikely that the screen saver would be activated upon opening the laptop's lid.
+
+A user reports being unable to read an encrypted email on a mobile device. Which os the following is likely missing? - The digital certificate - If the certificate is missing or not recognized, the device will be unable to decrypt the email.
+
+Which of the followig is the best method of documenting cable and screw locations when disassembling a laptop? - Print out a picture and tape relevant pieces to corresponding places on the picture - Print out a photo of the underside of the laptop. As you remove screws, tape them to the relevant point in your picture. Photograph each stage of disassembly so you know where to re-fit cables and connectors. 
+
+Which of the following is NOT a likely cause for your mobile devices flickering display? - Electrical interference - Electrical interference is not a likely cause for liquid crystal display (LCD) screen flicker.
+
+IF you experience intermitten wireless connectivity problems, what should you check first on your local device? - Check for electrical interference - If there are intermitten connectivity problems, be aware that wireless and Bluetooth can experience trouble with interference. Use Wi-Fi analyzer software to measure the signal strength in different locations to try to identify the source of interference. Moving devices a few feet can make a big difference.
+
+
+
+
+-----------------------------------------
+
+5.6 – Given a scenario, troubleshoot printers.
+Common symptoms
+Streaks
+Faded prints
+Ghost images
+Toner not fused to the paper
+Creased paper
+Paper not feeding
+Paper jam
+No connectivity
+Garbled characters on paper
+Vertical lines on page
+Backed-up print queue
+Low memory errors
+Access denied
+Printer will not print
+Color prints in wrong print color
+Unable to install printer
+Error codes
+Printing blank pages
+No image on printer display
+
+What should you check if paper is not feeding into the printer correctly? - Weight of the paper - If paper is not feeding into the printer or if the printer is feeding multiple sheets at the same time, check that it is loaded in the tray properly and that it is of an appropriate weight (not too thick or thin).
+
+The error log on a printer server shows that a user tried to print a very large file, causing a "Low Memory" error. Which of the following is the best step to take first? - Delete the print job - Delete the large file from the print queue. If necessary, the user can print at a lower resolution, or not print the entire file at once.
+
+Choosing the draft output print option causes which of the following? - Faint prints - Faint prints most likely indicate that the toner cartridge needs replacing if you can discount a simple cause such as the user choosing an option for low density or draft output.
+
+If a user is unable to install a printer, what is likely the problem? - The user's account does not have sufficient permissions to install drivers - Installing a a printer driver normally requires administrator privileges, though it is possible to configure network security policies that allow users to install printers with signed drivers.
+
+A laser printer is producing output that smudges easily. Which of the following is likely the cause? - The fuser needs to be replaced. - If the output smudges easily, this indicates the thoner is not fused to the paper and the fuser needs replacing.
+
+Choosing the draft output print option causes which of the following? - Faint prints - Faint prints most likely indicate that the toner cartidge need replacing if you can discount a simple cause such as the user choosing an option for low density or draft output.
+
+
+-----------------------------------------
+
+5.7 – Given a scenario, troubleshoot common wired and wireless network problems.
+Common symptoms
+Limited connectivity
+Unavailable resources
+Internet
+Local resources
+Shares
+Printers
+Email
+No connectivity
+APIPA/link local address
+Intermittent connectivity
+IP conflict
+Slow transfer speeds
+Low RF signal
+SSID not found
+
+If you notice that a computer has an IP address of 169.254.0.11, what can you conclude? - The computer was unable to locate an available DHCP server. -  When a DHCP enabled computer is unable to locate an available DHCP server, the Automatic Private IP Addressing (APIPA) feature of Windows allos the computer to automatically assign itself an address from this block.
+
+A user frequently accesses a network share. On Monday the user sends you an email stating that the share is offline. Which of the following most likely caused the problem? - The server hosting the share was updating  and is no longer presenting the drive as a share. - The server hosting the share may have recently received a security or OS update over the weekend that caused the shared folder to no longer be accessible. Someone with administrator rights on the server will need to correct the problem.
+
+You are trying to connect to your home network and cannot find the SSID. Which of the following is the likely problem? - You are out of range. - Try to use your device out of range is a common reason for being unable to find the SSID. Consider installing Wireless Access Points (WAPs) in order to expand your network.
+
+A department needs to send a file to a remote server but the file transfer is failing. Which of the following commands would you use to troubleshoot connectivity issues to the remote server. - tracert - The tracert command-line utility is used to trace the route of packet of information takes to get to its target. If the host cannot be located, the command will eventually timeout but it will return every router that was attempted and help you determine the cause of the problem.
+
+Which of the following can you help diagnose latency issues on a network? - Ping test - The ping utility is a command-line diagnostic tool used to test whether a host can communicate with another host on the same network or on a remote newtwork. A ping test provides millisecond measures of Round Trip Time (RTT) that can be usde to diagnose latency problems on a link. 
+
+-----------------------------
+
+Core 1 Practice Test
+
+At the time of writing, the 802.11 wireless LAN standards in the order of their release are as follows:
+Standard - 802.11a
+Max Transfer Rate: 54 Mbps
+Band: 5 GHz
+
+Standard 802.11b
+Max Transfer Rate: 11Mbps
+Band: 2.4 GHz
+
+Standard: 802.11g
+Max Transfer Rate: 54 Mbps
+Band: 2.4 GHz
+
+Standard: 802.11n
+Max Transfer Rate: 288.8 Mbps/stream (Single Channel)
+MaxTransfer Rate: 600 Mbps/stream (Bonded Channels)
+Ban: 2.4/5GHz
+
+Standard: 802.11ac
+Max Transfer Rate: 1.7 Gbps
+Band: 5 GHz
+
+If a CRT's image geometry is distored, adjust teh CRT image control knobs.
+If a display has low color depth check or update the display driver.
+If there are stuck or dead pixels, you may be able to reactivate the pixels by gentle touching them or using special software, but likely you'll need to replace the display.
+If a display has image burn-in, you may need to replace the display. To avoid burn-in, use automatic screensavers or turn off the display.
+If a color has color glitches like green or purple horizontal lines, check the display cables and ports. If needed, replace them.
+If screen objects appear too large, adjust the screen resolution or zoom.
+If an image appears very dim, adjust the display's brightest/contrast settings.
+
+A company uses smartcards with Personal Identification Numbers (PINs) as a two-step authentication process to access the network. This is an example of which of the following network authentication methods? - Public key authentication - Public key authentication is a network authentication method that can be configured to use a smartcard and PIN. The user's private key can be configured with a passphrase that must be input to access the key, providing an additional measure of protection compared to host-based authentication.
+
+When troubleshooting a PC what is a good way to analyze the computer problem systematically? - Work in layers - A good way to consider a computer problem systematically is to work up or down layers. For example, you can start with checking the power, then hardware components, then drivers/firmware, then software, then network, and finally user actions.
+
+What is Network Address Translation (NAT)? - It is when a router converts the client's private IP address into a valid public address. - Network Address Translation (NAT) is when clients on the local network connect via a router and the router converts the client's private IP address into a valid public address.
+
+Which of these is part of a fiber optic strand? - Buffer - The protective coating around the cladding is called the buffer. This prevents light from entering the fiber cable and helps to bounch the light signal back into the core.
+
+You are building a new server and need ot ensure that it has the highest achievable disk fault tolerance. Which type of RAID do you need? - RAID 10 - RAID 10 is a combination of both  RAID 0 (Striping without Parity) and RAID 1 (Mirroring). This configuration provides a high level of fault tolerance.
+
+You are installing a RAID 1 and want to ensure that the controller card is not a single point of failure. What tehcnique do you need to employ in this configuration? - Disk duplexing - In a RAID 1 configuration, data from an entire partition is duplicated on two identical drives through either mirroring or duplexing.
+
+A new systems consoludation plan requires that you implement a few workstations that will host several guest operating systems each. In your research you have decided to use a type-1 hypervisor for the host workstation. Which of the below virtualization solutions will work? - Install Windows Hyper-V Server. Install the guest operating systems one-by-one. Microsoft Hyper-V is a type-1 hypervisor. Windows Server 2008, 2012, 2016, and Windows 10 all include Hyper-V. There is also a stand-alone Windows Hyper-V Server product. Hyper-V can be enabled or disabled inside a Windows operating system. This alludes to being a type-2 hypervisor as it is within the Windows operating system. Because the scneario calls for a type-1 hypervisor, the best choice is to use the Windows Hyper-V Server, because it installs directly on bare metal.
+
+Which of the following Hypervisors is included with Linux distributions? - KVM - is a virtualization hypervisor that is included with Linux distributions. It is an open source type-2 hypervisor. A type-2 hypervisor requires an underlying opreating system and does not have direct access to the host system's hardware.
+
+What is the purpose of having an accelerometer is a laptop? - To protect the hard drive - A laptop may have an accelerometer built in. This hardware technology detects if the laptop has suddenly dropped by using a sensor to detect sudden rapid movement such as a free fall. As a result, the hard drive will stop spinning and it will use measures to prevent itself from crashing and failing.
+
+Which of these technologies replaced PATA? - SATA - SATA is the standard means of attaching internal storage drives to a desktop PC. It has superseded the legacy PATA technology.
+
+What is the defining quality of a network-based printer? - It is managed by a network computer called a print server. - The defining aspect of a network-based printer is that it is managed by a network computer called a printer server. The print server holds the print queue, not the networked printer.
+
+Which VGA(Video Graphics Adapter) standard uses a 16:9 aspect ratio? - HD(High Definition) - HD(High Definition) is a newer standard intended to replace XHA( Extended Grahpics Array) and has a resolution of 1366x768 and an aspect ratio of 16:9.
+
+In which of the following scenarios would you most likely need to use the Fn special function key on the keyboard for display purposes on a laptop? - When you connect a project to a laptop's external display port - When you connect a project to a laptop's built-in external display port, a special function key can be toggled to send video output via the external port to the project. A special function key is a key on the keyboad used in combination with the Fn key.
+
+A user is requesting to be able to virtualize a Windows 10 Professfional workstation on etheir computer. You learn that the user has an Apple computer. Which virtualization solution do you choose to install? - VMWare Fusion - VMWare FUsion is type-2 virtualization hypervisor that can be used to run guest operating systems on an Apple computer. A type-2 hypervisor requires an underlying operating system and does not have direct access to the host system's hardware.
+
+Which generation of cellular digital communications standards typically delivers around 40 Mbps in practice? - LTE-A - LTE Advanced (LTE-A) is intended to provide a 300 Mbps downlink but this aspiration is not matched by real-world performance. Current typical performance for LTE-A is around 40 Mbps.
+
+You are considering replacing the hard drive in your laptop. You know that the laptop is using a 2.5" drive, but you want to research available drive heights as well. Which of the below is NOT a valid 2.5" hard drive height? - 12 mm - 12 mm is not a valid 2.5" hard drive height. There is also a 1.8" hard drive, but it is not widely used. The valid 2.5" hard drive heights are 15mm, 9.5mm, 7mm, and 5mm.
+
+Which of the following cloud services offers application hosting with web based management and access for users? - SaaS - SaaS (Software as a Service) is a cloud based offering that provbides application access to users via the Internet. Examples of popular SaaS applications are Office 365, Google Suite, SalesForce, and Zoho Office.
+
+A user is experiencing an error with an application and wants to recreate the issue for you to see. What can you do to accomplsih this without traveling to the user's location? - Instruct the user to send a request for remote assistance using Windows Remote Assistance tool. - Remote Assistance allows a user to ask for help from a technician or co-worker. The "helper" can then connect and join the session while the user is still logged into the machine.
+
+In Windows Firewall properties, how can you prevent a specific port from receiving traffic? - Use the "Allow" state for inbound connections and create a rule to block the port. - When using the "Allow" state for inbound connections, you must create rules for any incoming connections you wish to block.
+
+- To set up a proxy server, you'll select the Settings button under Dial-up and Virtual Private Network Settings.
+- To set up a new private connection, you'll select Add VPN button under Dial-up and Virtual Private Network settings.
+- To review your trusted or restricted sites, you'll select the Security tab.
+- To configure settings for other areas of your Local Area Network, you'll select the LAN settings button under Local Area Network (LAN) settings.
+- To configure a new internet connection, you'll select the Setup button under Setup an Internet connection. 
+- A VPN is NOT unique to the Internet Explorer browser. VPNs are used across many operating systems and browsers.
+- Trusted Sites can be set within the Security tab of the Internet Options window.
+
+Standard: 802.11a
+Max Transfer Rate: 54 Mbps
+Band: 5 GHz
+
+Standard: 802.11b
+Max Transfer Rate: 11Mbps
+Band: 2.4 GHz
+
+Standard: 802.11g
+Max Transfer Rate: 54 Mbps
+Band:2.4 GHz
+
+Standard: 802.11n
+Max Transfer Rate: 288.8 Mbps/stream (Single Channel)
+Max Transfer Rate: 600 Mbps/stream (Bonded Channels)
+Band 2.4/5GHz
+
+Standard: 802.11ac
+Max Transfer Rate: 1.7 Gbps
+Band: 5 Ghz
+
+What are most persistent CD writing problems associated with? - Buffer underruns - Most disk writing problems are connected to buffer underruns. On older devices, once the writing process starts, it cannot be paused. Therefore, if the OS does not supply data to the burner's buffer quickly enough, errors will be introduced into the disc's layout.
+
+Which of the following is NOT a system requirement for a Hyper-V host? - X86 - X86 is a 32-bit process (CPU) technology. Hyper-V guest virtual machines (VM) can be 32-bit. Howvever, host requirement is 64-bit architecture.
+
+You are considering replacing the hard drive in your laptop. You know that the laptop is using a 2.5" drive, but you want to research available drive heights as well. Which of the below is NOT a valid 2.5" hard drive height? - 12 mm - 12mm is not a valid 2.5" hard drive height. There is also a 1.8" hard drive, but it is not widely used. The valid 2.5" hard drive heights are 15mm, 9.5mm, 7mm, and 5mm.
+
+What generation of cellular digital communications standards is supposed to deliver a minimum of 100 Mbps for access frrom moving users? - 5G - 5G is supposed to deliver a minimum of 100 Mbps for access from a fast-moving behicle and 1 Gbps for stationary users. Speeds of up to 70 Gpbs have been achieved under test conditions.
+
+In Windows Firewall, how can you block a computer from accessing a specific
+program? - Use the "Allow" state for indbound connectrions and create a rule
+to block the program. - When using the "Allow" state for inbound connections,
+all outbound connections are allowed by default. You must create rules for
+programs you wish to block.
+
+A user is experiencing an error with an application and wants to recreate the
+issue for yoiu to see. What you can you do to accomplish this without
+traveling to the user's location? - Instruct the user to send a request for
+remote assistance using Windows Remote Assistance tool. - Remote Assistance
+allows a user to ask for help from a technician or co-worker. The "helper" can
+then connect and join the session while the user is still logged into the
+machine.
+
+In a laptop, what can be easily access by removing the screw plate on the back
+cover of the laptop? - The WiFi card - Some Field Replaceable Units (FRUs) can
+be accessed easily by removing a screw plate on the back cover (underside) of
+the laptop. This provides access to the disk drive, optical drive, memory
+modules, and possible Mini PCIe adapters such as WiFi cards and modems.
+
+Which type of memory stores address information? - Registered - Registered
+(buffered) memory has an extra component that stores address information,
+taking some load off the memory controller. It does not correct errors in
+Random Acess Memory (RAM).
+
+Which protocol defints how a client can query and update network resources? -
+LIghtweight Directory Access Protocol (LDAP) - The Lightweight Directory
+Access Protocol (LDAP) defines how a client can access information, perform
+operations, and share directory data on a directory server. Network resources
+are objects within the directory, which is like a database.
+
+You need to setup a few virtual workstations for a network test lab. You have
+a computer to use as the host machine, however it does not have an operating
+system installed. What is the easiest and quickest solution to configure the
+host system? - Install a type-1 hypervisor on the host machine and then
+isntall the guest opreating systems. - Installing a type-1 hypervisor would be
+the quickest and easiest solution. A type-1 hypervisor does not need an
+operating system to run, and it can be installed directly on the system.
+Because of this capability, type-1 hypervisors are known as bare-metal
+hypervisors.
+
+Space is at a minimum in a user's office. You have been tasked with building
+out the smallest system you can for this user. What motherboard form factor
+would you choose? - Mini-ITX (mITX) - Small Form Factor (SFF) PCs often use
+VIA Technologies' mITX(Mini-ITX) form factor. mITX is 6.7" wide by 6.7" deep
+(170x170mm) with one expansion slot.
+
+You need to manage settings on a user's computer remotely using administrator
+credentials. What can you do to accomplsih this? - Use a Remote Desktop
+COnnection to the user's computer - Remote Desktop allows a remote user to
+connect to a desktop machine. Once the connection is established, the computer
+goes to the logon screen and the remote user can log on.
+
+How can you verify whether a solution you apple fixes a problem? - Substitute
+the part for a "known good" one. - A basic technique when troubleshooting a
+cable, connector, or device is to have a "known good" duplicate to hand. This
+approach very quickly identifies "non-causes".
+
+If you were to order a new lpatop that required a screen resolution of
+1280x800, which resolution standard would you look for? - WXGA - WXGA
+(Widescreen XGA) is a display that has a screen resolution of 1280 x 800
+pixels and has a widescreen aspect ratio of 16:10.
+
+What is the first thing you should do when troubleshooting the built-in
+display on a laptop? - Connect the laptop to an external monitor -When
+troubleshooting the built-in display, first check that the video card is good
+b y using an external monitor. Toggle the appropriate Fn key.
+
+Which type of server uses a distributed database that contains information on
+domains and hosts within those domains? - DNS server - Domain Name System
+(DNS) servers allow users to access resources using host names and Fully
+QUalified Domain Names (FQDN) by resolving those names to IP addresses. It
+uses a distributed database that contains information on domains and hosts
+within those domains.
+
+With Microsoft Hyper-V, different types of virtual switches can be created.
+which switch type is only usable by the guest virtual machines on the Hyper-V
+host? - Private - A private switch created with Microsoft Hyper-V  is a switch
+tha tis only usable by the guest virtual machines. For example with this type
+of switch a Linux guest and Windows guest could communicate with each other
+but not with th ehost or nay other physical machines on the network.
+
+Which of the following network authentication methods uses credentials that
+are verified against a user database? - Username / password - Kerberos allows
+Single Sign On (SSO) on a network that runs the Kerberos authentication
+protocol. Windows Active Directory domain networks uses Kerberos.
+
+Which of these has a transfer rate of 1.6 Gigabits per second (Gbps)? -
+DDR-200 - DDR-200 has a memory clock of 100 megahertz (MHz), a bus clock of
+100 MHz, a data rate of 200 million transfers per second (MT/s) and a transfer
+rate of 1.6 Gigabits per second (GBps).
+
+In which of the following scenarios would you most likely need to use the Fn
+special function key on the keyboard for display purposes on a laptop? - When
+you connect a project to a laptop's external display port - When you connect a
+projector to a laptop's built-in external display port, a special function key
+can be toggled to send video output via the external port to the projector. A
+special function key is a key on the keyboard used in combination with the Fn
+key.
+
+You are building a new, high performance personal desktop PC and are deciding
+on a motherboard. Not considering overclock-ability, to maximuze performance
+and future capacity to upgrade, you should choose a motherboard with the
+following support RAM slots: DDR4 SDRAM - DDR4 SDRAM is the most current
+revision of the SDRAM standard and features the highest bus and memory clock
+speeds currentl available superseding DDR3 in a 2014. GDDR modules are
+reserved for use in GPU's.
+
+What must you do when developing a troubleshooting mindset? - Assess costs and
+imapcts. - When assessing whether to repair a part, consider the costs of the
+part and the cost of your time to perform the repair. In many circumstances,
+replacement is the most effective option.
+
+Modern guest virtual machine disk images created with Microsoft Hyper-V have
+what file extension? - vhdx - A vhdx file extension is associated with newer
+Hyper-V virtual machine disk images. Originally the file extension was vhd.
+The change between the two types brought many improvements, the most notable
+being a capacity increase. A vhd, has a limit of 2 TB whereas a vhdx has a
+limit of 64 TB.
+
+Which of these cabling media types is NOT common to LAN environments? -
+F-connector - Coax installations  use screw-down F-connectors. They are
+inexpensive, gendered, threaded, compression connector for radio frequency
+signals. A broadband cable serveice, for example is likely to use the
+F-connector for drop cables.
+
+Which of the following Intel CPUs are laptop only chips? - Core Duo - Core Duo
+is an Intel brand of mobile CPU tha tis found only in laptops. This chip's
+predecessor the Core Solo is also only a laptop chip. The Core 2 brand of
+chip is used in both laptops and desktop.
+
+------------------------
+
+Based on the bandwidth requirements per slot, you can determine which slot is
+appropriate for each card. Each PCI Express (PCIe) lane supports a transfer
+rate of 250 MB/s in each direction. So 250 MB/s, PCIe x4 is 1 GB/s, PCIe x8 is
+2 GB/s, and PCIe is 4 GB/s. PCI is 133 MB/s. Though it can also run at 133
+MB/s , PCI-X is for servers and not appropraite from a home PC. COmponents of
+the motherboard, both hardware and software, include the CPU socket, CMOS,
+northbridge and firmware. The GUI is trhe graphical user interface disp[lay on
+the compauter screen adn the hard drive (HDD) is a separate storage component
+connected to but not part of the motherboard.
+
+To set up a proxy server, you'll select the Settings button under Dian-Up and
+Virtual Private Network Settings.
+
+To set up a new private connection, you'll select the Add VPN button under Dial-up adn Virtual Private Network settings.
+
+To review your trusted or restricted sites, you'll select the Security tab.
+
+To configure settings for other areas of your Local Area Network, you'll select the LAN settings button under under Local Area Network (LAN) settings.
+
+To configure a new Internet connection, you'll select the Setup button under Setup and Internet connection.
+
+A VPN is NOT unique to the IE browser. VPNS are uased across many operating systems and browsers.
+
+Trusted Sites can be set within the Security tab of the Internet Options window.
+
+In Windows Firewall properties, how can you allow only a specific program to access the Internet? - Use the "Block" state for outbound connections and create a rule to allow the program. - When using the "Block" state for outbound connections you must create rules for each program that is allowed to make an outbound connection.
+
+READ THE FUCKING QUESTION
+
+What type of portable storage media type is most commonly used in the modern mobile devices including smartphones, tablets, drones, and cameras? - microSD - A microSD card is the smallest and most modern flash memory storage type being commonly used in modern devices for the storage of photos and media. Capacity and speed of a microSD card can vary.
+
+Which motherboard form factor is square 9.6" board? - mATX (Micro-ATX) - The mATX (Micro-Advanced Technology Extended standard specifies a 9.6 (244mmx244mm) square board, with fewer expansion slots (up to 4 compared to a maximum of 7 for full-sized ATX boards).
+
+Which of the following is a feature of USB on the GO (OTG)? - It allows a port to function as a host or a device - USB on the Go (OTG) is a feature that allows for a mobile device port to function as a host or a device. As an example, the smartphone can function as a host when a keyboard is connected and as a device when it is connected to a PC.
+
+Which of the following Intel CPUs are laptop only chips? - Core Duo - Core Duo is an Intel brand of mobile CPU that is found only in laptops. This chip's predecessor the Core Solo is also a laptop only chip. The Core 2 brand of chip is used in both laptops and desktops.
+
+Which type of memory card supporst up to 512 Gigabytes of digital imaging data? - CF - COmpact Flash (CF) was a very large card, bigger than a Secure Digital (SD) card, and had speeds rated the same as Compact Discs (CDs) and could support 512 GBs though cards larger than 256 GB were made.
+
+The 801.11ac standard is one of the five Wi-Fi standards and supports up to 8 spatial streams of data. At what speed and on what radio frequency does the 802.11ac operate? - Speeds of up to 1.5 Gbps in the 5 Ghz band. - The 802.11ac standard provides high-throughput wireless local area networks only in the 5 GHz band. At speeds as high as 1.7 GBps now, it aims to get throughput like that of Gigabit Ethernet or better.
+
+What is the best solution to fix slow disk performance? - Add more RAM - Slow disk performance is often a bottleneck for modern computer systems. In this case, the best solution may be to add more RAM.
+
+What is the best solution if a virus has caused damage to the Master Boot Record (MGR) or the GUID (Globally Unique ID) Partition Table (GPT)? - Use the boot disk option in your anti-virus software? - If a virus damages the MBR or the GUID GPT, the best way to resolve it is to use the boot disk option in your antivirus software. 
+
+Which of the following is the addressing scheme that uses a 32 bit number for each address? - IPv4 - An IPv4 address is a 32-bit number. It consists of 4 octets displayed in dotted decimal notation.
+
+Under 802.1X what is the term for the switch that waits for the device to send authentication data?   - Authenticator - The authenticator is the switch that enables the Extensible Authentication Protocol over LAN (EAPoL) protocol and waits for the device to supply the authentication data.
+
+A switch connects nodes together in a single network, establishing a virtual circuit between any two network nodes. How does the switch perform this function?  - It receives frames into a port buffer and reads the destination MAC address from the Ethernet frame. - Receiving frames is a function of a switch where the frams are received into a  port buffer. The switch then reads the destination MAC address from a Ethernet frame. The switch then uses its MAC address table to look up the port connected to the destination MAC address and sends the frame.
+
+What distance between hosts could mean multiple connected networks in the same municipality? - MAN (Metropolitan Area Network) - MANs (Metropolitan Area Networks) are an area equivalent to a city or other municipality. It could mean a company with multiple connected networks within the same metropolitan area - so larger than a LAN (Local Area Network) but smaller than a WAN (Wide Area Network).
+
+The small marina business you work for wants to add cable TV into the office building for constant weather updates. You need to connect the new cable modem to existing cable wiring in the building. Which cabling do you use for this project? - Use a RG-6 patch cable. - RG-6 is a coaxial cable that has a thicker core conductor for between signal quality and is often used as a drop/patch cable for modern Cable Access TV (CATV) and broadband cable modems.
+
+What is the first thing you should do if you are experiencing battery problems with your laptop? - Check if the battery is correctly inserted - If working form the battery, first check that it is inserted correctly and seated properly in its compartment.
+
+Modern guest virtual machine disk images created with Microsoft Hyper-V have what file extension? - vhdx - A vhdx file extension is associated with newer Hyper-V virtual machine disk images. Originally the file extension was vhd. The change between two types brough many improvements, the most notable being a capacity increase. A vhd has a limit of 2 TB whereas a vhdx has a limit of 64 TB. 
+---------------------------
+
+Practice test 4 - 80%
+
+At the time of writing, the 802.11 wireless LAN standards in the order of their release are as follows:
+Standard:802.11a
+Max Transfer Rate 54 Mbps
+Band: 5 GHz
+
+Standard: 802.11b
+Max Transfer Rate: 11 Mbps
+Band: 2.4 GHz
+
+Standard: 802.11g
+Max Transfer Rate: 54 Mbps
+Band: 2.4 Ghz
+
+Standard: 802.11n
+Max Transfer Rate: 288.8 Mbps/stream (Single Channel)
+Max Transfer Rate: 600 Mbps/stream (Bonded Channels)
+Band:2.4/5 Ghz
+
+Standard: 802.11ac
+Max Transfer Rate: 1.7 Gbps
+Band: 5 Ghz
+
+To set up a proxy server, you'll select the Settings button under Dial-up and Virtual Private Network settings.
+
+You need to install a printer that can be used to print payroll checks on paper forms that have a carbon backing. Which printer technology should you select? - Impact - The impact printer technology is what you want. The metal or plastic head strikes the ribbon, and consequently the paper with a printhead. The physical hammering action causes the carbon backing to take effect and apply text to the next layer of paper.
+
+You are working on a project that requires virtualizing and operating system (OS) for an end user to test an application. It has been requested that you use a type-2 hypervisor to accomplish this. Which of the below would fulfill that requirement? - KVM - KVM is an open-source Linux-based type-2 hypervisor that is used with most Linux operating systems including Ubuntu, Debian, and SUSE. A type-2 hypervisor installs on top of a host operating system and does not have direct access to the underlying hardware.
+
+What speed does Thunderbolt 3 support? - 40 Gbps - Thunderbolt 3 doubles the speed of the prior version 2 by supporting speeds of up to 40 Gbps over a short high-quality cable(up to 0.5m / 1.6 ft). Thunderbolt 3 uses a USB-C connector.
+
+Which term does not refer to a variant of the full-size SD memory card? - Micro-SD - Micro-SD is the smallest version of the SD card but has the same capacity and speed designatoins as the SD.
+
+Which of these would cause no image to display on a monitor? - The monitor is in standby mode - If there is no image displayed on the monitor, make sure that the monitor is plugged in and turned on. Check that the monitor is not in standby mode (press a key or cycle the power to the monitor to activate it).
+
+Your company decided to upgrade to 10 Gbps using 10GBASE-T networking. Which category of Ethernet cable would you use? Cat 6A - Cat 6A uses 500 MHz and carries 10 Gbps of data up to 100m (328ft) and is used in 10 GBASE-T networks.
+
+What could a loud noise coming from a computer fan indicate? - There is a driver problem - A fan that sounds noisey may be spinning too fast because its driver software is not controlling it properly.
+
+You are in the process of moving a virtualized environment from an old host computer to a new host computer. You are using VMWare Workstation for the virtualization. You have forgotten where you have saved the guest virtual image files on the old host computer. What file extension should you search for so you may copy the disk images to the new host computer? - vmdk - A vmdk file is a virtualization storage format that is associated with VMWare Workstation and ESX server products.
+
+You want to build a computer that can stand upright on a desk and takes up the lease amount of space possible. Which case type should you select? - Micro-ATX slim tower - Micro-ATX (Advanced technology Extended) slim towers are designed to be able to stand upright on desks, reducing the amount of space they require.
+
+Space is at a minimum in a user's office. You have been tasked with building out the smallest system you can for this user. What motherboard form factor would you choose? - Mini-ITX(mITX) - Small Form Factor (SFF) PCs often use VIA Technologies' mITX (Mini-ITX) form factor. mITX is 6.7" wide by 6.7" deep (170x170mm) with one expansion slot.
+
+Which of the following is used to distinguish between the host number and the network number? - Subnet mask - A subnet mask (or netmask) is used to distinguish these two components within a single IP address. It is used to "mask the host ID portion of the IP address and thereby reveal the network ID portion.
+
+YOu need to setup a few virtual workstations for a network test lab. You have a computer to use as the host machine, however, it does not have an operating system installed .What is the easiest and quickest solution to configure the host system? - Install a type-1 hypervisor on the host machine and then install the guest operating systems. - Installing a type-1 hypervisor would be the quickest and easiest solution. A type-1 hypervisor does not need an operating system to run, and it can be installed directly on the system. Because of this capability, type-1 hypervisors are known as bare-metal hypervisors.
+
+You work for a small commercial design firm where you need to build out a powerful 3D art departmeent computer to substantially reduce current rendering times. What will be the most important CPU feature needed on this new computer? - Hyperthreading - Hyperthreading makes multitasking on your system much easier, alowing two or more processes to run using the same resources. It is good for tasks like video editing, 3D rendering and heavy multi-tasking.
+
+-----------------------
+
+Standard: 802.11a
+Max Transfer Rate: 54 Mbps
+Band: 5 GHz
+
+Standard: 802.11b
+Max Transfer Rate: 11 Mbps
+Band: 2.4 GHz
+
+Standard: 802.11g
+Max Transfer Rate: 54 Mbps
+Band: 2.4 GHz
+Standard:802.11n
+Max Transfer Rate: 288.8 Mbps/stream (Single Channel)
+Max Transfer Rate: 600 Mbps/strean (Bonded Channels)
+Band: 2.4/5GHz
+
+You're working from home. Where do you go to set up a new private connection? - To set up a new private connection, you'll select the Add VPN button under Dial-up and Virtual Private Network settings.
+
+You are in the process of moving a virtualized environment from and old host computer to a new host computer. You are using VMWare Workstation for the virtualizatoin. You have forgotten where you have saved the guest virtual disk image files on the old host computer. What file extensions can you search for so you may copy the disk images to the new host computer? - vmdk -A vmdk file is a virtualization storage format that is associated with VMWare Workstation and ESX server products.
+
+You are troubleshooting printer conenctivity to the network. Where can you look for multiple fialed print jobs? - In the print server logs - When troubleshooting printer connectivity to the network, you should check for multiple failed jobs in the print server's log, look up error odes, or look through the logs from the device itself.
+
+Which USB standard defines a data rate of up to 10 Gbps (Gigabits per second)? - USB 3.1 - The USB 3.1 defines a SuperSpeed mode with a data rate of up to 10 Gbps (Gigabits per second) and makes the link full duplex.
+
+The 802.11ac standard is one of five Wi-Fi standards and supports up to 8 spatial streams of data. At what speed and on what radio frequency does the 802.11ac operate? - Speeds up to 1.7 Gbps in the 5 GHz band - The 802.11ac standard provides high throughput wireless local area networks only in the 5 GHz band. At speeds as high as 1.7 Gbps now, it aims to get throughput like that of Gigabit Ethernet or better.
+
+A new system consolidation plan requires that you implement a few workstations that will host several guest operating systems each. In your research you have decided to use a type-1 hypervisor for the host workstation. Which of the below virtualization solutions will work? - Install Windows Hyper-V Server. Install the guest operating systems one-by-one. - MIcrosoft Hyper-V is a type-1 hypervisor. Windows Server 2008, 2012, 2016 and Windows 10 all include Hyper-V. There is also a stand alone Windows Hyper-V Server product. Hyper-V can be enabled and disabled inside a Windows operating system. This alludes to being a type-2 hypervisor as it is within the Windows operating system. Beacuse the scneario calls for a type-1 hypervisor, the best choice is to use the Windows Hyper-V Server, because it installs directly on bare metal.
+
+What is true about RAID hardware configurations? - RAID hardware can be supported by the motherboard. - A hardware solution means that creating volums from an array of physical disks is an operation supported by a plug-in controller card or by the motherboard, independently of the installed operating system.
+
+Which type of memory card supports up 512 GB of digital imaging data? - CF - Compact Flash (CF) was a very large card, bigger than a SD card, and has speeds rated the same as CDs and could support 512 GBs though no cards larger than 256 GBs were made.
+
+Which of these is a type of fiber optic connector? - Straight tip - A straight tip connector (ST connector) is a connector used in fiber-optic cables  that utilizes a bayonet-style plug and socket; used mostly for multi-mode networks. The ST connect setup allows for unidirectional communication, so two ST connectors and two fiber cables are used for bidirectional communication.
+
+You have been given the project of running cables in the space between the structural ceiling and the suspended ceiling in your office building. Which cable types would you use for this project? - Plenum cables - Plenum rate cable has a special insulation that has low smoke and low flame characteristics. Plenum cable is mandated to be installed in any "air handling" space. For example, most large office buildings use the ceiling to return air to the AC unit.
+
+Which generation of cellular digital communications standards typically delivers around 40 Mbps in practice? - LTE-A - LTE Advanced (LTE-A) is intended to provde a 300 Mbps downlink, bu this aspiration is not matched by real-world performance. Currently typical performance for LTE-A is around 40 Mbps.
+
+Which of the following is the addressig scheme that uses a 32-bit number for each address? - IPv4 - An IPv4 address is a 32 bit number. It consists of 4 octets displayed in dotted decimal notation. 
+
+A user is requesting to be able to virtualize a Windows 10 Professional workstation on their computer. You learn that the user has an Apple computer. Which virtualization solution do you choose to install? - VMWare FUsion - VMWare Fusion is a type-2 virtualization hypervisor that can be used ot run guest operating systems on an Apple computer. A type-2 hypervisor requires an underlying operating system and does not have direct access to the host system's hardware.
+
+
+-------------------------
+
+If memory is volatile, it means that data cannot be stored without a power supply. The storage devices are stated from least to most volatile in the following order: Removable storage, HDD, SSD, RAM, CPU Cache. Removable storage, HDDs, and SSDs are mass storage devices that are slower, but do not require power to store data. CPU cache and RAM are fast but require power to store data.
+
+Which cloud deployment type uses both private and public cloud features? - Hybrid - Hybrid clouds are a combination of public and private cloud type. An example of hybrid cloud usage can be the use of public cloud straoge services for an internal private cloud application.
+
+Space is at a minimum in a user's office. you have been tasked with building out the smalest system you can for this user. What motherboard form factor would you choose? - Mini-ITX (mITX) - Small FOrm Factor (SFF) PCs often use mITX (Mini-ITX) form factor. 
+
+Which of the following cases are used for high-end user personal computers (PCs)? - Mid tower case - Mid tower cases are used for high-end user PCs. These PCs do require extra devices and adapter cards, but not as many as a server. A tower case is designed to sit vertically on a surface, so that it is taller than it is wide.
+
+Under 802.1X, what is the term for the device requesting access? - SUpplicant - The supplicant is the client wireless device requesting access to the network under 802.1X. The supplicant must supply logon credentials to the authenticator. 
+
+A new ysstems consolidation plan requires that you implement a few workstations that will host several guest operating systems each. In your research you have decided to use a type-1 hypervisor for the host workstation. Which of the below virtualization solutions will work? - Install Windows Hyper-V Server. Install the guest operating systems one-by-one. - Hyper-V is a type-1 hypervisor. Windows Server 2008, 2012 and 2016 and Windows 10 all include Hyper-V. There is also a standalone Hyper-V Server product. Hyper-V can be enabled or disabled inside a Windows operating system. This alludes to being a type-2 hypervisor as it is within the Windows operating system. Because the scenario calls for a type-1 hypervisor, the best choice is to use the Hyper-V Server because it installs directly on bare metal.
+
+
