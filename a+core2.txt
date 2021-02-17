@@ -161,4 +161,27 @@ installation disk is required. As the installation media is likely on optical
 media, an optical drive would be the best choice. A bootable flash drive would
 also work in this scenario.
 
+You are considering setting up a Windows multi-boot system with a few different Windows operating systems. You are deciding between Master Boot Record (MBR) type and GUID Partition table (GPT) type partitions. What are the limitations with the MBR type partition? - Limitations of disk sizes up to 2 TB and up to four partitions. - Master Boot Record (MBR) type partitions have limitations of disk sizes up to 2 TB and four primary partitions. The newr GUID Partition Table (GPT) enables drives greater than 2 TB and up to 128 partitions.
+
+You have installed a Windows 10 system that has failed. It turns out that the operating system needs to be reinstalled. The system does not come with any media. What reinstallation method would be best to try first? - Recovery partition - A recovery partition is a special partition on a PC system's hard drive that contains the original factory software, including the operating system and preinstalled device drivers. Booting from the recovery partition initiates an out of the box installation.
+
+You want to create a standard image for installation on multiple computers on the network. What is the first step in the process of image deployment? - Install the operating system on a reference computer. - Image deployment provides a rapid way to install a standardized version of an operating system on one or more target computers. The operating system is first installed and configured with any additional software, security settings, or general user settings on a reference computer.
+
+You are setting up a Windows 10 PC. You plan on partitioning a hard drive. How many partitions can be created on the disk when using MBR-style partitions? - 4 - When using MBR-style(Master Boot Record) partitions, up to four primary partitions can be created. Only one of those partitions may be marked as active. 
+
+What partition type can be logical partiion be created in? - Extended - Logical partitions can be created inside an extended partition. An extended partition is not formatted like a primary partition and the logical partitions within can be used as logical drives. Logical partitions can be used as logical drives. Logical partitions can hold an operating system but are not bootable. 
+
+Upon using a partitioning tool on your Windows 7 PC, you have deleted a partition labeled as recovery. What was this partition used for? - Factory recovery - A factory recovery partition is a special partition that is created by the manufacturer of the system. This partition is used to reinstall the system.
+
+Upon using a partitioning tool on your Windows 7 PC, you have deleted a partition labeled as recovery. What was this partition used for? - Factory recovery - A factory recovery partition is a special partition that is created by the manufacturer of the system. This partition is used to reinstall the system. 
+
+How many extended partitions can be created on a MBR-type (Master Boot Record) partitioned hard drive? - 1 - Only one extended partition is allowed on a hard drive. An extended partition is not formatted like a primary partition is. An extended partition is divided into segments known as logical drives.
+
+What partition type is bootable and can be marked as active? - Primary - Primary partitions are bootable partitions. A MBR-type (Master Boot Recod) partition can have up to four primary partitions. A primary partition can be marked as active, meaning it will be the boot partition.
+
+You are setting up a Windows 10 PC. You p[lan on partitioning a hard drive. How many partitions can be created on the disk when using MBR-style partitions? - 4 - When using MBR style partitions, up to 4 primary partitions can be created. Only one of those partitions may be marked as active.
+
+How many extended partitions can be created on a MBR-tyle partitions hard drive? - 1 - Only one extended partition is allowed on a hard drive. An extended partition is not formatted like a primary partition is. An extended partition is divided into segments know as logical drives.
+
+
 
