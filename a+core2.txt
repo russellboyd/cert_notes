@@ -281,4 +281,8 @@ You are adding a dynamic disk from an older Windows 7 computer to a newer Window
 
 You are troubleshooting a Windows 10 PC. You would like to boot into a diagonstic mode which only loads basic drivers and services. How can you accomplish this? - Genearl tab in msconfig - The general tab in the msconfig utility contains diagnostic startup options . A diagnostic startup mode is available as well as selective startup mode that allows for the optional selection of loading system services and other startup items.
 
+You are working with a hard disk on a Windows 10 workstation. A disk is running lo won space and you have decided to extend it. Which of the below is NOT criteria for extending a volume on a disk? - The volume can be formatted with FAT.- When extending a volume, free space on a disk is added to an existing volue. This process is completed by using the disk management tool. FAT (File Allocation Table) volumes are not supported with extending a volume.
+
+You need to create a remote deskto connection shortcut on a user's Windows laptop. Which command will you use in the shortcut? - Mstsc - The mstsc (Microsoft terminal services client) command is an executable that is used for remote dekstop connections. A shortcut to this executable can be created on a user's desktop for easy access.
+
 
