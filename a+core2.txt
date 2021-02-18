@@ -244,5 +244,24 @@ new PC for review. Which command do you use? - xcopy /t - xcopy is a command
 used to copy files and folders. The /t switch is used to copy the folder
 structure and not any files to the destination.
 
-test
+You need to register a new server COM application to a WIndows 10 PC. Which
+utility do you use? - Component services - Component services is a utility to
+manage COM(COmponent Object Model) objects. COM is a means for developers to
+allow software to link through Windows services such as OLE (Object Linking
+and Embedding).
+
+You need to routinely manage a Windows system. Rather than having to open
+several console windows, you would like to customize a single window to
+contain the most ocmmonly used management tools. Which command will you use to
+create this console? - mmc - The mmc (Microsoft management console) command is
+a utility that is used for administrative console tools. By using mmc, custom
+consoles can be create by adding tools and then saved for later use.
+
+You have installed a new hard disk into a Windows system. You want to perform
+a high-level format of the disk. How do you perform this process? - In Windows
+disk management, initialize the disk. - WHen ins4talling a new hard disk into
+a Windows system, it needs to be initialized. By right-clicking th edisk in
+disk management the drive can be initialized.
+
+
 
