@@ -277,6 +277,8 @@ You are troubleshooting a Windows 10 PC. You would like to boot into diagnostic 
 
 You decide to enable system protection featuers on your WIndows PC. One feature will enable restore points. Which feature uses restore points? - System restore - A system restore is an option to roll back any changes to a specific point in time. System restore points can be created manually, or automatically.
 
+You are adding a dynamic disk from an older Windows 7 computer to a newer Windows 10 computer. It is a secondary drive for storing files. You notice the disk is not appearing in Windows file explroer. What step must you take in disk management o use the drive without losing data? - Import foreign disk - Importing foreign disk is required. A foreign disk can be a dynamic disk that was removed from another system. Selecting the disk and choosing import will make the disk available for use.
 
+You are troubleshooting a Windows 10 PC. You would like to boot into a diagonstic mode which only loads basic drivers and services. How can you accomplish this? - Genearl tab in msconfig - The general tab in the msconfig utility contains diagnostic startup options . A diagnostic startup mode is available as well as selective startup mode that allows for the optional selection of loading system services and other startup items.
 
 
