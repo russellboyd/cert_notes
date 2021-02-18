@@ -263,5 +263,20 @@ disk management, initialize the disk. - WHen ins4talling a new hard disk into
 a Windows system, it needs to be initialized. By right-clicking th edisk in
 disk management the drive can be initialized.
 
+You are adjusting settings on a Windows Firewall with Advanced Security. Which of the following is NOT a state setting? - Specify logging settings - The logging setting is not a firewall state setting. Loggin provids a way for firewall activity to be reviewed for troubleshooting and malicious activity investigating.
+
+You are installing a new piece of software on a Windows computer that can optionally run as a service. You decide to configure the service startup. Which of the following is NOT a service startup type? - Manual (Delayed Start) - A service can be disabed, automatic, automatic (delayed start), or manual. A manual start means the service would need to be started by the user. There is not manual (delayed start) type.
+
+You want to check a Windows 10 system to quickly see which services are disabled. Which utility do you use? - Msconfig - The services tab in the msconfig utility contains the option to view a list of WIndows services and th eoption to selectively enabled or disable them quickly. 
+
+A user's system has been experiencing errors and blue screen crashes. You have decided to look at the event viewer to see if system logs show anything out of the ordinary. Which of the following is NOT an event viewer Windows log? - Administrative - Administrative is not a log type, but in this case a general term. Event logs, for example are used for administrative purposes.
+
+You are troubleshooting a Windows 10 PC. You would like to boot into safe mode to diagnose a problem. How cna you enable safe mode? - Boot tab in msconfig - The boot tab in the msconfig utility contains the option to boot into safe mode, to choose a non-GUI boot, and more.
+
+You are troubleshooting a Windows 10 PC. You would like to boot into diagnostic mode which only loads basic drivers and services. How can you accomplish this? - General tab in msconf - The general tab in the msconfig utility contains diagnostic startup options. A diagnostic startup mode is available as well as selective startup mode that allows for the optional selection of loading system services and other startup items.
+
+You decide to enable system protection featuers on your WIndows PC. One feature will enable restore points. Which feature uses restore points? - System restore - A system restore is an option to roll back any changes to a specific point in time. System restore points can be created manually, or automatically.
+
+
 
 
