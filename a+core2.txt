@@ -356,6 +356,44 @@ to diagnose a problem. How can you enalbe safe mode? - Boot tab in msconfig -
 The boot tab in the msconfig utility contains the optoin to boot into safe
 mode, to choose a non-GUI boot, and more.
 
+Which power feature would save the current session to memory before putting
+the system into a minimal power state? - Sleep - Sleep is a power saving
+feaure that allows a system to save data to RAM (Random Access Memory) and
+then enter a minimal power state. When the system is resumed, it returns to
+full power and data is removed from RAM. If a system loses power during lsep
+the data in RAM is lost.
+
+A user is testing an in-development web page with Internet Explorer. Being
+able to specify an HTML editor would be helpful. In which are can this be
+configured in Windows Internet optoins? - Programs - The programs tab in
+Windows Internet settings allows a user to set Internet Explorer as the
+default web browser, manage add-ons, select an HTML editor, and other default
+Internet applications.
+
+A user needs access to server-based files while out of the office. there is
+currnetly no VPN or RDP solution configured. Which Windows feature do you
+decide to use? - Sync center - Sync centr is a Windows utility for managing
+Windows file and folder synchronization settings. Sync allows users to have
+local offline copies of network files.
+
+Which power feature would save the curent session to disk before powering off
+the system? - Hibernate - Hibernate is a power saving feature that allows a
+system to write all data to disk and then power off. By writing the data to
+disk, the system can be powered back on and used as it was by automatically
+reloading that data.
+
+The system protectoin tab in system proptrties allows a user to configure
+which of the below? Restore points - Restore points are system snapshots that
+are used to roll back a change to a certai npoint in time. The nspahots
+contain system settings and are usually created automatically before a
+software install. They can also be created manually, and settings can be found
+on the system protectoin tab in system properties.
+
+You would like to set Internet Explorer to delete browsing history on exit.
+Which tab would be used for this setting in Windows Internet options - General
+- The general tab in Windows Internet settings allows a user to set the
+  default home page, clear the browser ihstory, and appearance settings.
+
 
 
 
