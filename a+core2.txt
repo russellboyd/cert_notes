@@ -425,6 +425,70 @@ other editions of Windows 10. Among those features is BranchCache which allows
 client computer to work together to locally cache content from a remote
 Windows server.
 
+You want to use network QoS(Quality of Service) on  Windows systems. Which of
+the following is applied to a QoS policy? - DSCP value - A DSCP
+(Differentiated Services Code Point) value is assigned to different types of
+network traffic. This value is then used by routers to determine what priority
+the network traffic has.
+
+You have 5 Windows 10 Home Edition computers, all connected to the Internet,
+that need to share files. Which method would be secure but simple to
+ocnfigure? - OneDrive - OneDrive is a file hosting and synchronizatoin
+services operated by Microsoft as part of its suite of Office Online services.
+It can serve as a file sharing tool among different computers, and is built
+into Windows 10, so it is very simple to configure.
+
+You are setting up wireless connectivity for a few Windows 10 laptops. You
+need to configure an access point with security settings. Which of the
+following authentication methods is the least secure? - WEP - WEP(Wired
+Equivalent Privacy) is a security protocol specified in the Wi-Fi standard. It
+is an older security method that used a CRC (Cyclic Redundancy Check) as a
+mechanism  and was found to have security flaws.
+
+You are troubleshooting a network card on a Windows 10 computer. You need to
+install additional features within the network card's properties. Which of the
+following is NOT an item that can be installed? - Gateway - A NIC properties
+windows allows a user to modify network card settings. A gateway address is a
+setting that can be applied to a protocol but is not an installation option.
+
+You are setting up an older PC as a spare for testing purposes. You would like
+to view the speed of the NIC. How can this be achieved? - Network and Sharing
+center - The network and sharing center in Windows is used for viewing network
+information and connection settings. By viewing an active network connectoin
+the NIC speed can be identified.
+
+A user has a Windows 10 laptop that is used at home and at work. At work, the
+laptop receives an IP address dynamically. At home the laptop requires a
+static IP. The user is having difficulty remembering how to change IP
+settings between static and dynamic when changing locations. What
+configuration change could you make? - Configure an alternate IP address on
+the laptop. - Configuring an alternate IP address on a Windows computer allows
+the computer to use a secondary IP address. This is helpful when the computer
+is used on multiple networks. The primary network address has priority and the
+alternate works when the primary is not active. 
+
+Which one of the below is NOT one of three basic settings that are required to
+configure a proxy server? - QoS - QoS(Quality of Service) is a technique that
+is used for bandwidth management. By using policies, QoS can be applied to
+certain traffic types to improve services quality.
+
+Which Windows firewall setting blocks all traffic except for any that has a
+specific rule to allow it? - Block - The block setting in the Windows firewall
+blocks all traffic except for any traffic that has an exception configured. An
+exception can include allowing certain application traffic or port traffic. 
+
+A system has an on-board (motherboard-integrated) network interface card (NIC)
+that is not being recognized by Windows. How do you check that the card is
+enabled for use? - With the system BIOS (Basic Input Output System) - A BIOS
+is a set of instructions located in the system hardware's ROM (Read Only
+Memory). An on-board card would be neblaed or disabled in the system's BIOS.
+
+Which of the following alternate IP settings serves as a router setting when
+DHC is not available? - Default gateway - A default gateway addres is used by
+a computer to find remote networks and hosts. For example, when a computer
+browses a web site, the gateway identifies the site as non-local and routes
+the request to the Internet.
+
 
 
 

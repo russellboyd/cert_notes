@@ -394,6 +394,37 @@ Which tab would be used for this setting in Windows Internet options - General
 - The general tab in Windows Internet settings allows a user to set the
   default home page, clear the browser ihstory, and appearance settings.
 
+When building a custom computer for Windows, which of the following will
+likely lead to poor performance? - Meeting minimum hardware requirements -
+Meeting minimum hardware requirements for an operating system will likely lead
+to poor performance. Minimum requirements are the lowest hardware
+specifications that an operating system is supported to run on.
+
+When installing an application, what folder permissions are required? - Write
+- The write permission would allow a user to save content to the folder. In
+  this case, the application installing running under the user's account would
+need the write permission to be successful.
+
+You have installed a new 64-bit applications on a 64-bit Windows workstation.
+You would like to review the installation directory for application. Where
+would you find the application's install directory? - Program Files - The
+Program Files folder is the default folder on a 32-bit only systems and 64-bit
+systems. On a 64-bit system, 64-bit software is usually installed in this
+folder.
+
+What security threat concels itself as trustworth software but has a true
+purpose of being malicious? - Trojan Horse - A Trojan Horse is a type of
+malware that disguises itself as legitimate and trustworthy software. Once the
+software is executed, the true malicious nature of the software is released.
+
+You are adding a new Windows 10 computer ot a remote office that already has 5
+computers. You are trying to configure it with BranchCache like the existing
+five but you are not able to. Which operating system will you need? - Windows
+10 Enterprise - Windows 10 Enterprise edition supports many more features than
+other editions of Windows 10. Among those features is BranchCache which allows
+client computer to work together to locally cache content from a remote
+Windows server.
+
 
 
 
