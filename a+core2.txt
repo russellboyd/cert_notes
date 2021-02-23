@@ -489,6 +489,40 @@ a computer to find remote networks and hosts. For example, when a computer
 browses a web site, the gateway identifies the site as non-local and routes
 the request to the Internet.
 
+A user needs to access a network printer on their Windows 10 computer. Which
+installation option will automatically install the printer connection and
+printer drivers? - Shared printer -  A shared printer is instlaled on a system
+that is available for other systems to use. Connecting is quick and easy and
+is done by double clicking the printer in Windows file explorer. Doing so
+connects the printer and installs the driver.
+
+Which of the following alternate IP settings serves as a router setting when
+DHCP is not available? - Default gateway - A default gateway is used by a
+computer to find remote network and hosts. For example, when a computer
+browses a web site, the gateway identifies the site as non-local and routes
+the request to the Internet.
+
+Which alternate IP setting below serves as a network identification setting
+when DHCP is not available? - Subnet mask - A subnet mask is used to identify
+what network a computer belongs to. The subnet mask works in conjunction with
+the system's IP address.
+
+Which alternate IP setting below serves as a network identification setting
+when DHCP is not available? - Subnet mask - A subnet mask is used to identify
+what network a computer belongs to. The subnet mask works in conjunction with
+the system's IP address.
+
+A system has an on-board NIC that is not being recognized by Windows. How do
+you check that the card is enabled for use? - With the system BIOS - A BIOS
+ is a set of instructions located in the system hardware's ROM. An onboard
+cable would be enabled or disabled in the system's BIOS.
+
+You are remotely browsing a Windows server's shared folders in a computer
+mangaement. You see a share called c$ in the list. Why type of share is this?
+- Administrative - Administrative shares are shares automatically created by
+  Windows. Each disk volume on the system has an associated administrative
+share. An administrative share can be viewed by browsing the server and share
+name. For example, \\servername\c$ would display the server's C drive.
 
 
 
