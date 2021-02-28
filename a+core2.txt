@@ -524,5 +524,8 @@ mangaement. You see a share called c$ in the list. Why type of share is this?
 share. An administrative share can be viewed by browsing the server and share
 name. For example, \\servername\c$ would display the server's C drive.
 
-
-
+You can easily use your Mac remotely by setting up Screen Sharing. Where do
+you set up screen sharing in Mac OS X? - System preferences - System
+preferences is a menu that can be used for screen sharing on a Mac computer.
+First select the Apple menu. Next, select system preferences, then sharing,
+and lastly screen sharing.
