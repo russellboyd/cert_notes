@@ -530,4 +530,21 @@ preferences is a menu that can be used for screen sharing on a Mac computer.
 First select the Apple menu. Next, select system preferences, then sharing,
 and lastly screen sharing.
 
+How does a user access the Apple iCloud web service application from a Mac
+computer running OS X? - Log on to icloud.com using a web browser - The iCloud
+web service application can be accessed with a web browser. A user simply
+needs to log on to icloud.com with an Apple ID and password.
+
+What is the Mission Control feature in Mac OS X user for? - Multiple desktops
+- Mission control offers the capability of customizing and using multiple
+  virtual desktops on a single system to make a computing experience more
+efficient.
+
+Which term describes how the Mac operating system handles files created,
+deleted, or modified since the last backup when the backup drive is
+temporarily missing. - Snapshot - The snapshot feature is the ability of the
+Mac OS to take a snapshot of any changed files. These files are saved locally
+until the Time Machine drive becomes available again to the system.
+
+
 
