@@ -546,34 +546,5 @@ temporarily missing. - Snapshot - The snapshot feature is the ability of the
 Mac OS to take a snapshot of any changed files. These files are saved locally
 until the Time Machine drive becomes available again to the system.
 
-You are working on a Linux workstation. You issue the ps -x command at the
-terminal. Which processes are displayed with this command? - The processes
-owned by the user who issued the command are displayed - The ps command is
-used in a terminal to display a list of urnning processes. When issuing the ps
-command with the -x switch, the user who issued the command will only see
-their processes.
-
-Which anti-virus protection technology uses knowledge of viru-like behavior as
-a means of defense? - Heuristics - Heuristic identification is a method that
-anti-virus software uses to try to identify viruses based on behavior. It
-monitors a computer for activity that seems virus-like.
-
-Which term describes how the Mac operating system handles files created,
-deleted, or modified since the last backup when the backup drive is
-temporarily missing? - Snapshot - The snapshot feature is the ability of the
-Mac OS to take a snapshot of any changed files. These files are saved locally
-until the Time Machine drive becomes available again to the system.
-
-You can easily use your Mac remotely by setting up Screen Shraing. where do
-you set up screen sharing in Mac OS X? - System preferences - System
-preferences is a menu that can be used for screen sharing on a Mac computer.
-first select the Apple menu. Next, select system preferences, then sharing and
-lastly screen sharing.
-
-Which of these door lock types is operated by entering a PIN on a keypad? -
-Electronic - With electronic locks, the lock is operated by entering a PIN on
-an electronic keypad. This type of lock is also referred to as a cipher,
-combination, or keyless.
-
 
 
