@@ -576,4 +576,25 @@ an electronic keypad. This type of lock is also referred to as a cipher,
 combination, or keyless.
 
 
+Which of the following is the least secure method of restricting access to a company's building? - Using conventional door locks that can also be unlocked with a wireless key fob. - A lock can be picked, and fobs can be accidentally dropped, picked up by an attacked, and used to gain access.
+
+What is an advantage of a Radio Frequency ID (RFID) bade and reader? - It wireless monitors the location of the subject. - Radio Frequency (RFID) badges can be used with proximity badge readers to monitor the location of the subject.
+
+What requires all visitors to sign in and out when entering and leaving a building? - An entry control roster - Entry control rosters require all visitors to sign in and out when entering and leaving the building. This decreased the risk of unauthorized individuals gaining access to the building and tailgating.
+
+What can be programmed with biometric, token and certificate-based authentication? - Smart card badges - Smart card badges and key fobs can be programmed with biometric authentication or with some sort of token-generating or certificate-based authentication. 
+
+What is an advantage of a Radio Frequency ID (RFID) badge and reader? - It wirelessly monitors the location of the subject. - Radio Frequency ID (RFID) badges can be used with proximity badge readers to monitor the location of the subject.
+
+What security device is like a smart cart that it can be programmed with biometric, token-generating, or certificate-based authentication? - Key fobs - Smart card badges and key fobs can be programmed with biometric authentication or with some sort of token-generated or certificate-based authentication. This type of badge could be used to open smart locks.
+
+Which basic security precuation should an administrator take when deploying new network access point hardware? - Add physical security for the hardware.- The basic security precuation that an administrator should take in deploying the network hardware is physical security. Physical security is a weak link in overall security in that if someone has physical access to a device, they have control of the device.
+
+What can be programmed with biometric, token, and certificate-based authentication? - Smart card badges - Smart card badges and key fobs can be programmed with biometric authentication of with some sort of token-generating or certificate-based authentication. 
+
+What security device is a like a smart card in that it can be programmed with biometric, token-generating or certificate based authentication - Key fobs - Smart card badges and keyfobs can be programmed with biometric authentication or with some sort of token-generating or certificate-based authentication. This type of badge could be used to open smart locks.
+
+Which of these door lock types is operated by entering a PIN on a keypad? - Electronic - With electronic locks, the lock is operated by entering a PIN on an electronic keypad. This type of lock is also referred to as cipher, combination, or keyless.
+
+
 
