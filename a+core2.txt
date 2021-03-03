@@ -605,4 +605,6 @@ How can you limit the number of permitted physical addresses on a port without h
 
 A group of users in a corporate environment receives the message "Installation Unsuccessful" on their Android mobile devices. What does the administrator need to do to troubleshoot this problem? - Verify that the Mobile Device Management (MDM) suite is pushing apps as expected. - The administrator needs to verify that the MDM suite is pushing apps correctly.
 
+What contains records of subjects and the permissions they hold on the resource? - Access Control Lists (ACLs) - A permission is usually implemented as an ACL attached to each resource. The ACL contains a number ofo Access Control Entries, wihch are records of subjects and the permissions they hold on the resource.
+
 
