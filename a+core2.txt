@@ -597,4 +597,12 @@ What security device is a like a smart card in that it can be programmed with bi
 Which of these door lock types is operated by entering a PIN on a keypad? - Electronic - With electronic locks, the lock is operated by entering a PIN on an electronic keypad. This type of lock is also referred to as cipher, combination, or keyless.
 
 
+What can use digital signing to prove the identity of a server is legitimate? - Software token - Tokens can be implmented using cookies, and JSON Web Tokens. Software tokens can use digital signing to prove the identity of the issuing server.
+
+An administrator of a SOHO network decided to implement MAC filtering. What does MAC filtering do for the network? - It provides a simple method of securing a network - MAC filtering allows devices with specific MAC addresses to attach to the network. This can be done by creating a list of valid MAC addresses or by specifying a limit to the number of permitted addresses.
+
+How can you limit the number of permitted physical addresses on a port without having to use authentication or completely disabling the port? - MAC filtering - Configuring MAC filtering on a switch means defining which MAC addresses can connect to a port. This can be done by creating a lit of valid MAC addresses or by specifying a limit to the number of permitted addresses.
+
+A group of users in a corporate environment receives the message "Installation Unsuccessful" on their Android mobile devices. What does the administrator need to do to troubleshoot this problem? - Verify that the Mobile Device Management (MDM) suite is pushing apps as expected. - The administrator needs to verify that the MDM suite is pushing apps correctly.
+
 
