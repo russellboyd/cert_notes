@@ -643,5 +643,15 @@ What type of attack involves intimidaating, alarming, or coaxing the victim to m
 
 A company's password policy requires employees to encode their passwords in Base64 when storing them. What is true about this policy if you were to implement it? - Base64 encoding is not a secure form of cryptography. - A password can be encoded in Base64, which is simply an ASCII representation of binary data. The password value can easily be derived from the Base64 string.
 
+In most cases, what NTFS folder permission overrides any other permission? - The "deny" permission overrides anything else (int most cases). If an account is not granted an "allow" permission, an implicit deny is appled. This is usually suficient for most purposes. 
+
+What kind of account can be abused to allow a user to obtain more powerful Administrator or System privileges? - Power Users - The Power Users group still appears to support legacy applications, but its use is strongly deprecated. The rights allocated to this account type can be abused to allow the user to obtain more powerful Administrator or System privileges.
+
+Kerberos authentication and authorization for Active Directory domain networks uses what kind of access control? - Single Sign-On (SSO) - SSO means the usre only needs to authenticate to a system once to gain acess to all its resources. An example is the Kerberos authentication and authorization model for Active Directory domain networks.
+
+What is it referred to when Windows applies security settings for a folder to all child objects? - Permission propagation - To apply security settings for the current folder to all child objects (permission propagation), check the "Replace all child object permissions with inheritable permissions" box in the Advanced Security Settings for the folder.
+
+What folder option governs how Search is configured? - The Indexing applet - Search is governed by how the Indexing Options applet is configured. This allow syou to define indexed locations and rebuilt the index. A corrupted index is a common cause of serach problems. 
+
 
 
