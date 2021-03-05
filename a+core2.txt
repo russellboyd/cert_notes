@@ -621,5 +621,27 @@ What special feature of WPA2 improves upon WPA? - The inclusion of AES - The mai
 
 What special feature of WPA2 improves upon WPA? - The inclusion of AES - The main difference between WPA and WPA2, is the mandatoory use of the AES cipher for encryption. AES is much stronger than RC4/TKIP.
 
+Which of these security standards provides very weak security? - WEP - WEP provides veryweak security and should not be relied upon for confidentiality. Attackers can make their own keys and crack WEP in a short period of time.
+
+Which of these WIFI protocols uses RC4 and adds TKIP to fix the issues with key generation? - WPA - WPA fices most of the security problems with WEP and adds TKIP to fix the issues with key generation.
+
+Which of these protocols is fully compliant with the 802.11 security protocol and uses the AES cipher for encryption? - WPA2 - WPA2 was developed as a fully compliant 802.11i security standard protocol. WPA2 uses the AES cipher for encryption.
+
+What mechanism fixes the issues with WEP key generation? - TKIP - WPA uses the RC4 cipher but adds a mechanism called TKIP to fix the issues with WEP key generation.
+
+As part of preventing reinfection, what should you configure to prevent spoofing? - DNS - DNS spoofing allows attackers to detect victims away from legitimate sites they were intending to visit and towards fake sites. as part of preventing reinfection, you should inspect and re-secure the DNS configuration.
+
+What would you have to do if a virus infection do not allow you to run anti-virus software? - Perform a complete system restore - If a virus disrupts the computer system, you might not be able to run anti-virus software and would have to perform a complete system restore.
+
+All users on the network have antivirus software; however, several users report that they have what an administrator described as a "browser redirection virus". How can the users have this virus if they have updated antivirus software installed? - Redirection viruses are not always classic viruses and therefore are not detectable with antivirus software. - 	Phishing and pharming are ways of redirecting users from a legitimate website to a malicious one. Browser redireciton is not a classic virus that antivirus programs can detect or eradicate.
+
+What is used by the Windows 2000 and Windows XP versions that presents a limited subset of the commands normally available at a Windows command prompt? - Recovery console - Recovery Console is a precursor to WinRE, used by the Windows 2000 and Windows XP versions. Recovery conosle presents a  limited subset of the commands normally available at a Windows command prompt and does not provide as many tools as WinRE.
+
+What attack uses a precomputed list of all probably plaintext dictionary passwords and their matching hashes? - Rainbow table attack - Rainbow tabls refine the dictionary attack. Rainbow table attacks use a precomputed lookup table of all probably plaintext passwords (derived form the dictionary) and their matching hashes. The hash value of a stored password can then be looked up in the table and the corresponding plaintext discovered.
+
+What type of attack involves intimidaating, alarming, or coaxing the victim to make the attack more convincing? - Impersonation - Impersonation is one of the basic social engineering techniques. To make an impersonation attack convincing, attackers will try to either intimidate, alarm, or coax the victim.
+
+A company's password policy requires employees to encode their passwords in Base64 when storing them. What is true about this policy if you were to implement it? - Base64 encoding is not a secure form of cryptography. - A password can be encoded in Base64, which is simply an ASCII representation of binary data. The password value can easily be derived from the Base64 string.
+
 
 
