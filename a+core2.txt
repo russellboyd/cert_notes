@@ -607,4 +607,19 @@ A group of users in a corporate environment receives the message "Installation U
 
 What contains records of subjects and the permissions they hold on the resource? - Access Control Lists (ACLs) - A permission is usually implemented as an ACL attached to each resource. The ACL contains a number ofo Access Control Entries, wihch are records of subjects and the permissions they hold on the resource.
 
+What is used by Wi-Fi Protected Access 2 (WPA2) for encryption? - The AES (Advanced Encryption Standard) - THE AES cipher is used by WPA2 for encryption. AES is much stronger than RC4/TKIP used by WPA.
+
+Which of these security standards provides very wek security? - WEP - WEP provides very weak security and should not be relied upon for confidentiality. Attackers can mmake their own keys and crack WEP in a short period of time.
+
+Which of these authentication architectures uses a AAA server in VPN implementations? - Remote Authentication Dial-in User Service (RADIUS) - Under the RADIUS protocol, Authentication, Authorization and Accounting are performed by a separate server (the AAA server). RADIUS is often used in VPN implementations.
+
+What mechanism fixes the issues with WEP key generation? - TKIP (Temporal Key Integrity Protocol) - WPA uses the RC4 cipher but adds a mechanism called TKIP to fix the issues with WEP key generation.
+
+Which of these was developed by Cisco and is often used to grant administrative access to routers and switches? - Terminal Access Controller Access Control System (TACACS+) - TACACS+ is a similar protocol to RADIUS but designed to be more flexible and reliable. TACACS+ is often used in authenticating administrative access to routers and switches.
+
+What special feature of WPA2 improves upon WPA? - The inclusion of AES - The main deifference between WPA and WPA2 is the mandatory use of the AES cipher for encryption. AES is much stronger than RC4/TKIP.
+
+What special feature of WPA2 improves upon WPA? - The inclusion of AES - The main difference between WPA and WPA2, is the mandatoory use of the AES cipher for encryption. AES is much stronger than RC4/TKIP.
+
+
 
