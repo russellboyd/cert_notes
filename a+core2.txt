@@ -652,6 +652,25 @@ Kerberos authentication and authorization for Active Directory domain networks u
 What is it referred to when Windows applies security settings for a folder to all child objects? - Permission propagation - To apply security settings for the current folder to all child objects (permission propagation), check the "Replace all child object permissions with inheritable permissions" box in the Advanced Security Settings for the folder.
 
 What folder option governs how Search is configured? - The Indexing applet - Search is governed by how the Indexing Options applet is configured. This allow syou to define indexed locations and rebuilt the index. A corrupted index is a common cause of serach problems. 
+What policy can override all other regular password change policies? -
+Password never expires - The 'Password never expires' user account setting can
+override a system policy set to force a regular password change. This option
+should be selected for system accounts.
 
+In a business environment, what will the Windows password security policy be
+set to? - THe policy will require the user to sign in with a password. - In a
+business environment, the security policy will default to requireing th euser
+to sign in with a password.
+
+What can be confiured by the BIOS or UEFI firmware setup program that is
+required before any operating system can boot, and does not require a server
+to authenticate? - A system user password - A system user password is one that
+is required before any operating system can boot. The system password can be
+configured by the BIOS or UEFI firmware setup program.
+
+What policy can override all other regular password change policies? -
+Password never expires - The 'Password never expires user account setting can
+override a system policy set to force a regular password change. This option
+should be selected for system accounts.
 
 
