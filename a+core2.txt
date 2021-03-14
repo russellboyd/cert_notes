@@ -673,4 +673,13 @@ Password never expires - The 'Password never expires user account setting can
 override a system policy set to force a regular password change. This option
 should be selected for system accounts.
 
+To control other apps, what must logically work at the root permission level?
+- Firewalls - The basic function of a firewall is traffic filtering according
+  ot rules that will allow or block traffic. One issue for firewalls is that
+they must be able to control other apps and therefore logically work on at a
+higher permission level (root).
+
+
+
+
 
