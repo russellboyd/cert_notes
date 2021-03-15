@@ -680,11 +680,6 @@ they must be able to control other apps and therefore logically work on at a
 higher permission level (root).
 
 
-What security tool or method is suitable for most confidential data, but is
-time consuming and requires special software? - Overwriting - Disk wiping is
-an overwriting method that is suitable for most confidential data, but it is
-time consuming and requires special software.
-
 
 
 
