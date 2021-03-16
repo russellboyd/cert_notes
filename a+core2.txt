@@ -685,6 +685,27 @@ time consuming and requires special software? - Overwriting - Disk wiping is
 an overwriting method that is suitable for most confidential data, but it is
 time consuming and requires special software.
 
+Which of these is true of SSIDs? - You should change default SSIDs to
+something that your users will recognize easily. - Vendors uses SSIDs for
+their products based on the device brand or model. You should change it to
+something that your users will recognize and will not get confused between
+nearby networks.
 
+What kind of device must be configured with a static IP address in a SOHO
+network? - Routers - A router's internal interface must be configured with a
+static IP address, because a router acts as a DHCP server and client devices
+need to use it as the default gateway.
+
+What technique would an attacker use to bypass NAC? - An attacker could
+impersonate a device by spoofing the MAC address and IP address of an
+authorized device. - NAC allows administrators to devise policies or profiles
+describing a minimum securitry configuration that devices must meet to be
+granted network access. An attacker could bypass NAC by impersonating an
+auhtorized device.
+
+What can you help prevent by turning the power output down on an access point?
+- War driving - Turning the power output on an access point dwn helps to
+  prevent "war driving" which is the practice of driving around with a
+wireless-enabled laptop scanning for unsecure WLANs.
 
 
