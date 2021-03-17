@@ -708,4 +708,11 @@ What can you help prevent by turning the power output down on an access point?
   prevent "war driving" which is the practice of driving around with a
 wireless-enabled laptop scanning for unsecure WLANs.
 
+What is the primary purposes of NAT in a SOHO network? - To allow all devices
+inside a private network to use a single external IP address for
+communications outside the network? - NAT is used to allow an entire private
+network to connect to other networks via a single IP address issued by the
+ISP.
+
+	
 

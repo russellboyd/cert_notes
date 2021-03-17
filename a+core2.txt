@@ -715,4 +715,39 @@ network to connect to other networks via a single IP address issued by the
 ISP.
 
 	
+What is the main argument against MAC filtering on a wireless network? - The
+administrator must enter each allowed MAC address manually. - The argument
+against MAC filtering is that administraotrs must enter each address manually,
+which is a lengthy and tedious process.
+
+What is the most secure way of dealing with unused services? - Remove the
+service on each host - One of the basic principles of secure configuration is
+only to enable services that must be enabled. If a service is unussed, then it
+should not be accessible in any way by removing the service on each host.
+
+WHIch of these is true about SSIDs? - You should change the default SSIDs to
+something that your users will recognize easily. - Vendors use default SSIDs
+for their products based on the device brand or model. You should change it to
+something that your users will recognize and will not get confused between
+nearby networks.
+
+What can you implement on a switch to define what hysical address can connect
+to a particular port?  - MAC filtering - Configuring MAC filtering on a switch
+means defining which MAC addresses can connect to a port. This can be done by
+creating a list of valid MAC addresses or by specifying a limit to the the
+number of permitted addresses.
+
+What technique would an attacker use to bypass Network Access Control (NAC)? -
+An attacker could impersonate a device by spoofying the MAC address and IP
+address of an authorized device. - NAC allows administrators to devise
+policies or profiles describing a minimum security configuration that devices
+must meet to be granted network access. An attacked could bypass NAC by
+impersonating an authorized device.
+
+What do you need to set up if you want to make a server application from your
+network accessible to the internet? - Port forwarding - If you want to make a
+server application from your network accessible to the INternet, you need to
+set up port forwarding or Destination NAT.
+
+
 
