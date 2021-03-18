@@ -750,4 +750,23 @@ server application from your network accessible to the INternet, you need to
 set up port forwarding or Destination NAT.
 
 
+If a Windows system is slow to load the desktop following logon, what is
+likely to be slowing the process down? - Corrupt user profile - If the system
+is slow to load the desktop following logon, the issue could be a corrupt user
+profile.
 
+A startup disk cannot be detected when booting a computer. The disk's presence
+is reported by the system firmware, but Windows will still not boot. What tool
+do you use to repair the drive's boot information. - bootrec - The bootrec
+tool can be used to repair the drive's boot information. Use the subcommands
+/fixmbr to attempt to repair the MBR, /fixboot to attempt repair of the boot
+sector, and /rebuildbcd to add missing Windows installations to the Boot
+Configuration Device (BDC).
+
+A user calls to report that there is not network access. After discussing the
+issue, you leran that the user can connect to shared folders and printers, but
+not to the World Wide Web. How would you investigate the problem further? -
+The user has limited connectivity. Use ipconfig to determine whether the
+adapter has been configured correctly. - The problem is that the user has
+limited connectivity. Use ipconfig to verify settings such as the IP address,
+subnet mask, and default gateway.
