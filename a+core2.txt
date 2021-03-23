@@ -770,3 +770,24 @@ The user has limited connectivity. Use ipconfig to determine whether the
 adapter has been configured correctly. - The problem is that the user has
 limited connectivity. Use ipconfig to verify settings such as the IP address,
 subnet mask, and default gateway.
+
+If a Windows machine boots very slowly, what is likely to be slwoing the process down? - Loading drivers and services - Loading drivers and services causes delays affecting the system prior to logon. Quite, often, the culprit will be some type of network service or configuration not working optimally, but there could be some sort of file corruption too.
+
+Which of the following is NOt a reason to use the chkdsk recovery tool? - You need to repair the drive's MBR. - If you need to repair a drive's MBR, use the bootrec tool to repair the drive's boot information. Use the subcommand /fixmbr to attempt repair of the MBR.
+
+A user calls to report that there is no network access. After discussing the issue, you learn that the user can connect to shared folders and printers, but not to the World Wide Web. How would you investigate the problem further? - The user has limited connectivity. Use ipconfig to determine whether the adapter has been configured correctly. - The problem is that the user has limited connectivity. Use ipconfig to verify settings such as the IP address, subnet mask, and default gateway.
+
+If a Windows system is slow to load the desktop following logon, what is likely to be slowing the process down? - Corrupt user profile - If the system is slow to load the desktop following logon, the issue could be a corrupt user profile.
+
+If Windows appears to boot but does not load the desktop following logon, which of the following is a likely cause? - Malware infection - If Windows appears to boot but does not load the desktop following logon, the likely causes are malware infection or corruption or of drivers or system files.
+
+You are troubleshooting a piece of malware on a user's Windows 10 computer and want the PC to boot into safe mode automatically. Where do you configure this? - The Boot tab of the System Configuration Utility - The System Configuration Utility (msconfig) is used to modify various settings and files that affect the way the computer boots and loads Windows.
+
+Which of the following is a common solution if you experience a transitory system performance issue? - Reboot the computer - Reboot the compute rif you suspect a transitory performance issue. This is a good solution if the problem is unlikely to reoccur.
+
+Which of the following malware symptoms would prompt you to loko at a computer's HOSTS files? - Browser redirection - Browser redirection is a symptom that should prompt you to look at the HOSTS files for malicious entries and verify the DNS servers that are being used. Browser redirection is where the user tries to open one page but gets sent to another.
+
+A user reports to an administrator that an "invalid certificate" error in the Google Chrome browser appears when connecting to secure HTTPS sites. What advise or guidance did the administrator give the user? - Set the computer's date and time to the correct date and time.  - If evey site gives the user an invalid certificate error, the problem is that the computer's date and time are incorrect. If only one site gives the error, then the administrator needs to decide if the user can proceed to the site anyway.
+
+
+
