@@ -902,6 +902,12 @@ is a safety measure and best security pratice for user to not post pictures on
 social media while out of town. Criminals can use geo-tagged data and context
 to identify when a person will not be home.
 
-
+While troubleshooting a business application, a technician is searching for
+helpful articles on the Internet. Which of the following is NOT credible
+source of information? - A forum of users trying to troubleshoot the same
+problem - A forum of users attempting to troubleshoot the same issue may
+provide incorrect information if they are actively troubleshooting the issue.
+Reading through a forum can be a good starting point as the discussion may
+lead to articles or videos by the vendor.
 
 
