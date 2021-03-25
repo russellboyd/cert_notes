@@ -790,4 +790,93 @@ Which of the following malware symptoms would prompt you to loko at a computer's
 A user reports to an administrator that an "invalid certificate" error in the Google Chrome browser appears when connecting to secure HTTPS sites. What advise or guidance did the administrator give the user? - Set the computer's date and time to the correct date and time.  - If evey site gives the user an invalid certificate error, the problem is that the computer's date and time are incorrect. If only one site gives the error, then the administrator needs to decide if the user can proceed to the site anyway.
 
 
+Which of the following issues is most likely to be caused by malware? -
+Disappearing files - Disappearing files is a symptom that raises "red flags"
+for malware infectoins. This sort of issue is less likely to have other causes
+so you should quarantine the system and investigate it closely.
+
+Which of the following can function as both a vector for an symptom of a
+malware infection delivered via email? - Spam - Spam is unsolicited email
+messages and can serve as both a vector for an symptom of malware infection.
+Organizations use enterprise level spam-filtering, but it is still important
+to educate users not to click on suspicious links in emails.
+
+Which of the following terms describes when spamming software is installed on
+a "zombie" computer? - Hijacked email - Email can be hijacked by malware,
+which causes it to send out spam. The hijacked computer acts as a "zombie" PC
+for whatever malware has infected it.
+
+Ad administrator is working on a workstatoin and receives an "Access Denied"
+message when attempting to access a system file. What is a likely cause of
+this message? - Malware has changed file permissions. - File permissions
+changing, resulting in "Access Denied" messages, is a symptom that raises "red
+flags" for malware infection.  This sort of issue should prompt you to
+quarantine the system and investigate it closely.
+
+Which of the following security issues is characterized by a Trojan disguise
+as a fake security alert? - Rogue antivirus application. - A rogue antivirus
+application typically entices the user to download a Trojan used as anti-virus
+software. If the user downloads the Trojan, it can then deliver its payload.
+
+If Windows updates fail, it could be a sign that the state of the system has
+changed, which could be an indication of which type of problem? - A virus
+infection - A virus that prevents Windows updates from working is the cause of
+this behavior. A wirus writer who exploits a vulnerability does not want
+Windows updates to correct the problem, so the hacker would disable them.
+
+Which of the following malware symptoms would prompt you to look at a
+computer's HOSTS file? - Browser redirection - Browser redirection is a
+symptom that should prompt you to look at the HOSTS files for malicious
+entries and verify the DNS servers that are being used. Browser redirection is
+where the user rties to open one page but gets sent to another.
+
+Which of the following security issues is characterized by a Trojan disguised
+as a fake security alert? - Rogue antivirus application - A  rogue antivirus
+application typically entices the user to download a Trojan disguised as
+anti-virus software. If the user downloads the Trojan, it can then deliver its
+payload.
+
+You are working on a laptop that you suspect is infected with malware. You
+have quarantined it and disabled system restore. What is the next step? - Make
+sure the anti-virus software is fully updated before proceeding. - Make sure
+the anti-virus software is fully updated before proceeding. This may be
+difficult if the system is infect however, . It may be necessary to remove the
+disk and scan it from a different system.
+
+What is the best practice for preventing malware from inadvertently being
+reintroduced onto a machine or network? - Disable system restore (in Windows).
+- Disable system restore (in Windows) to reduce the risk of reintroducing a
+  copy of the malware that has been backed up t at a restore point.
+
+Why are file permission changes an indication of a possible security breach? -
+The attacker will attempt to lock out legitimate users. - File permisions
+changes are a good indication that a security breach has occurred because
+attackers will attempt to lock out legitimate users from their files.
+
+What is the first step of CompTIA's 7 step best practice for malware removal?
+- Identify and research malware symptoms. - First, identify and research the
+  symptoms. Stay up to doate on the symptoms of new attacks via IT magazines
+or websites. Use vendor malware encyclopedia to resarch specific symptoms if
+you suspect an infection.
+
+Which of the following symptoms would pomrpt you to repair a device? - No
+Bluetooth connectivity - If you have no Bluetooth connectivity, check that the
+device is not in airplane mode or that the particular radio has not been
+disabled. Next, use SEttings to verify that the Bluetooth pairing information
+is correct, and try re-pairing the device.
+
+A user reports receiving the message "Installation Unsuccessful" when
+attempting to install any app from the Google Play Store onto an Android
+device. What should the administrator do to troubleshoot the problrm? - Clear
+the app cache - Clearing the app cache will clear up this problem. In Android,
+you can manage an app's cached data and access a Forece Stop optoin through
+Settings > Applications > Manage Applications.
+
+Which of the following should you look for if a touchscreen becomes
+non-responsive? - TOo many open apps - Too many open apps can cause a
+touchscreen to become non-responsive. This is due to the fact that the device
+is holding too much data in RAM.
+
+
+
 

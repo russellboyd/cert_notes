@@ -877,7 +877,30 @@ non-responsive? - TOo many open apps - Too many open apps can cause a
 touchscreen to become non-responsive. This is due to the fact that the device
 is holding too much data in RAM.
 
+Which of the following is the greatest source of involunatrily leaked personal
+and corporate data? - Lost or stolen mobile devices - Lost or stolen mobile
+devices are the greatest threat to personal and to corporate data. Measures
+such as device encryption, biometric authentication, and remote wiping help
+mitigate this risk.
 
+What is the problem with unintended Wi-Fi connections? - The high potential
+for data theft - The big problem with unintended Wi-Fi connections is that
+there is a high potential for data theft through these non-secured Wi-Fi
+devices.
+
+Which of the following conditions should alert a user that a device has been
+compromised - Unexaplainably high resource utlitization - High resource
+utlization on a device that has not source or apparent explanation is likely
+to be a malware infection. It is possible that a rogue app is collecting
+information in the background. Check the app usage statistics on the phone to
+see if any apps are showing signs onf this.
+
+A company is hosting a weekend holiday party out of town and has asked
+employees not to post anything on social media until the retreat is over. Why
+did they ask this of employees? - As a safety measure for the employees - It
+is a safety measure and best security pratice for user to not post pictures on
+social media while out of town. Criminals can use geo-tagged data and context
+to identify when a person will not be home.
 
 
 
