@@ -910,4 +910,18 @@ provide incorrect information if they are actively troubleshooting the issue.
 Reading through a forum can be a good starting point as the discussion may
 lead to articles or videos by the vendor.
 
+While trobleshooting a business application, a technician is searching fore
+helpful articles on the Internet. Which of the following is NOT credible
+source of information? - A forum of users trying to troubleshoot the same
+problem. - A forum of users attempting to troubleshoot the same issue may
+provide icorrect ifnormation if they are actively troubleshooting the issue.
+Reading through a forum can be a good starting point as the discussion may
+lead to articles or videos by the vendor.
+
+Which type of incident is most likely to require notificatrion for regulatory
+or compliance purposes? - 
+Security incident involving a data breach - A security incident report
+involving a data breach may require notification for regulatory or compliance
+purposes.
+
 
