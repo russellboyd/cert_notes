@@ -1053,6 +1053,28 @@ restrictions based on the type of content. - Organizations are allowed to
 establish their own guidelines and restrictions based on the type of content.
 Some companies have stricter content guidelines than others.
 
- 	
+What is the file extension for a Windows script that strings together Windows
+commands in an automated fashion, but is limited in terms of user input? -
+.bat - Windows batch scripts use the .bat file extension. Batch files are
+useful for stringing together Windows commands in an automated fashion, but
+are limited in terms of user input.
 
- 
+You are writing a script to automate a basic file-processing task. You want
+to add notes to explain the purpose of the script. What is the best way to
+accomplish this? - Add comments to the script - COmments should be added at
+the beginning of the script using the comment syntax specific to the
+programming language. Example of comment syntax are the double forward slash
+(//) in JavaScript and has (#) in PYthon, Batch shell scripts and PowerShell
+scripts.
+
+You need to write a script file to do one set of code if the conditions are
+true or false. Then use a conditional branch to perform one task if the
+conditions are true and another task if the conditions are false.
+
+What is the file extension for a Windows script that strings together Windows
+commands in an automated fashion, but is limited in terms of user input? -
+.bat - WIndows batch scripts use the .bat file extension. Batch files are
+useful for stringing together Windows commands in an automated fashion, but
+are limited in terms of user input.
+
+
