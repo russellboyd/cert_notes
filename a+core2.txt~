@@ -978,9 +978,18 @@ current to flow? - Grounding - Grounding is providing a path of least
 resistance for an electrical current to flow away harmlessly if there is a
 fault that causes metal parts in the equipment to become live.
 
-Which of the following is used to store and ship Field Replaceable Units to
-protect them from electrostatic discharge damage? - Antistatic bags - An
-antistatic bag is used to store and ship Field Replaceable Units. It is either
-made form anti-ESD shielding material or dissipative packaging.
+Lifting and handling equipment are common tasks for a technician. What type of
+object presents a risk of muscle and ligament damage if lifted incorrectly? -
+An object that is over the technician's weight limitation - An object that is
+over a technician's weight limitation can cause muscle strains, ligament
+damage, or a back injury. The technician needs to be aware of weight
+limitations, as well as any restrictions and guidance set forth in the
+technician's job description or site safety handbook.
+
+What is the best location of storing a backup or unused RAM modules? - In an
+anti-static bag - A small anti-static bnag is the best location to store
+unused RAM modules. This will  prevent the components from being damaged by
+the ESD. Components such as REAM modules are very sensitive to static shocks
+and even a small amount of electrostatic discharge (ESD) can damage them.
 
 
