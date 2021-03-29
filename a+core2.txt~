@@ -978,18 +978,82 @@ current to flow? - Grounding - Grounding is providing a path of least
 resistance for an electrical current to flow away harmlessly if there is a
 fault that causes metal parts in the equipment to become live.
 
-Lifting and handling equipment are common tasks for a technician. What type of
-object presents a risk of muscle and ligament damage if lifted incorrectly? -
-An object that is over the technician's weight limitation - An object that is
-over a technician's weight limitation can cause muscle strains, ligament
-damage, or a back injury. The technician needs to be aware of weight
-limitations, as well as any restrictions and guidance set forth in the
-technician's job description or site safety handbook.
+Which of the following is used to store and ship Field Replaceable Units to
+protect them from electrostatic discharge damage? - Antistatic bags - An
+antistatic bag is used to store and ship Field Replaceable Units. It is either
+made form anti-ESD shielding material or dissipative packaging.
 
-What is the best location of storing a backup or unused RAM modules? - In an
-anti-static bag - A small anti-static bnag is the best location to store
-unused RAM modules. This will  prevent the components from being damaged by
-the ESD. Components such as REAM modules are very sensitive to static shocks
-and even a small amount of electrostatic discharge (ESD) can damage them.
+Which of the following scenarios does NOT require the use of an air filter
+mask? - Disposing of a swollen battery - Disposing of swollen battery requires
+the use of gloves and safety goggles to minimize the risk of burns from
+corrosive material. Swollen or leaking batteries from laptop computers or
+within cell phones and tablets must be handled very carefully and stored
+within appropriate containers.
+
+Two computer technicians are working together on a rack of computers in a data
+center. Technician A tells Technician B that the power to the rack they are
+working on is disconnected. What should Technician B do at this point? -
+Verify that the power is off to the rack. - Technician B should verify that
+the power is off or disconnected from the rack. Do not assume anything without
+checking it out for yourself.
+
+Which of the following scenarios does NOT require the use of an air filter
+mask? - DIsposing of a swollen battery - Disposing of a swollen baterry
+requires the use of gloves and safety goggles to minimize any risk of burns
+from corrosive material. Swollen or leaking batteries from laptop computers or
+within cell phones and tablets must be handled very carefully and stored
+within appropriate containers.
+
+What can a technician do to prevent build up of dust on computer equipment? -
+Educate users on how to perform regular preventative maintenance - Providing
+cleaning materials and procedures to users and taining them to perform
+preventative maintenance tasks themselves can increase the lifespan of the
+equipment and prevent build-up of dust on computer equipment. These tasks
+would include checking ventilation slots and dusting components.
+
+You employer is require to comply with certain governmental regulations, such
+as OSHA. Which of the following is NOT provided by an OSHA compliant employer
+- An HVAC system -  An emplyoer compliant with OSHA does not need to provide a
+  HVAC system as long as the work environment is properly ventilated and kept
+at a proper temperature.
+
+Which of the following is best for removing the dust from a difficult to reach
+fan vent? - Compressed air - COmpressed air is the best way to clean a
+difficult to reach spot. Compressed air should only be used in a controlled
+environment with appropriate safety masks and goggles.
+
+A new storage appliance was velivered to the data center. What is the best
+action for administrators to take after they receive it? - Leave the equipment
+in its packaging for a few hours before opening it. - It is important to leave
+equipment in its packaging for a few hours afte rit has been delivered.
+Depending on the outside temperature, condensation can form as a result of
+sudden warming.
+
+Why is it so important to track computer evidence and to have proper
+documentation all along the forensics path during an incident? - So that the
+evidence is admissable in a court of law - The most important reason to
+properly track and document evidence is so that the evidence will be
+admiisable in court.
+
+If your manager informs you that you are in charge of computer forensics
+following an incident, wich of the following is your responsibility? -
+Preserving and investigating the data and the equipment used for purposes of
+evidence - You are in charge of preserving and investigating the data and the
+equipment used for purposes of evidence.
+
+What are the immediate actoins that follow an incident, including identifying
+and reportingr, known as? - First response - The immediate actions that follow
+an incident are known as first response. This often includes the individual or
+individuals who must perform the work involved in responding to the incident.
+Employees at all levels of the organization must be trained to recognize and
+respond appropriately to actual or suspected security incidents.
+
+How are matters concerning prohibited content handled by different
+organizations? - Each organization can establish its own guidelines and
+restrictions based on the type of content. - Organizations are allowed to
+establish their own guidelines and restrictions based on the type of content.
+Some companies have stricter content guidelines than others.
 
 
+
+ 
