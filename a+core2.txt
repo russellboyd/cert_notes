@@ -934,4 +934,14 @@ In which part of the change management process is a risk analysis completed? - R
 
 A technician is setting up a change document for a new system. Which of the following does NOT need to be included? - List of logon attempts - The change document does not need to include a list of logon attempts. Only information pertaining to the state of the system is necessary.
 
+A technician maintains clients in a Virtual Desktop Infrastructure environment and needs to configure backups for ecah department for disaster recovery purposes. What type of backup should the technician configure? - Image level backup - Image level backups capture all of the information needed to restore a virtual machine. Also called a "bare metal backup" an image level backup is appropriate for disaster recovery.
+
+How often do you need to backup a critical application? - When changes are made to the application - You only need to backup critical applications when there is a change, such as an update or a configuration change. You should make sure to include license information and product keys in a backup of an application.
+
+Which device procides passive protection to filter out the effects of spikes and surges? - Surge suppressor - A surge suppressor provides passive protection to filter out the effects of spikes and surges. They are low-cost and protect one or two pieces of equipment.
+
+A technician uses a file level backup strategy for a user's files. Then, the technician creates a recovery image of the operating system and applications. Why did the technician create the file-level backup and the recovery image separately? - Images take a relatelively long time to create without including user files - Images teake a relately long time to create so it is best not to include user data in a recovery image. It is best to back up user data separately using a file level backup.
+
+A technician maintains clients in a Virtual Desktop Infrastructure environment and needs to configure backups for each department for disaster recovery purposes. What type of backup should the technician configure? - IMage level backup - Image level backups capture all of the information needed to restore a virtual machine. Also called a "bare metal backup", an image level backup is appropriate for disaster recovery.
+
 
