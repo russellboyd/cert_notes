@@ -924,4 +924,14 @@ Security incident involving a data breach - A security incident report
 involving a data breach may require notification for regulatory or compliance
 purposes.
 
+Which of the following is an efficient way to identify tangible inventory? - Barcode - A barcode is a pattern of different sized parallel bars, typically represnting a product number. A bardcode reader reports the number back to application software, which links it to a product in a database.
+
+You company updates its Standard Operating Procedures (SOPs) once a year. This is an example of which change management best practice? - Document business processes - Documenting business processes helps ensure continuity of operations when new employees start and former employees leave. Any business process that happens throughout the day on a regular basis is a candidate for documentation.
+
+A technician is setting up a change document for a new system. Which of the following does NOT need to be included? - List of logon attempts - The change document does not need to include a list of logon atempts. Only information pertaining to the state of the system is necessary. 
+
+In which part of the change management process is a risk analysis completed? - Request for Change (RFC) - The Request for Change (RFC) is an official requerst to make a change to a system or policy. The risk analysis of the change is submitted with this documentation and is reviewed by a Change Advisory Board (CAB).
+
+A technician is setting up a change document for a new system. Which of the following does NOT need to be included? - List of logon attempts - The change document does not need to include a list of logon attempts. Only information pertaining to the state of the system is necessary.
+
 
