@@ -1097,4 +1097,17 @@ built into the device. - Using the file sharing tools built into the device is
 the easiest solution for the user. This solution would require very little
 configuration and maintenance.
 
+Whic hof the following is a risk of using third-party file sharing tools? -
+The products can be subject to security vulnerabilities  that allow
+unsolicited transfers. - The products can be subject to security
+vulnerabilities that allow unsolicited transfers. While the products have
+security mechanisms, there is the potential for misuse of features such as
+this.
+
+Which of the following is a reason to use Remote Desktop Protocol Restrictred
+Admin (RDPRA) Mode? - You need to log into a computer remotely that may be
+compromised by malware - RDP Restricted Admin (RDPRA) Moden and Remote
+Credential Guard are meas of connect to a machine that has been compromised by
+malware.
+
 

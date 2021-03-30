@@ -1110,4 +1110,11 @@ compromised by malware - RDP Restricted Admin (RDPRA) Moden and Remote
 Credential Guard are meas of connect to a machine that has been compromised by
 malware.
 
+What is the reason for operating system (OS) vendors to create mechanisms for
+file sharing between devices? - Setting up a network file share can be
+relatively complex - Setting up a network file share can be relatively
+complex. You need to select a file sharing protocol that all the connecting
+hosts can use, configure permissions on the share and porivision user accounts
+that both the server and client recognize.
+
 
