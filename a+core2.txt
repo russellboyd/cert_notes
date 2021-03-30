@@ -1077,4 +1077,37 @@ commands in an automated fashion, but is limited in terms of user input? -
 useful for stringing together Windows commands in an automated fashion, but
 are limited in terms of user input.
 
+You need to write a script file to do one set of code if the conditions are
+true and do another set of code if the conditions are false. How can you
+accomplish this? - Use a comparison operator with a conditional branch. - Use
+a comparison operator to test if the conditions are true or false. Then use a
+conditional branch to perform mone task if the conditions are true and another
+task if the conditions are false.
+
+Which of the following Windows features is turned off by default and is an
+essential network-troubleshooting tool? - Telnet - Telnet allows you to check
+connectivity on specified ports between two computers, aiding in network
+troubleshooting. However, since all messages are sent in plain text, this
+protocol is disabled by default.
+
+A home office user needs an easy to use file sharing system for two mobile
+devices, but does not want to invest in a large network solution. Which of the
+following is the easiest solution for the user? - Use a third party tool
+built into the device. - Using the file sharing tools built into the device is
+the easiest solution for the user. This solution would require very little
+configuration and maintenance.
+
+Whic hof the following is a risk of using third-party file sharing tools? -
+The products can be subject to security vulnerabilities  that allow
+unsolicited transfers. - The products can be subject to security
+vulnerabilities that allow unsolicited transfers. While the products have
+security mechanisms, there is the potential for misuse of features such as
+this.
+
+Which of the following is a reason to use Remote Desktop Protocol Restrictred
+Admin (RDPRA) Mode? - You need to log into a computer remotely that may be
+compromised by malware - RDP Restricted Admin (RDPRA) Moden and Remote
+Credential Guard are meas of connect to a machine that has been compromised by
+malware.
+
 

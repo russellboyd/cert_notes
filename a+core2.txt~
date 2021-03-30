@@ -1062,4 +1062,39 @@ are limited in terms of user input.
 You are writing a script to automate a basic file-processing task. You want
 to add notes to explain the purpose of the script. What is the best way to
 accomplish this? - Add comments to the script - COmments should be added at
-the beginning of the script using the comment  
+the beginning of the script using the comment syntax specific to the
+programming language. Example of comment syntax are the double forward slash
+(//) in JavaScript and has (#) in PYthon, Batch shell scripts and PowerShell
+scripts.
+
+You need to write a script file to do one set of code if the conditions are
+true or false. Then use a conditional branch to perform one task if the
+conditions are true and another task if the conditions are false.
+
+What is the file extension for a Windows script that strings together Windows
+commands in an automated fashion, but is limited in terms of user input? -
+.bat - WIndows batch scripts use the .bat file extension. Batch files are
+useful for stringing together Windows commands in an automated fashion, but
+are limited in terms of user input.
+
+You need to write a script file to do one set of code if the conditions are
+true and do another set of code if the conditions are false. How can you
+accomplish this? - Use a comparison operator with a conditional branch. - Use
+a comparison operator to test if the conditions are true or false. Then use a
+conditional branch to perform mone task if the conditions are true and another
+task if the conditions are false.
+
+Which of the following Windows features is turned off by default and is an
+essential network-troubleshooting tool? - Telnet - Telnet allows you to check
+connectivity on specified ports between two computers, aiding in network
+troubleshooting. However, since all messages are sent in plain text, this
+protocol is disabled by default.
+
+A home office user needs an easy to use file sharing system for two mobile
+devices, but does not want to invest in a large network solution. Which of the
+following is the easiest solution for the user? - Use a third party tool
+built into the device. - Using the file sharing tools built into the device is
+the easiest solution for the user. This solution would require very little
+configuration and maintenance.
+
+
