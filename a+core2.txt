@@ -1117,6 +1117,42 @@ complex. You need to select a file sharing protocol that all the connecting
 hosts can use, configure permissions on the share and porivision user accounts
 that both the server and client recognize.
 
+A Windows security log showing numerous logon attempts with passwords
+containing basketball lingo is a dictionary attack, prevented (at least in
+part) by account lockouts.
+
+Which of the following is a major argument against BYOD? - Malware
+ingestatoins on user-owned devices - The major argument against BYOD programs
+is that user devices often have malicious apps installed on them that steal
+data or infect other network devices with malware.
+
+Which form of wireless encryption introduced the Temporal Key Integrity
+Protocol (TKIP) security protocol? - Wi-Fi Protected Access (WPA) - WPA uses
+RC4 cipher but introduced a mechanism called TKIP security protocol to fix the
+issues with a key generation found in the WEP.
+
+Your organization uses images to deploy Windows to laptops on the network. You
+are responsible for creating a new image. You run Microsoft's System
+Preparation Tool (sysprep) before imaging the disk. Which of the following is
+NOT a reason to use sysprep before creating an image? - Sysprep updates all
+drivers - Sysprep does not update drivers. Administrators needs to take into
+consideration the needs of the users. If there are several models of computer
+receiving the image, drivers for each model should be on the image.
+
+You are working on a PC deployment project for a customer. The customer has
+decided that instead of using Linux operating systems, Windows 10 Professional
+would be best. To address this decision, what business process needs to
+happen? - Change management - A change management process should start. This
+process will address approvals needed for the change request. It will also
+address any issues that may impact the project including scope, costs, and
+schedule.
+
+Which of the following boot methods is commonly set as highest priority in
+order to perform a repair or install? - Optical drive - An optical drive
+(CD/DVD/Blu-ray) is commonly set as the highest priority boot device if you
+are perfoming a repair or install.
+
+
 
 
 
