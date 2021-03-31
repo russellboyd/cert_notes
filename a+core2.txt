@@ -1211,6 +1211,14 @@ gathering and deploying fixes for programs, applications, and operating system
 sis known as patch management. Patches are software inteded to cover
 vulnerabilites that have been discovered.
 
+Identify the two ways of working with the Windows Firewall.- The Windows Firewall Control Panel utility and Windows Security Policy Settings - The two methods of working with the Windows Firewall are the Windows Firewall Control Panel utility and the Windows Security Policy Settings.
+
+You are working on cleaning out a closet that contains old equipment. You need to write a disposal report that addresses the following: Health hazards, precuations, and how to recycle any waste product or dispose of it safely. What type of report will you be creating? - MSDS (Material Safety Data Sheet) - A Material Safety Data Sheet (MSDS) is a document that outlines safety steps and proper handling procedures for dealing with hazardous materials. Items such as batteries, CRT (Cathode Ray Tube) monitors, and toner are examples of hazardous items that should be disposed of properly.
+
+You have been working on installing a new line of business (LOB) applciation for the finance department. you need to document the specifics of the setup and management of the application. Which of the below would be the best method to accomplish this? - Use a Configuration Management Database (CMDB) - A CMDB (Configuration Management Database) is used to store CIs(Configuration Items) which are documented settings for a system. A CMDB will work perfectly to document the application.
+
+A technician is installing the most recent operating system on an Apple computer. The technician is using the App Store to do this. What kind of installation is the technician performing? - In-place upgrade - The technician is performing an in-place upgrade. This means installing on top of an old operating system, retaining applications, user settings, and data files. Since the technician is performing the upgrade via the App Store, the previous operating system will remain underneath the new operating system.
+
 
 
 
