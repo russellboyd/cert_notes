@@ -1152,64 +1152,6 @@ order to perform a repair or install? - Optical drive - An optical drive
 (CD/DVD/Blu-ray) is commonly set as the highest priority boot device if you
 are perfoming a repair or install.
 
-The ? (question mark) allows you to substitute for a single unspecified
-character in a command.
-
-A NIC passively capturing network traffic from an inside threat account is
-sniffing, prevented at least in part by encryption.
-
-A Windows security log showing numerous logon attempts with passwords
-containing basketball lingo is a dictionary attack, prevented at least in part
-by account lockouts.
-
-Which method neables a storage device to be repurposed without fear of old
-data being accessed? - Overwriting - Overwriting existing data with random
-data or all zeroes ensures that the original data is not recoverable but that
-the disk can still be used.
-
-What can cause apps not to load? - If a memory card malfunctions - If an app
-is installed to a flash memory card, and if the card is then removed,
-amlfunctions or has been wiped it will cause the user to lose access to that
-app.
-
-As with other operating systems, you should protect your OS X and Linux
-systems and data with which regularly scheduled task? - Backups - You should
-protect your systems and data with regularly scheduled backups. These two UNIX
-like orpeating systems make it easy to do so. The macOS Time Machine allows
-you to easily configure scheduled backups. You can designate a backup drive
-and time /frequency settings to automate the process. Additionally, Time
-Machine allows you to retrieve a previous version of a file, if needed. In
-Linux, backups are easily scheduled via a cron job and then dd command, or
-some other simple script.
-
-You are implementing a disaster recovery plan for the company's server farm.
-You have decided that the shared volumes on each server should have no less
-than a RAID 5 configuration. What is the minimum amount of disks a server
-would need for this configuration on the shared volume? - Three - Three disk
-drives are required at minimum to implement a RAID 5 configuration. There is
-no maximum to the number of disks that can be used. RAID 5 uses striping with
-parity. ONly one drive may fail without data loss. Therefore, the failed disk
-should be replaced immediately. Replacing the disk will result in a rebuild of
-the RAID 5 array by using the parity information.
-
-What type of problem would require you to check whether your organization's
-public IP address appears on any blacklist? - Email spoofing, botnets, and
-spamming - If a computer's email is hijacked as part of a botnet, or if the
-spammer has poofed the user's email addres, you can check whether your
-organization's public IP address appears on any blacklist.
-
-A popular payload of malware infects computers to palce under the remote
-control of an attacker. Which malware does this describe? - Botnet - A botnet
-is a logical computer network of zombies under the control of an attacker. The
-zombies receive instructions through a command and control structure from the
-bot herders regarding which computers to attack and how.
-
-Which of the following terms is the practice of monitoring for, obtaining,
-evaluating, testing and deploying integral fixes and updates for programs,
-applications and operating systems. - Patch management - The practice of
-gathering and deploying fixes for programs, applications, and operating system
-sis known as patch management. Patches are software inteded to cover
-vulnerabilites that have been discovered.
 
 
 
