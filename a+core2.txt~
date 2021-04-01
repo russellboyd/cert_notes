@@ -1152,46 +1152,6 @@ order to perform a repair or install? - Optical drive - An optical drive
 (CD/DVD/Blu-ray) is commonly set as the highest priority boot device if you
 are perfoming a repair or install.
 
-The ? (question mark) allows you to substitute for a single unspecified
-character in a command.
-
-A NIC passively capturing network traffic from an inside threat account is
-sniffing, prevented at least in part by encryption.
-
-A Windows security log showing numerous logon attempts with passwords
-containing basketball lingo is a dictionary attack, prevented at least in part
-by account lockouts.
-
-Which method neables a storage device to be repurposed without fear of old
-data being accessed? - Overwriting - Overwriting existing data with random
-data or all zeroes ensures that the original data is not recoverable but that
-the disk can still be used.
-
-A technician is installing the most recent operating system on an Apple
-computer. The technician is using the App Store to do this. What kind of
-installation is the technician performing? - In-place upgrade - The technician
-is performing an in-place upgrade. This means installing on top of an old
-operating system, retaining applications, user settings, and data files. Since
-the technician is performing the upgrade via the App Store, the previous
-operating system will remain underneath the new operating system.
-
-Which of the following is NOT a reason to select 64 bit architecture over 32
-bit architecture? - Availability of hardware device drivers - Although 32-bit
-applications are compatible with 64 bit systems, hardware device drivers are
-not. The availability of drivers is becoming less of a problem as
-manufacturers are expericing more demand for 64 bit drivers and less demand
-for 32 bit drivers.
-
-Where are 640bit shared system files stored? - %SystemRoot%\system32 - Windows
-64-bit shared system files (DLLs and EXEs) are stored %SystemRoot%\system 32;
-that is the same system folder as 32-bit version of Windows.
-
-Whic explanation best describes the password policy tha tis typically used
-with the "Minimum password age"? - When a password history policy dictates
-that the new password is required to be unique - The "Enforce password
-history" policy is typically used with the "Minimum password age" to specify
-that a unique password not previously used within the last 24 times that it
-was reset.
 
 
 
