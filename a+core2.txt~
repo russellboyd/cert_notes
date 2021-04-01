@@ -1245,8 +1245,6 @@ You are working on cleaning out a closet that contains old equipment. You need t
 You have been working on installing a new line of business (LOB) applciation for the finance department. you need to document the specifics of the setup and management of the application. Which of the below would be the best method to accomplish this? - Use a Configuration Management Database (CMDB) - A CMDB (Configuration Management Database) is used to store CIs(Configuration Items) which are documented settings for a system. A CMDB will work perfectly to document the application.
 
 A technician is installing the most recent operating system on an Apple computer. The technician is using the App Store to do this. What kind of installation is the technician performing? - In-place upgrade - The technician is performing an in-place upgrade. This means installing on top of an old operating system, retaining applications, user settings, and data files. Since the technician is performing the upgrade via the App Store, the previous operating system will remain underneath the new operating system.
->>>>>>> 7b203dd7cb055833858600429e5db98c7d3967c3
-
 
 
 
