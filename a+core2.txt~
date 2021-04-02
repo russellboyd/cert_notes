@@ -1246,5 +1246,51 @@ You have been working on installing a new line of business (LOB) applciation for
 
 A technician is installing the most recent operating system on an Apple computer. The technician is using the App Store to do this. What kind of installation is the technician performing? - In-place upgrade - The technician is performing an in-place upgrade. This means installing on top of an old operating system, retaining applications, user settings, and data files. Since the technician is performing the upgrade via the App Store, the previous operating system will remain underneath the new operating system.
 
+Which scripting languages uses the characters // for comment text? -
+Javascript - Using cmoments within any code, including small scripts, is
+beneficial for documentation purposes. Comments allow for the understanding of
+the code and its purpose for other technicians and when revisting the script
+after much time has passed. JavaScript uses the // characters to identify a
+line with comments.
+
+Which of the folllowing operating systems does not have an end of life policy?
+- Apple macOS - Apple does not public end of life policies. Check the Apple
+  support website for the technical specification for any particular macOS
+release.
+
+You need to provide remote network connectivity to a customer who has an
+extremely tight budget. What is the lowest cost option for establishing a
+network connection assuming the customer has access to all connection types? -
+Dial-up - Dial-up uses modems, existing phone lines, and existing
+long-distance carrier services to provide low cost, low bandwidth WAN
+connectivity and remote network access.
+
+Which of the following is the Linux disk maintenance utility that is roughly
+equivalent to the Windows CHKDSK utility? -fsck - The fsck, or filesystem
+check, utility checks the filesystem for damage and optionally repairs files.
+It is analogous to the Windows CHKDSK utility.
+
+What is the benefit of enabling Network Address Translation (NAT) on a router?
+- External hosts won't be able to identify and connect directly to internal
+  clients. - NAT is used to hide the private IP addresses of internal clients
+from external networks. Packets sent to the Internet from internal hosts all
+appear as though they originated from a single IP address, which prevents
+external hosts from identifying and connecting directly to internal clients.
+
+What is the main reason given by companies for setting up a BYOD program? - To
+reduce costs - Reducing costs is the main reason for implementing BYOD
+programs, but companies might spend more to mitigate data losses due to the
+decreased security on the devices.
+
+What are the 3 properties of the CIA triad? - Confidentiality, Integrity,
+Availability - Confidentiality, Integrity and Availability are the three
+properties for the CIA triad and are fundamental security objectives that
+balance the security of information while maintaining users' access to the
+network.
+
+Which of the following does not pertain to data privacy? - MSDS - A MSDS is a
+document that outlines safety steps and proper handling procedures for dealing
+with hazardous materials. Items such as batteries, CRT monitors and toner are
+examples of hazardous items that should be disposed of properly.
 
 

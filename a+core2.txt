@@ -1293,4 +1293,139 @@ document that outlines safety steps and proper handling procedures for dealing
 with hazardous materials. Items such as batteries, CRT monitors and toner are
 examples of hazardous items that should be disposed of properly.
 
+swapon is used to activate a partition as a swap space.
+
+fdisk creates and manages partitions on a hard disk.
+
+mkfs is used to format a partition.
+
+Which of these is NOT associated with troubleshooting wireless configuration
+issues? - A Low battery - When troubleshooting interference issues on a
+mobile, device, you should consider that a low battery charge will weaken the
+signal strength.
+
+You were notified that a data breach occurred on a social media site that you
+visit frequently. What should  be the first action you take once you receive
+notification about the breach? - Change your password as soon as possible
+using a clean uncompromised device - It is important to check all of your
+accounts and change th passwords as soon as you can using a clean
+uncompromised device.
+
+Why is it necessary to implement multiple security methods for a SOHO network?
+- To prevent unauthorized use - The purpose of implementing multiple security
+  methods for a SOHO network is to prevent their unauthorized use.
+
+Ad administrator suspects that a user who arrives early, stays late, mand
+sometimes works weekends might be stealing data. How can the administrator
+limit this user without raising the user's suspcion? - Restrict login hours to
+standard working hours - Restricting login hours to standard working hours is
+a standard practice that should raise no suspicion when the explanation is
+given to the user.
+
+You have a removable drive that needs to hold large files and be read/write
+capable in both Windows and macOS environments. Which of the following file
+systems shold you use to fmrat the drive? - exFAT - The drive must be
+formatted using exFAT in order to be read/write capable in both Windows and
+macOS environments and hold very large files.
+
+What would most likely cause a cable fire? - Too much current through a cable
+- Too much current(voltage) through a cable can cause a cable to voerheat.
+  This in turn can cause a fire with any neraby objects. Following cable
+ratings for the proper voltage is best for safety.
+
+You are investigateing a computer that has been breached. you need to collect
+the data from the hard drive for evidence. What method is recommended to
+protect digital evidence to ensure that it has not bee modified after its
+collection? - Cryptographic has - A cryptographic hash can be used to validate
+data. By encrypting data with an encryption method, a hash(string of
+characters) is created. If the data is tampered with or has become corrupt,
+the hash would change. Securing sensitive data with a hash allows for its
+protection.
+
+Which of these is a shared commonality of a program, script and macro virus? -
+Infect a host file - What the program, script and macro viruses have in common
+is that they must infect a host file. - When working on 
+PC components, which of the following is NOT considered a concern for personal
+safety - Surge protector  A surge protector is used to protect a system from
+voltage spikes. Having this type of protection should be part of a disaster
+prevention program. Furthermore, it is best practice to power off and unplug a
+system before performing any repair.
+
+Which form of wireless encryption introduced the TKIP security protocol? - WPA
+- WPA used RC5 cipher but introduced a mechanism called TKIP securtity
+  protocol to fix the issues with a key generation found in the WEP.
+
+You have installed a new Windows 2016 server. You need to monitor this server
+over the next 6 months for performance. What is the first step that should be
+taken? - Record a baseline - A baseline is used as a base measurement of data,
+such as system performance statistics. This measurement is used to compare the
+change in data at a later date. For example, a system's network traffic may be
+measured during normal business to create a baseline. The same measurements
+may be taken during a busy season to see the difference during peak times.
+
+What should you do first when troubleshooting an OS missing type of error
+message - Run disk diagnostics - An OS missing type message can appear when a
+hard disk is identified as the boot device but does not report the location of
+the OS loader. This could indicate  a faulty disk so try running disk
+diagnostics. 
+
+A customer's PC is having memory issues. You have detrermined that in order to
+rememdy the problem, you need to open the PC. Which of the following would NOT
+be considered a best practice concern for systems safety when working on the
+PC - Compressed air - Compressed air is a valuable tool for dust removal in
+electornic devices including computer systems. It is not, howevr a best
+practice concern for safety.
+
+Where are 64 bit shared system files stored ? - %SystemRoot%\system32 -
+Windows 64 bit shared system files (DLLs and EXEs) are stored in
+%SystemRoot%\system32; that is the same system folder as 32 bit versions of
+Windows.
+
+Which protocol, enabled by default on many newer wireless access points,
+should be disabled? - Wi-Fi Protected Setup - Wi-Fi Protected Setup feature is
+on by deafault on many wireless devices. This feature should be disabled to
+prevent a potential breach of security.
+
+What can cause apps not to load? - If a memory card malfunctions - IF an app
+is installed to a flash memory card, and if the card is then removed,
+malfunctions or h as been wiped it will cause the user to lose access to that
+app.
+
+Your organization uses images to deploy Windows to laptops on the network. You
+are responsible for create a new imager. You run Microsoft's System
+Preparation Tool(sysprep) before imaging the disk. Why do you do this? -
+Sysprep removes the Windows Security ID from the machine. - Sysprep removes
+the Windows Security ID(SID) form the machine. This step is very important. A
+duplicate Windows SID would not be able to join the domain. It also removes
+specific hardware configuration information.
+
+Which of these is a principal Windows log file? - Setup - Setup is a deafult
+principal Windows log file that records events generated during installation.
+Each log file has a default maximum size(usually about 20 MB), but you can
+change this by selecting Properties on the appropriate log.
+
+Which is the best reason for slow data speeds? - Malware - Malware is the best
+reason as it is a broad category that includes viruses, Trojans and Worms.
+When connectivity is compromised, the user will experience slower than usual
+downloads and web page loads. This is caused by malware consuming your
+bandwidth.
+
+What is the one critical point that is also a disadvantage of single sign on
+access control? - User authentication must be strong - Single sign on is a
+simplified logon system that provides authenticated users widespread access to
+netweork resources. The critical point is that user authentication must be
+strong because once authenticated, users have access to a lot of different
+assets and system.
+
+A popular paylod of malware infects computers to place under the remote
+control of an attacker. Which malware does this describe? - Botnet - A botnet
+is a logical computer network of zombies under the control of an attacker. The
+zombies receive instructions through a command and control sustrcture from the
+bot herders regarding which computers to attack and how.
+
+What is the best course of action when a user experiences black screen issues?
+- Give the system time to compelte the update - Windows is prone to black
+  screen issues, where nothin appears on the screen. This will often occur
+during update installs, where th ebest course of action is to give the system
+time to compelte the update.
 
