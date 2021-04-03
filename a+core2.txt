@@ -1426,6 +1426,7 @@ bot herders regarding which computers to attack and how.
 What is the best course of action when a user experiences black screen issues?
 - Give the system time to compelte the update - Windows is prone to black
   screen issues, where nothin appears on the screen. This will often occur
-during update installs, where th ebest course of action is to give the system
+during update installs, where the best course of action is to give the system
 time to compelte the update.
+
 
