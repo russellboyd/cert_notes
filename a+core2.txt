@@ -1429,4 +1429,26 @@ What is the best course of action when a user experiences black screen issues?
 during update installs, where the best course of action is to give the system
 time to compelte the update.
 
+The asterisk is a wildcard character that can be used to indicate a string of characters.
+
+The question mark allows you to substitute for a single unspecified character in a command.
+
+WPS should be disabled to avoid push button or PIN code access to the network.
+
+The transmit power should be set to medium to avoid transmitting access too far beyond your apartment, but still strong enough to manage light walls.
+
+Identify the greatest limitation of 32-bit architecture. -  32-bit systems can address only 4 GB of RAM. - The greatest limitation of 32 bit architecture is the inability to address more than 4 GB of RAM.
+
+You have arrvied on site to fix a customer's printer. You decide to open the printer and work with the toner. Which safety approach should be used? - Air filter mask - An air filter mask should be used when dealing with printer toner. As toner is made of a very fine powder, breathing in small amount can be irritating the the human respiratory system. Breathing in large amounts would be a safety and health concern.
+
+You are implementing a disaster recovery plan for the company's server farm. You have decided that the shared volumes on ecah server should have no less than a RAID 5 configuration. What is the minimum number of disks a server would need for this configuration on the shared volume? - Three - Three disk drives are required at minimum to implement a RAID 5 configuration. There is no maximum to the number of disks that can beu sed. RAID 5 uses striping with parity. ONly one drive may fail without data loss. Therefore, the failed disk should be replaced immediately. Replacing the disk will result in a rebuild of the RAID 5 array by using the parity information.
+
+Your organization uses images to deploy Windows to laptops on the network. You are responsible for creating a new image. You run Microsoft's System Preparation Tool (sysprep) before imaging the disk. Which of the following is NOT a reason to use sysprep before creating an image? - Sysprep updates all drivers.
+
+What is the greatest danger of rootkit malware? - The rootkit is often hard to detect on an infected system because the developer attempts to hide it from the system owner. Rootkits are malicious and are meant to compromise systems in order to control them remotely.
+
+What type of social engineering attack is whaling? - Spear phising - Spear phising is targeting a single user or group of users. Whaling is a form of speak phishing that targets high level executives, and wealthy individuals with some information to convince the target that the communication is genuine.
+
+Which of these will cause an application to crash? - Malware - Malware is known to make changes to shared support files that commonly lead to program failures, causing the application to crash.
+
 
