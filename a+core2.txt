@@ -1451,4 +1451,42 @@ What type of social engineering attack is whaling? - Spear phising - Spear phisi
 
 Which of these will cause an application to crash? - Malware - Malware is known to make changes to shared support files that commonly lead to program failures, causing the application to crash.
 
+Which explanation best describes the password policy that is typicaly used with the "Minimum password age"? - When a password history policy dictates that the new password is required to be unique. - The "Enforce password history" policy is typically used with the "Minimum password age" to specify that a unique password not previously used within the last 24 times that it was reset.
+
+Your organization uses images to deploy Windows to laptops on the network. you are responsible for creating a new image. You run Microsoft's System Preparation Tool (sysprep) before imaging the disk. Why doy ou do this? - Sysprep removes the Windows Security ID (SID) from the machine. - Sysprep removes the Windows SID from the machine. This step is very important. A duplicate Windows SID would not be able to join the domain. It also removes specific hardware configuration information.
+
+What do you think is the most secure way to configure access through the firewall? - Provide the option to reject all packets except for those on the accept list - Rejecting all packets except for those on the accept list is the most secure way to set-up an Access Control List (ACL) as it involes less configuration. This configuration applies to the principle of implicity deny.
+
+You need to create a basic script to perform some administrative tasks on a Windows PC. Which script type would you NOT use? - .sh - A shell (.sh) script file type that is programmed for bash (a type of Linux shell). This script type would be used on a Linux system.
+
+Identify the two ways of working with the Windows Firewall. - The Windows Firewall Control Panel utility and Windows Security Policy Settings - The two methods of working with the Windows Firewall are the Windows Firewall Control Panel utility and the Windows Security Policy Settings.
+
+What term refers to submitting the authorization as proof that the user is authenticated? - Software Token - The system grants a software token to the device or app, therefore every time the user performs an action the app submits the authorization token as proof that the user is authenticated.
+
+A company hesistates to upgrade to the latest version of an operating system  (OS). Which of the following is NOT a concern for the company? - Web application compatibility - A web application only needs the browser to be compatible, not the whole OS (operating system). The main compatibility issue for a web application is support a touch interface and a wide range of display reslolutions on various devices.
+
+The corporate security team found that someone has broken into the network using a local IP address and an allow MAC address. Using an IP address and MAC address in this way is known as which type of attack?- Spoofing - Using a legitimate IP address and a legitimate MAC address to gain access to a network and masquerade as someone or something else where this type of filtering is setup up as an aexample of spoofing. Spoofing occurs when an attacker disguises one computer resource as another to gain access to a network.
+
+You need to update a user's browser certificate to ensure that the user will still be able to connect securely to required websites. Which tab in the INternet Options utility do you navigate to for handling cretificates? - Content - The Content tab contains various content-related configuration settings, including settings that relate to using conent ratings on websites, implementing Internet security certificates, and the AutoComplete function in web-based forms.
+
+What should you do first when troubleshooting an OS missing type of error message? - Run disk diagnostics - An OS missing type message can appear when a hard disk is identified as the boot device but does not report the location of the OS loader. This could indicate a faulty disk so try running disk diagnostics.
+
+Where are 64-bit shared system files stored? - %SystemRoot%\system32 -Window's 64-bit shared system files (DLLs and EXEs) are stored in %SystemRoot%\system32; that is, the same system folder as 32-bit versions of Windows.
+
+Identify a base over the network preventatives measure against attacks on mobile devices an on workstations - Local firewalls - A local or host based firewall is the best deterrent against basic over the network attacks. Configuring a firewall by enabling and disabling ports is important to ensure only valid application protocols and traffic is allowed.
+
+You are working on cleaning out a closet that contains old equipment. You need to write a disposal report that addresses the following: Health hazards, precautions and how to recycle any waste product or dispose of it safely. What type of report will you be creating? - MSDS - Material Safety Data Sheet) - A Material Safety Data Sheet is a document that outlines safety steps and proper handling procedures for dealing with hazardous materials. Items such as batteries, Cathode Ray Tube monitors, and toner are examples of hazardous items that should be disposed of properly.
+
+What are the three properties of the CIA triad? - COnfidentiality, Integrity, Availability - Confidentiality, Integrity and Availability are the three properties for the CIA triad and are fundamental security objectives that balance the security of information while maintaining user's access to the network.
+
+As with other operating systems, you should protect your OS X and Linux systems and data with which regularly scheduled task? - Backups - You should protect your systems and data with regularly scheduled backups. These two UNIX-like operating systems make it easy to do so. The macOS Time MAchine allows you to easily configure scheduled backups. You can designate a backup drive and time/frequency settings to automate the process. Additionally, Time Machine allows you to retrieve a previous version of a file, if needed. In Linux, backups are easily scheduled via a cronjob and the dd command, or some other simple script.
+
+How do viruses spread from one computer to another? - They attach themselves to other files that are executed. - A virus is a malicious computer code that reproduces itself on the same computer. Viruses are spread from computer to computer because they attach themselves to other files that, when executed, infect even more files.
+
+You need to implement a backup storage security plan for the company backups. Which of the following is NOT considered a security best practice? - Redundant connectivity - Redundant connectivity does not apply to security practices. It does, however, improve network throughput or failover capability. For example, having a backup device with multiple network connections.
+
+What is the most likely cause of Windows booting but not displaying the login dialog or failing to load the desktop? - A malware infection or corrupt drivers - If Windows appears to boot but does not display the logon dialog or does not load the desktop following logon, the likely causes are malware unfection or corruption of drivers or other system files.
+
+Which of these is NOT associated with troubleshooting interference issues? - The device stuck in airplane mode - When troubleshooting wireless configuration issues, if there is no Wi-FI, cellular, or Bluetooth connectivity, first check that the device is not in airplane mode.
+
 
