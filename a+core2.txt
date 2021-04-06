@@ -1489,4 +1489,27 @@ What is the most likely cause of Windows booting but not displaying the login di
 
 Which of these is NOT associated with troubleshooting interference issues? - The device stuck in airplane mode - When troubleshooting wireless configuration issues, if there is no Wi-FI, cellular, or Bluetooth connectivity, first check that the device is not in airplane mode.
 
+fdisk creates and manages partitions on a hard disk. 
+
+mkfs is used to format a partition.
+
+In terms of network access, what is the purpose of a whitelist? - To define the specific clients that should be allowed on the network - A whitelist is used to define the specific users, clients, or addresses authorized on the network.
+
+Which of these is NOT associated with troubleshooting wireless configuration issues? - A low battery - When troubleshooting interference issues on a mobile device, you should consider that a low battery charge will weaken the signal strength.
+
+What does an "OS missing" type of message indicate? - A faulty disk - An "OS missing" type of message can appear when a hard disk is identified as the boot device but does not report the location of the OS loader. This could indicate a faulty disk.
+
+What is a symptom of a rootkit? - Hide the actions of other types of malicious software - A rootkit is a set of software tools used by an attacker to hide the actions or presence of other types of malicious software.
+
+Which backup type will include all files that have been modified since the last full backup? - Differential - A differential backup type is a method of backing up only files that have changed since the last full backup. To restore an entire system, a full backup would need to be restored first and then the most recent differential.
+
+Why is it necessary to implement multiple security methods for a SOHO network? - To prevent unauthorized use - The purpose of implementing multiple security methods for a SOHO network is to prevent their unauthorized use.
+
+What is the benefit of enabling Network Address Translation on a router? - External hosts won't be able to identify and connect directly to internal clients - Network Address Translation is used to hide the privae IP addresses of internal clients from external networks. Packets sent to the Internet from internal hosts all appear as though they originated frmo a single IP address, which prevents external hosts frmo identifying and connecting directly to internal clients.
+
+Which explanation best describes how the "Password must meet complexity" requirements? - A new password cannot include a username within the password and must include a combination of at least 6 upper/lower case alpha-numeric and nonalpha-numeric characters. - The"Password must meet the complexity requirements" policy applies to any newly created password or to changed passwords. The explanation states that no use of a username within the password and a combination of at least 6 upper/lower case alpha-numeric and non-alpha-numeric characters.
+
+Can you identify the malware that is mostly associated with disgruntled employees? - Logic Bomb - A logic bomb is a computer code that is added to a legitimate program but lies dormant until it is triggered by a specific logical event. The computer code is typically inserted by a trusted employee who detonates the malicious action up departure from the company.
+
+
 
