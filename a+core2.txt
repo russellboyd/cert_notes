@@ -1511,5 +1511,25 @@ Which explanation best describes how the "Password must meet complexity" require
 
 Can you identify the malware that is mostly associated with disgruntled employees? - Logic Bomb - A logic bomb is a computer code that is added to a legitimate program but lies dormant until it is triggered by a specific logical event. The computer code is typically inserted by a trusted employee who detonates the malicious action up departure from the company.
 
+WPS should be disabled to avoid push button or PIN code access to the network.
+
+The transmit power should be set to minimum to avoid transmitting access too
+far beyond your apartment but still strong enough to manage light walls.
+
+Which of these is a shared commonality of a program, script and macro virus? -
+Infect a host file - What the program, script, and macro viruses have in
+common is that they must infect a host file.
+
+In the Windows System Configuration Utility (msconfig0, what tab allows you to
+configure startup mode? - General - The General tab allows you to configure
+the startup mode, choosing between Normal, Diagnostic, and a Selective
+startup, where each portion of the boot sequence can be selected.
+
+Which backup type will include all files that have been modified since the
+last full backup? - Differential - A differential backup type is a method of
+backing up only files that have changed since the last full backup. To restore
+an entire system, a full backup would need to be restored first and then the
+most recent differential.
+
 
 
