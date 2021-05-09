@@ -39,4 +39,17 @@ Which of the following statements is a valid statement about an Azure
 subscription? - A subscription is a set of Azure services bundled together for
 tracking and billing purposes.
 
+Your development team is interested in writing Graph-based applications that
+take advantage of the Gremlin API. Which option would be ideal for that
+scenario? - Azure Cosmos DB supports SQL, MondoDB, Cassandra, Tables and
+Gremlin APIs.
+
+Tailwind Traders uses the LAMP stack for several of its websites. Which option
+would be ideal for migration? - Azure database for MySQL is the logical choice
+for existing LAMP stack applications.
+
+Tailwind Traders has millions of log entries that it wants to analyze. Which
+option would be ideal for analysis? - Azure Synapse Analytics is the logical
+choice for analyzing large volumes of data.
+
 
