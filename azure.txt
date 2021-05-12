@@ -64,5 +64,11 @@ software to develop your company's applications, but your team members are
 using various operating systems like MacOS, Linux, and Windows. Which Azure
 computer service would help resolve this scenario? - Windows Virtual Desktop.
 
+What is the first step that you would take in order to share an image file as
+a blob in Azure Storage? - Create an Azure Storage account.
+
+Which Azure Storage option is better for storing data for backup and restore,
+disaster recovery and archiving? - Azure Blob Storage.
+
 
 
