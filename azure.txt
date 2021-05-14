@@ -70,5 +70,98 @@ a blob in Azure Storage? - Create an Azure Storage account.
 Which Azure Storage option is better for storing data for backup and restore,
 disaster recovery and archiving? - Azure Blob Storage.
 
+Tailwind Traders wants to create a secure communication tunnel between its
+branch office. Which of the following technologies can't be used? - Implicit
+FTP over SSL - FTP over SSL can't be used to create a secure communication
+tunnel.
 
+Tailwind Traders wants to use Azure ExpressRoute to connect its on-premise
+network to the Microsoft clodu. Whih of the following choices isn't an
+ExpressRoute model that Tailwind Traders can use? - Site-to-site virtual private
+network - A site-to-site virtual private network isn't an ExpressRoute model.
+
+Which of the following options can you use to link virtual networks? - Virtual
+network peering - Virtual network peering - Virtual network peering can be
+used to link virtual networks.
+
+Which of the following options isn't a benefit of ExpressRoute? - Encrypted
+network communication - ExpressRoute does provide private connectivity, but it
+isn't encrypted.
+
+You need to predict future behavior based on previous actions. Which product
+option should you select as a candidate? - Azure Machine Learning - Azure
+Machine Learning enables you to build models to predict the likelihood of a
+future result. It should not be eliminated as a candidate.
+
+You need to create a human-computer interface that uses natural language to
+answer customer questions. Which product option should you selecty as a
+candidate? - Azure Bot Service - Azure Bot Service creates virtual agent
+solutions that utilize natural language. It should not be eliminated as a
+candidate.
+
+You needd to identify the content of product images to automatically create
+alt tags for images formatted properly. Which product option is the best
+candidate? - Azure Cognitive Services - Azure Cognitive Services includes
+Vision services that can identify the content of an image. Azure Cognitive
+Services is the best candidate.
+
+Which of the following choices would not be used to automate a CI/CD process?
+- Azure Boards - Azure Boards is an agile projecct-management tool. It would
+  not be use to automate a CI/CD process.
+
+Which service could help you manage the VMs that your developers and testers
+need to ensure that your new ap works across various operating systems? -
+Azure DevTest Labs - Azure DevTest Labs is used to manage VMs for testing,
+including configuration, provisioning, and automatic de-provisioning.
+
+Which service lacks features to assign individual developers tasks to work on?
+- Azure Pipelines - Azure Pipelines is a CI/CD tool for building an automated
+  toolchain. It lacks features to assign tasks for individual developers to
+work on. However, it can automate otther tools to assign tasks to users.
+
+ 
+You want to be alerted when new recommendations to improve your cloud
+environment are available. Which service will do this? - Azure Advisor - Azure
+Advisor can alert you when new recommendations are available.
+
+Which service provides officla outage root cause analyses (RCAs) for Azure
+incidents? - Azure Service Health - Azure Service Health provides incident
+history and RCAs to share with your stakeholders.
+
+Which service is a platform that power Applicatoin INsights, monitoring for
+VMs, containers, and Kubernetes? - Azure Monitorr - Azure Monitor is the
+platform used by Application Insights.
+
+As an administrator, you need to retrieve the IP address from a particular VM
+by using Bash. Which of the following tools should you use? - The Azure CLI -
+The Azure CLI enables you to use Bash to run one-off tasks on Azure.
+
+You're a developer who needs to set up your first VM to host a process that
+runs nightly. Which of the following tools is your best choice? - The Azure
+portal - The Azure portal is a great place for newcomers to learn about Azure
+and set up their first resources.
+
+What is the best infrastructure-as-code option for quickly and reliably
+setting up your entire cloud infrastructure declaratively? - ARM templates -
+ARM templates are the best infrastructure-as-code option for quickly and
+reliably setting up your entire cloud infrastructure declaratively.
+
+You need to process messages from a queue, parse them by using some existing
+imperative logic written in Java, and then send them to a third party API.
+Which serverless option should you choose? - Azure Functions - Azure Functions
+is the correct choice because you can use existing Java code with minimal
+modification.
+
+You want to orchestrate a workflow by using APIs from several well-known
+services. which is the best option for this scenario? - Azure Logic Apps -
+Azure Logic Apps make it easy to create a workflow across well-known services
+with less effort than writing code and manually orchestrating all the steps
+yourself.
+
+Your team has limited experience with writing custom code, but it sees
+tremendous value in automating several important business processes. Which of
+the following options is your team's best option? - Azure Logic Apps - Azure
+Logic Apps is best suted for users who are more confrtable in a visual
+environment that allows them to automate their business processes. Logic Apps
+is the best option in this scenario.
 
