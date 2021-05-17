@@ -165,3 +165,19 @@ Logic Apps is best suted for users who are more confrtable in a visual
 environment that allows them to automate their business processes. Logic Apps
 is the best option in this scenario.
 
+A company wants to build a new voting kiosk for sales to governments around
+the world. Which IoT technologies should the company choose to ensure the
+highest degree of security? - Azure Sphere - Azure Sphere provides the highest
+degree of security to ensure the device has not been tampered with.
+
+A company wants to quickly manage its individual IoT devices by using a
+web-based user interface. Which IoT technology should it use? - IoT Central -
+IoT Central quickly creates a web-based management portal to enable reporting
+and communication with IoT devices.
+
+You want to send messages from the IoT device to the cloud and vice versa.
+Which IoT technology can send and receive messages? - IoT Hub - An IoT hub
+communicates to IoT deices by sending and receiving messages.
+
+
+

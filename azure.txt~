@@ -132,5 +132,36 @@ Which service is a platform that power Applicatoin INsights, monitoring for
 VMs, containers, and Kubernetes? - Azure Monitorr - Azure Monitor is the
 platform used by Application Insights.
 
+As an administrator, you need to retrieve the IP address from a particular VM
+by using Bash. Which of the following tools should you use? - The Azure CLI -
+The Azure CLI enables you to use Bash to run one-off tasks on Azure.
 
+You're a developer who needs to set up your first VM to host a process that
+runs nightly. Which of the following tools is your best choice? - The Azure
+portal - The Azure portal is a great place for newcomers to learn about Azure
+and set up their first resources.
+
+What is the best infrastructure-as-code option for quickly and reliably
+setting up your entire cloud infrastructure declaratively? - ARM templates -
+ARM templates are the best infrastructure-as-code option for quickly and
+reliably setting up your entire cloud infrastructure declaratively.
+
+You need to process messages from a queue, parse them by using some existing
+imperative logic written in Java, and then send them to a third party API.
+Which serverless option should you choose? - Azure Functions - Azure Functions
+is the correct choice because you can use existing Java code with minimal
+modification.
+
+You want to orchestrate a workflow by using APIs from several well-known
+services. which is the best option for this scenario? - Azure Logic Apps -
+Azure Logic Apps make it easy to create a workflow across well-known services
+with less effort than writing code and manually orchestrating all the steps
+yourself.
+
+Your team has limited experience with writing custom code, but it sees
+tremendous value in automating several important business processes. Which of
+the following options is your team's best option? - Azure Logic Apps - Azure
+Logic Apps is best suted for users who are more confrtable in a visual
+environment that allows them to automate their business processes. Logic Apps
+is the best option in this scenario.
 
