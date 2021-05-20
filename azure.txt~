@@ -237,6 +237,29 @@ How can the IT department reduce the number of times users must authenticate
 to access multiple applications. - SSO - SSO enables a user to remember only
 one ID and one password to access multiple applications.
 
+How can Tailwind Traders aallow some users to control the virtual machines in
+each environment but prevent them from modifying netweorking and other
+resources in the same resource group or Azure subscription? - Create a role
+assisntment through Azure role-based access control (Azure RBAC). - Azure RBAC
+enables you to create roles that define access permissions. You might create
+one role that limits access only to virtual machines and a second role that
+provides administrators with access to everything.
 
+Which si the best way for Tailwind Traders to ensure that the team deploys
+only cost-effective virtual machine SKU sizes? - Create a policy in Azure
+Policy that specifies the allowed SKU sizes - After you enable this policy,
+that policy is applied when you create new virtual machins or resize existing
+ones. Azure Policy also evaluates any current virtual machines in your
+environment.
+
+Which is likely the best way for Tailwind Traders to identify which billing
+department each Azure resource belongs to? - Apply a tag to each resource that
+includes the associated billing department. - Tags provide extra information,
+or metadata about your resources. The team might create a tag that's named
+BillingDept whose value would be the name of the billing department. You can
+use Azure Policy to ensure that the proper tags are assigned when resources
+are provisioned.
+
+ 
 
 
