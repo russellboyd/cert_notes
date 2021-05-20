@@ -179,5 +179,87 @@ You want to send messages from the IoT device to the cloud and vice versa.
 Which IoT technology can send and receive messages? - IoT Hub - An IoT hub
 communicates to IoT deices by sending and receiving messages.
 
+Azure Sentinel - MSFT cloud based SIEM system.
+
+How can Tailwind Traders enforce having only certain applications run on its
+VMs? - Create an application control rule in Azure Security Center - With
+Azure Security Center, you can define a list of allowed applications to ensure
+that only applications you allow can run. Azure Security Center can alos
+detect and blck malware from being installed on your VMs.
+
+What's the easiest way for Tailwind Traders to combine security data from all
+of its monitoring tools into oa single report that it can take action on? -
+Collect security data in Azure Sentinel - Azure Sentine is Microsoft's cloud
+based SIEM. A SIEM aggregates security data from many different sources to
+provide additional capabilities for threaet detection and responding to
+threats.
+
+Which is the best way for Tailwind Traders to safely storer its certificates
+so that they are accessible to cloud VMs? - Store the certificates in Azure
+Key Vault - Azure Key Vault - Azure Key Vault enables you to store your
+secrets in a single central location. Key Vault also makes it easier to enroll
+and renew certificatees from public certificate authorities (CAs).
+
+How can Tailwind Traders ensure that certain VM workloads are physically
+isolated from workloads being run by other Azure customers? - Run the VMs on
+Azure Dedicated Host - Azure Dedicated Host provides dedicated physical
+servers to host your Azure VMs for Windows and Linux.
+
+An attacker can bring down your website byb sending a large volume of network
+traffic to your servers. Which Azure service can help Tailwind Traders protect
+its App Service instance from this kind of attack? - Azure DDoS Protection -
+Azure DDoS Protection helps protect your Azure resources from DDoS attacks. A
+DDoS attack attempts to overwhelm and exhaust an application's resources,
+making the application slow or unresponsive to legitimate users.
+
+What's the best way for Tailwind Traders to limit all outbound traffic from VMs
+to known hosts? - Create application rules in Azure Firewall. Azure Firewall
+enables you to limit outbound HTTP/S traffic to a specified list of fully
+qualified domain names (FQDNs).
+
+How can Tailwind Traders most eaasily implement a deny by default policy so
+that VMs can't connect to each other? - Create a network security group rule
+that prevents access from another VM on the same network. - A network security
+group rule enables you to filter traffic to and from resources by source an
+destination IP address, port, and protocol.
+
+How can the IT department ensure that employees at the company's retail stores
+can access company applications only from approved tablet devices? -
+Conditional Access - Conditional Access enables you to require users to access
+your applications only from approved, or managed device.
+
+How can the IT department use biometric properties, such as facial recognition
+to enable delivery drivers to prove their identities? - Multifactor
+Authentication - Authenticating through multifactor can include something the
+user knows, something the user has, and something the user is.
+
+How can the IT department reduce the number of times users must authenticate
+to access multiple applications. - SSO - SSO enables a user to remember only
+one ID and one password to access multiple applications.
+
+How can Tailwind Traders aallow some users to control the virtual machines in
+each environment but prevent them from modifying netweorking and other
+resources in the same resource group or Azure subscription? - Create a role
+assisntment through Azure role-based access control (Azure RBAC). - Azure RBAC
+enables you to create roles that define access permissions. You might create
+one role that limits access only to virtual machines and a second role that
+provides administrators with access to everything.
+
+Which si the best way for Tailwind Traders to ensure that the team deploys
+only cost-effective virtual machine SKU sizes? - Create a policy in Azure
+Policy that specifies the allowed SKU sizes - After you enable this policy,
+that policy is applied when you create new virtual machins or resize existing
+ones. Azure Policy also evaluates any current virtual machines in your
+environment.
+
+Which is likely the best way for Tailwind Traders to identify which billing
+department each Azure resource belongs to? - Apply a tag to each resource that
+includes the associated billing department. - Tags provide extra information,
+or metadata about your resources. The team might create a tag that's named
+BillingDept whose value would be the name of the billing department. You can
+use Azure Policy to ensure that the proper tags are assigned when resources
+are provisioned.
+
+ 
 
 
