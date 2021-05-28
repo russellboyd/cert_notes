@@ -276,6 +276,50 @@ directly to its Azure subscriptions? - The compliance documentation provides
 reference blueprints, or policy definitions for common standards that you can
 apply to your Azure subscription.
 
+Which is the best first step the team should take to compare the cost of
+running these environments on Azure versus in their datacenter? - Run the
+Total Cost of Ownership Calculator. - Running the Total Cost of Ownership
+Calculator is a great first step because it can provide an accurate comparison
+of running workloads in the datacenter versus on Azure, certified by an
+independent research company.
+
+What's the best way to ensure that the development team doesn't provision too
+many virtual machines at the saame time? - Apply spending limits to the
+development team's Azure subscription. - If you exceed your spending limit,
+active resources are deallocated. you can then decide whether to increase your
+limit or provision fewer resources.
+
+Which is the most efficient way for the testing team to save costs on virtual
+machines on weekends, when testers are not at work? - Deallocate virtual
+machines when they're not in use. - When you deallocate virtual machines, the
+associated hard disks and data are still kept in Azure. But you don't pay for
+CPU or network consnumption, which can help save costs.
+
+Resources in the Dev and Test environments are each paid for by different
+departments. What's the best way to categorize costs by department? - Apply a
+tag to each virtual machine that identifies the appropriate billing
+department. - You can apply tags to groups of Azure resources to organize
+billing data.
+
+What's the SLA for Azure Maps in terms of guaranteed uptime? - 99.9 percent -
+Correct.
+
+What's the new composite SLA? - Remember th enew SLA includes a third virtual
+machine and Azure Maps. - 99.58 percent - Correct - To compute the composite
+SLA for a set of services, you multiply the SLA of each individual service.
+
+Adding a third virtual machine reduces the composite SLA. How can Tailwind
+Traders offset this reduction? - Deploy extra instances of the same virtual
+machines across the different availability zones in the same Azure region. -
+Correct - If one availability zone is affected, your virtual machine instance
+in the other availability zone should be unaffected.
+
+What approach might the company take in adding the augmented reality (AR)
+preview service to its architecture? - The development team can create a
+prototype version of the app that includes the AR service that it tests out
+with select retail employees. - Correct - After the AR service reaches general
+availability (GA), the team can roll it out to production.
+
  
 
 
