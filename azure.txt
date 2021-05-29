@@ -76,7 +76,7 @@ FTP over SSL - FTP over SSL can't be used to create a secure communication
 tunnel.
 
 Tailwind Traders wants to use Azure ExpressRoute to connect its on-premise
-network to the Microsoft clodu. Whih of the following choices isn't an
+network to the Microsoft cloud. Whih of the following choices isn't an
 ExpressRoute model that Tailwind Traders can use? - Site-to-site virtual private
 network - A site-to-site virtual private network isn't an ExpressRoute model.
 
@@ -185,7 +185,7 @@ How can Tailwind Traders enforce having only certain applications run on its
 VMs? - Create an application control rule in Azure Security Center - With
 Azure Security Center, you can define a list of allowed applications to ensure
 that only applications you allow can run. Azure Security Center can alos
-detect and blck malware from being installed on your VMs.
+detect and block malware from being installed on your VMs.
 
 What's the easiest way for Tailwind Traders to combine security data from all
 of its monitoring tools into oa single report that it can take action on? -
