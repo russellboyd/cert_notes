@@ -320,14 +320,6 @@ prototype version of the app that includes the AR service that it tests out
 with select retail employees. - Correct - After the AR service reaches general
 availability (GA), the team can roll it out to production.
 
-Microsoft POwer Automate - Implementing this allows a creative team to manage
-the workflow.
-
-Azure App Service WebJobs - is the only technology that permits developers to
-control retry policies.
-
-Azure Logic Apps is the only one of the four technologies that provides a
-design-first approach intended for developers.
  
 
 
