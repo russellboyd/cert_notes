@@ -355,10 +355,18 @@ functions.
 =======
  
 Which of the following best defines serverless logic? - Code you write that runs on servers a cloud provider manages.  - Serverless doesn't mean there are no servers - it just means that the developer doesn't have to worry about servers. Instead, a cloud provider such as Azure, manages servers.
->>>>>>> cd1e8a84c216d672b4787765fd40986e905d3886
 
-The container that groups functions into a logical iunit for easier management, deployment and sharing of resources is called? - Function app - A function app is a way to organize and collectively manage your functions. A function app is comprised of one or more individual functions that are managed together by Azure App Service. all the functions in a function app share the same pricing plan, continous deployment and runtime version.
+ner that groups functions into a logical unit for easier management,
+deployment and sharing of resources is called? - Function app - A function app
+is a way to organize and collectively manage your functions. A function app is
+comprised of one or more individual functions that are managed together by
+Azure App Service. all the functions in a function app share the same pricing
+plan, continous deployment and runtime version.
 
-We secure our function against unknown HTTP callers by requiring a function-specific API key to be passed with each call. Which of the following fields is the name header in the HTTP requests that needs to contain this key? - x-functions-key - The API can be included in a query string variable named "code", or it can be inclided in an x-functions-key HTTP header.
+We secure our function against unknown HTTP callers by requiring a
+function-specific API key to be passed with each call. Which of the following
+fields is the name header in the HTTP requests that needs to contain this key?
+- x-functions-key - The API can be included in a query string variable named
+  "code", or it can be included in an x-functions-key HTTP header.
 
- 
+
