@@ -370,4 +370,6 @@ fields is the name header in the HTTP requests that needs to contain this key?
   "code", or it can be included in an x-functions-key HTTP header.
 
 
+Azure Functions runtime and bindings..
 
+"h
