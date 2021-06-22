@@ -321,14 +321,6 @@ availability (GA), the team can roll it out to production.
 ----------------------------------------------------------------------------
 
 az-204
-Microsoft POwer Automate - Implementing this allows a creative team to manage
-the workflow.
-
-Azure App Service WebJobs - is the only technology that permits developers to
-control retry policies.
-
-Azure Logic Apps is the only one of the four technologies that provides a
-design-first approach intended for developers.
 
 A CRON expression is a string that consists of six fields that represent a set
 of times. The order of the six fields in Azure is {second} {minute} {hour}
