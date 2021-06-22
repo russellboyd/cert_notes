@@ -322,16 +322,6 @@ availability (GA), the team can roll it out to production.
 
 az-204
 
-Microsoft POwer Automate - Implementing this allows a creative team to manage
-the workflow.
-
-Azure App Service WebJobs - is the only technology that permits developers to
-control retry policies.
-
-Azure Logic Apps is the only one of the four technologies that provides a
-design-first approach intended for developers.
-<<<<<<< HEAD
-
 A CRON expression is a string that consists of six fields that represent a set
 of times. The order of the six fields in Azure is {second} {minute} {hour}
 {day} {month} {day of the week}. Suppose you needded a CRON expression that
@@ -352,7 +342,6 @@ True or false: an Azure Function can have multiple triggers associated with
 it? - False - Every Azure Functoin must have exactly one trigger associated
 with it. If you want to use multiple triggers, you must create multiple
 functions.
-=======
  
 Which of the following best defines serverless logic? - Code you write that runs on servers a cloud provider manages.  - Serverless doesn't mean there are no servers - it just means that the developer doesn't have to worry about servers. Instead, a cloud provider such as Azure, manages servers.
 
@@ -369,7 +358,16 @@ fields is the name header in the HTTP requests that needs to contain this key?
 - x-functions-key - The API can be included in a query string variable named
   "code", or it can be included in an x-functions-key HTTP header.
 
+Which of the following is an advantage of using bindings in your Azure
+Functions to access data sources and data sinks? - They simmplify the
+connection process; you don't need to code specific connection logic. -
+Bindings provide a declarative way to connecct to data. They let you avoid the
+complexity of coding connection logic like making a database connectoin or
+invoking web API interfaces.
 
-Azure Functions runtime and bindings..
+What is the name of the file that contains function configuration data? -
+function.json - The configuration is named function.json, which contains JSON
+configuration data such as binding declarations.
 
-"h
+How many triggers must a function have? - One - A function must have exactly
+one trigger.
