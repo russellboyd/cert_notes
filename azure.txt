@@ -370,4 +370,16 @@ fields is the name header in the HTTP requests that needs to contain this key?
   "code", or it can be included in an x-functions-key HTTP header.
 
 
+Which of the following is an advantage of using bindings in your Azure
+Functions to access data sources and data sinks? - They simmplify the
+connection process; you don't need to code specific connection logic. -
+Bindings provide a declarative way to connecct to data. They let you avoid the
+complexity of coding connection logic like making a database connectoin or
+invoking web API interfaces.
 
+What is the name of the file that contains function configuration data? -
+function.json - The configuration is named function.json, which contains JSON
+configuration data such as binding declarations.
+
+How many triggers must a function have? - One - A function must have exactly
+one trigger.
