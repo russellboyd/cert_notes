@@ -383,3 +383,6 @@ configuration data such as binding declarations.
 
 How many triggers must a function have? - One - A function must have exactly
 one trigger.
+
+Durable Functions enables you to implement long running workflows without
+requiring that you maintain state information manually.
