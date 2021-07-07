@@ -380,10 +380,6 @@ configuration data such as binding declarations.
 How many triggers must a function have? - One - A function must have exactly
 one trigger.
 
-<<<<<<< HEAD
-Durable Functions enables you to implement long running workflows without
-requiring that you maintain state information manually.
-=======
 What is Durable Functions? - Durable Functions is an extension of Azure
 Functions, that allow you to simplify complex stateful executions in a
 serverless-environment - Correct- Durable Functions is a an extension of Azure
@@ -401,4 +397,3 @@ patter benefits from Durable Functions? - A manual process within and
 automated process because people aren't as highly avaiable and as responsive
 as computers. - HUman interactions can be incorporated using timeouts and
 compensation logic.
->>>>>>> 4ba7ee3a25e7b0a89890b9d5ccfc3da16b4c3a5f

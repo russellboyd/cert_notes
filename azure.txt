@@ -397,3 +397,41 @@ patter benefits from Durable Functions? - A manual process within and
 automated process because people aren't as highly avaiable and as responsive
 as computers. - HUman interactions can be incorporated using timeouts and
 compensation logic.
+
+Which of the following is an advantage of using bindings in your Azure
+Functions to access data sources and data sinks? - They simmplify the
+connection process; you don't need to code specific connection logic. -
+Bindings provide a declarative way to connecct to data. They let you avoid the
+complexity of coding connection logic like making a database connectoin or
+invoking web API interfaces.
+
+What is the name of the file that contains function configuration data? -
+function.json - The configuration is named function.json, which contains JSON
+configuration data such as binding declarations.
+
+How many triggers must a function have? - One - A function must have exactly
+one trigger.
+
+Durable Functions enables you to implement long running workflows without
+requiring that you maintain state information manually.
+
+Sample storage account and function app creation scripts=
+
+RESOURCEGROUP=
+STORAGEACCT=learnstorage$(openssl rand -hex 5)
+FUNCTIONAPP=learnfunctions$(openssl rand -hex 5)
+
+az storage account create \
+  --resource-group "$RESOURCEGROUP" \
+  --name "$STORAGEACCT" \
+  --kind StorageV2 \
+  --location centralus
+
+az functionapp create \
+  --resource-group "$RESOURCEGROUP" \
+  --name "$FUNCTIONAPP" \
+  --storage-account "$STORAGEACCT" \
+  --runtime node \
+  --consumption-plan-location centralus \
+  --functions-version 2
+ 
