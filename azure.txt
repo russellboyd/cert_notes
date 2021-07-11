@@ -397,3 +397,6 @@ patter benefits from Durable Functions? - A manual process within and
 automated process because people aren't as highly avaiable and as responsive
 as computers. - HUman interactions can be incorporated using timeouts and
 compensation logic.
+
+
+
